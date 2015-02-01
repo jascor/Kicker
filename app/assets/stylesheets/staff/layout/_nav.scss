@@ -1,0 +1,86 @@
+#navMenu
+{
+  margin-top: 20px;
+}
+
+.menuItem
+{
+  position: relative;
+  cursor: pointer;
+  padding: 10px;
+
+  &:hover
+  {
+    background: $navItemHoverColor;
+
+    > .subMenu
+    {
+      display: block;
+    }
+  }
+}
+
+.menuItem.clearTop
+{
+  margin-top: 10px;
+}
+
+.menuTitle
+{
+  position: relative;
+  padding-left: 15px;
+  padding-right: 5px;
+  color: #FFF;
+}
+
+.subMenu
+{
+  display: none;
+  position: absolute;
+  left: $sidebarWidth;
+  top: -1px;
+  padding: 10px;
+  background: $navSubMenuBGColorHex;
+  background: $navSubMenuBGColorRGBA;
+}
+
+.subMenuTitle
+{
+  color: #FFF;
+}
+
+.menuIcon
+{
+  position: absolute;
+
+  &:before
+  {
+    color: #FFF;
+    font-family: 'FontAwesome';
+    font-size: 10px;
+  }
+}
+
+.articlesIcon
+{
+  &:before
+  {
+    content: $navIcons--Article;
+  }
+}
+
+.sectionsIcon
+{
+  &:before
+  {
+    content: $navIcons--Section;
+  }
+}
+
+.usersIcon
+{
+  &:before
+  {
+    content: $navIcons--User;
+  }
+}

@@ -1,0 +1,11 @@
+#headerContainer
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: $headerHeight;
+  width: 100%;
+  z-index: $zIndex--headerContainer;
+  background: $headerSidebarBGColorHex;
+  background: $headerSidebarBGColorRGBA;
+}

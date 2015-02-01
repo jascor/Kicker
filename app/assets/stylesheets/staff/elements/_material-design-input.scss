@@ -1,0 +1,155 @@
+/**
+ * Material Design (Input) Text Boxes
+ * Credit: scotch.io
+ * Converted to SCSS syntax, modified a few things here and there
+ * ** Labels are broken right now... **
+ */
+
+.matDesignTextBoxContainer
+{
+  position: relative;
+}
+
+input.matDesign
+{
+  display:block;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #757575;
+
+  &:focus
+  {
+    outline:none;
+  }
+
+  &:focus ~ label.matDesign//, &:valid ~ label.matDesign
+  {
+    top: -20px;
+    font-size: 14px;
+    color: #5264AE;
+  }
+
+  &:focus ~ .inputMatDesignBar
+  {
+    &:before, &:after
+    {
+      width: 50%;
+    }
+  }
+
+  &:focus ~ .inputMatDesignHighlighter
+  {
+    @include genericVendorPrefixedProperty('animation', matDesignTextInputHighlighter 0.3s ease);
+  }
+}
+
+label.matDesign
+{
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+
+  @include transition(0.2s ease all);
+}
+
+.inputMatDesignBar
+{
+  position: relative;
+  display: block;
+  width: 100%;
+
+  &:before, &:after
+  {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: $primaryMenuColor;
+
+    @include transition(0.2s ease all);
+  }
+
+  &:before
+  {
+    left: 50%;
+  }
+
+  &:after
+  {
+    right: 50%;
+  }
+}
+
+.inputMatDesignHighlighter
+{
+  position: absolute;
+  height: 60%;
+  width: 100%;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+@-webkit-keyframes matDesignTextInputHighlighter
+{
+  from
+  {
+    background:#5264AE;
+  }
+
+  to
+  {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@-moz-keyframes matDesignTextInputHighlighter
+{
+  from
+  {
+    background:#5264AE;
+  }
+
+  to
+  {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@-o-keyframes matDesignTextInputHighlighter
+{
+  from
+  {
+    background:#5264AE;
+  }
+
+  to
+  {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@keyframes matDesignTextInputHighlighter
+{
+  from
+  {
+    background:#5264AE;
+  }
+
+  to
+  {
+    width: 0;
+    background: transparent;
+  }
+}

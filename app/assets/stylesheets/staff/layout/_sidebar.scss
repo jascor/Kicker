@@ -1,0 +1,18 @@
+#sidebarContainer
+{
+  position: fixed;
+  left: 0;
+  top: $headerHeight;
+  height: 100%;
+  width: $sidebarWidth;
+  background: $headerSidebarBGColorHex;
+  background: $headerSidebarBGColorRGBA;
+
+  @include translateX(-300px);
+  @include transition(all .5s);
+
+  @include breakpoint($sidebarBreakpointHide)
+  {
+    @include translateX(0px);
+  }
+}

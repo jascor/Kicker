@@ -1,0 +1,44 @@
+.redactor-box
+{
+  > .redactor-toolbar
+  {
+    background: $primaryMenuColor !important;
+    z-index: $zIndex--redactorToolbar !important;
+  }
+
+  .re-icon
+  {
+    color: #FFF !important;
+  }
+
+  @include box-shadow(0 0 3px rgba(0, 0, 0, 0.2));
+}
+
+#redactor-modal
+{
+  > header
+  {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900 !important;
+    background: $primaryMenuColor;
+    color: #FFF;
+    padding: 25px 20px 20px 20px !important;
+
+    @include box-shadow(0 2px 3px rgba(0, 0, 0, 0.2));
+
+    &:before
+    {
+      font-family: 'FontAwesome';
+      content: '\f0c1';
+      font-size: 18px;
+      margin-right: 10px;
+    }
+  }
+
+  > #redactor-modal-close
+  {
+    color: #FFF;
+    top: 19px;
+    right: 20px;
+  }
+}

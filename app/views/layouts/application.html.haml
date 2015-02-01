@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %title Kicker
+    %script{:src => '//use.typekit.net/ctk3sil.js'}
+    %script try{Typekit.load();}catch(e){}
+    = stylesheet_link_tag    'kicker_universal', media: 'all', 'data-turbolinks-track' => true
+    = stylesheet_link_tag    'front_end/kicker_fe', media: 'all', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  %body
+    = yield
+
+    = javascript_include_tag 'front_end/kicker_fe', 'data-turbolinks-track' => true

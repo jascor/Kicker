@@ -1,0 +1,51 @@
+#mediaLibTopBar
+{
+  height: $mediaLibraryTopBarHeight;
+  width: 100%;
+  background: $primaryMenuColor;
+  z-index: $zIndex--modalHeader;
+
+  > h2, #closeMediaLib
+  {
+    vertical-align: middle;
+    line-height: $mediaLibraryTopBarHeight;
+    color: #FFF;
+    display: inline-block;
+
+    &:after, &:before
+    {
+      font-family: 'FontAwesome';
+    }
+  }
+
+  > h2
+  {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.2em;
+    margin-left: 50px;
+
+    &:before
+    {
+      position: absolute;
+      content: '\f03e';
+      font-size: 15px;
+      margin-left: -30px;
+    }
+  }
+
+  @include box-shadow(0 1px 3px rgba(0, 0, 0, 0.2));
+}
+
+#closeMediaLib
+{
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+
+  &:after
+  {
+    content: $icons--Close;
+    font-size: 15px;
+  }
+}

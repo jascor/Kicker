@@ -1,0 +1,43 @@
+.articlesListTable
+{
+  .contentTableEntry
+  {
+    &:hover
+    {
+      .quickActions
+      {
+        visibility: visible;
+      }
+    }
+  }
+
+  .manageMultipleTableItems, .labelArticleHeadline
+  {
+    display: table-cell;
+  }
+
+  .checkCurrentRow, .articlesTableHeadline
+  {
+    display: table-cell;
+  }
+
+  @include breakpoint($articlesContentTableBreakpoint)
+  {
+    .contentTableLabel, .contentEntryProperty
+    {
+      display: table-cell;
+    }
+  }
+}
+
+.quickActions
+{
+  visibility: hidden;
+
+  @include propertyOnAllSidesExcept('padding', 'left', 5px);
+
+  > *
+  {
+    display: inline-block;
+  }
+}

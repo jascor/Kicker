@@ -1,0 +1,15 @@
+#= require_tree ./initializers
+#= require ./store
+#= require_tree ./adapters
+#= require_tree ./mixins
+#= require_tree ./models
+#= require_tree ./controllers
+#= require_tree ./views
+#= require_tree ./helpers
+#= require ./components/draggable_item_component
+#= require_tree ./components
+#= require_tree ./templates
+#= require ./routes/base_route
+#= require_tree ./routes
+#= require ./router
+#= require_self

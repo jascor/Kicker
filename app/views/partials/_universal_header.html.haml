@@ -1,0 +1,41 @@
+#header-container
+  #breaking-news
+    .break-close
+      %span#close-del-breaking
+    .break-main-contents
+      %h1 Ferguson police officer Daren Wilson will not be indicted in the shooting of Michael Brown.
+
+  .h-nav-open
+    %span#open-nav
+  %header#head
+    .m-t-logo
+      %a{:href => '/'}
+        %img.f-m-logo{:src => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/162249/main-logo-8.jpg'}
+    .nav-container
+      %nav#glob-nav
+        %ul.nav-menu
+          %li.n-s-item
+            %a{:href => '#'} News
+          %li.n-s-item
+            %a{:href => '#'} Feature
+          %li.n-s-item
+            %a{:href => '#'} Forum
+          %li.n-s-item
+            %a{:href => '#'} Sports
+          %li.n-s-item
+            %a{:href => '#'} A & E
+          %li.n-s-item
+            %a{:href => '#'} Literary
+          %li.n-s-item
+            %a{:href => '#'} Posterior
+    .extra-n-opts
+      .functional
+        #fn-search
+          %span#search-c.sm-btn.fn-btn.search
+          #search-box
+            %form#do-ss-search{:action => '#', :method => 'GET'}
+              %input.search-txt-q.fm-inpt{:type => 'text', :placeholder => 'Search'}
+      .social-media
+        %a#off-fb-pg-c.sm-btn.facebook{:href => 'https://www.facebook.com/fhspost', :target => '_blank'}
+        %a#off-twitter-pg-c.sm-btn.twitter{:href => '#', :target => '_blank'}
+        %a#fp-m-rss-feed-c.sm-btn.rss{:href => '#', :target => '_blank'}

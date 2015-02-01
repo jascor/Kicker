@@ -1,0 +1,17 @@
+#mediaLibNav
+{
+  position: absolute;
+  top: $mediaLibraryTopBarHeight;
+  left: 0;
+  width: 100%;
+  height: $mediaLibraryDefaultHeight;
+  background: #FF0000;
+
+  @include breakpoint(750px)
+  {
+    width: $mediaLibraryNavWidth;
+    height: 100%;
+
+    @include calc(height, "100% - #{$mediaLibraryTopBarHeight}");
+  }
+}

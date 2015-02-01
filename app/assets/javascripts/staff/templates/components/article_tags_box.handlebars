@@ -1,0 +1,7 @@
+{{ input class="tagsInput" action="addTag" name="tagName" placeholder="Enter tag..." value=tagName }}
+
+<div class="tagsContainer">
+    {{#each tag in tags}}
+        {{article-tag tag=tag}}
+    {{/each}}
+</div>

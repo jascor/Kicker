@@ -1,0 +1,11 @@
+@import 'compass/reset';
+@import 'compass/css3';
+
+@import 'font-awesome';
+
+*
+{
+  word-wrap: break-word;
+
+  @include box-sizing(border-box);
+}

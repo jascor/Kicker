@@ -1,0 +1,196 @@
+#articleFormMainContent, #articleFormConfigContent
+{
+  display: inline-block;
+}
+
+#articleFormMainContent
+{
+  width: 100%;
+  margin-top: $articleFormTopMargin;
+
+  @include breakpoint(800px)
+  {
+    //width: 70%;
+    @include calc(width, "100% - #{$articleConfigBoxColumnMaxWidth}");
+  }
+}
+
+.articleFormBox
+{
+  margin-top: 15px;
+}
+
+#articleFormConfigContent
+{
+  width: 100%;
+  vertical-align: top;
+
+  @include breakpoint(800px)
+  {
+    margin-top: $articleFormTopMargin;
+    padding-left: 15px;
+    margin-left: -4px;
+    width: $articleConfigBoxColumnMaxWidth;
+  }
+}
+
+.articleConfigBox
+{
+  margin-top: $articleFormTopMargin;
+
+  &:first-of-type
+  {
+    margin-top: 0;
+  }
+
+  @include box-shadow(0 1px 3px rgba(0, 0, 0, 0.2));
+}
+
+.articleConfigBox
+{
+  > .articleConfigEmberComponent.expanded
+  {
+    > .articleConfigBoxHeader
+    {
+      > p
+      {
+        display: none;
+
+        @include transition(all .5s);
+      }
+    }
+    .articleConfigBoxVisibilityButton
+    {
+      &:after
+      {
+        content: '\f0d7';
+      }
+    }
+
+    > .articleConfigBoxContainer
+    {
+      display: none;
+
+      @include transition(all .5s);
+    }
+  }
+}
+
+.articleConfigBoxHeader
+{
+  width: 100%;
+  background: $primaryMenuColor;
+  padding: 15px;
+  position: relative;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+
+  &:hover
+  {
+    background: #64B5F6;
+  }
+
+  > h2, p
+  {
+    display: block;
+  }
+
+  > h2
+  {
+    font-weight: 900;
+  }
+
+  > p
+  {
+    margin-top: 2px;
+    font-size: 0.7em;
+  }
+
+  @include box-shadow(0 1px 3px rgba(0, 0, 0, 0.2));
+}
+
+.articleConfigBoxVisibilityButton
+{
+  position: absolute;
+  right: 15px;
+
+  &:after
+  {
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    content: '\f0d8';
+  }
+}
+
+.articleConfigBoxContainer
+{
+  padding: 15px;
+}
+
+.articleFormElement
+{
+  display: block;
+}
+
+.articleFormElement.headline
+{
+  width: 100%;
+  padding: 15px;
+  height: 40px;
+}
+
+.sectionSelectionLabel
+{
+  display: block;
+  margin-top: 10px;
+
+  &:first-of-type
+  {
+    margin-top: 0;
+  }
+}
+
+.articleSelectionLabel
+{
+  cursor: pointer;
+}
+
+.sectionName
+{
+  display: inline-block;
+  cursor: pointer;
+  margin-left: -4px;
+}
+
+.sectionIcon
+{
+  color: #666;
+
+  @include transition(all 0.15s ease-in-out);
+}
+
+.sectionSelection
+{
+  &:checked + .sectionName
+  {
+    .sectionIcon
+    {
+      color: #000;
+    }
+  }
+}
+
+.draggableZone
+{
+  width: 500px;
+  height: 700px;
+  background: #FFFF00;
+}
+
+.draggableItem
+{
+  background: #FF0000;
+  width: 100px;
+  height: 50px;
+}

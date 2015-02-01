@@ -1,0 +1,13 @@
+{{#if title}}
+    <h2 class="noticeBannerTitle">
+        {{title}}
+    </h2>
+{{/if}}
+
+<p class="noticeBannerContents">
+    {{notice}}
+</p>
+
+{{#if canBeManuallyClosed}}
+    <div class="noticeBannerClose" {{ action "closeBanner" on="click" bubbles=false }}></div>
+{{/if}}

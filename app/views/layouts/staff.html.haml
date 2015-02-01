@@ -1,0 +1,17 @@
+!!!
+%html
+  %head
+    %meta{:name => 'viewport', :content => 'width=device-width, initial-scale=1'}
+    %meta{name: 'env-filepickerAPIKey', value: 'AbiGgAq6uQDeniwApc0NNz'}
+    %title Kicker
+    %script{:src => '//use.typekit.net/ctk3sil.js'}
+    %script try{Typekit.load();}catch(e){}
+    %link{:href => 'http://fonts.googleapis.com/css?family=Roboto:900,900italic,500,400italic,100,700italic,300,700,500italic,100italic,300italic,400', :rel => 'stylesheet', :type => 'text/css'}/
+    = stylesheet_link_tag    'kicker_universal', media: 'all', 'data-turbolinks-track' => true
+    = stylesheet_link_tag    'staff/kicker_staff', media: 'all', 'data-turbolinks-track' => true
+    /= javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  %body
+    = yield
+
+    = javascript_include_tag 'staff/kicker_staff'

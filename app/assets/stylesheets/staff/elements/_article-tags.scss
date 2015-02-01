@@ -1,0 +1,37 @@
+.tagsContainer
+{
+  //margin-top: 15px;
+}
+
+.tagsInput
+{
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.articleTag
+{
+  cursor: pointer;
+  margin-top: 5px;
+  display: inline-block;
+  position: relative;
+  background: $articleTagsBGColor;
+  padding: 4.5px;
+  max-width: 100%;
+}
+
+.removeTag
+{
+  display: inline-block;
+  cursor: pointer;
+
+  &:after
+  {
+    font-family: 'FontAwesome';
+    content: $icons--Close;
+    font-size: 15px;
+    color: #000;
+    padding-left: 5px;
+  }
+}

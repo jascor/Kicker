@@ -1,0 +1,31 @@
+@mixin propertyOnAllSidesExcept($property, $excludeSide, $value)
+{
+  $possibleSides: 'top', 'left', 'bottom', 'right';
+
+  @each $possibleSide in $possibleSides
+  {
+    @if $excludeSide != $possibleSide
+    {
+      #{$property}-#{$possibleSide}: $value;
+    }
+  }
+}
+
+@mixin genericVendorPrefixedProperty($property, $value)
+{
+  $vendorPrefixes: 'webkit', 'moz', 'o';
+
+  @each $vendorPrefix in $vendorPrefixes
+  {
+    -#{$vendorPrefix}-#{$property}: $value;
+  }
+
+  #{$property}: $value;
+}
+
+@mixin calc($property, $value)
+{
+  #{$property}: -webkit-calc(#{$value});
+  #{$property}: -moz-calc(#{$value});
+  #{$property}: calc(#{$value});
+}

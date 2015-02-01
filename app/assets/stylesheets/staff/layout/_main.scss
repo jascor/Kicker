@@ -1,0 +1,31 @@
+#contentContainer
+{
+  margin-top: $headerHeight;
+
+  @include breakpoint($sidebarBreakpointHide)
+  {
+    margin-left: $sidebarWidth;
+  }
+}
+
+#main
+{
+  @include propertyOnAllSidesExcept('padding', 'left', $mainContentSidePadding);
+}
+
+#pageHeader
+{
+  padding-left: $mainContentSidePadding;
+  padding-right: $mainContentSidePadding;
+}
+
+#pageContent
+{
+  padding-left: $mainContentSidePadding;
+}
+
+#pageContentTitle
+{
+  display: inline-block;
+
+}
