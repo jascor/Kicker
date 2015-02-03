@@ -1,0 +1,7 @@
+%section.contentBlock.genericSection{class: (classNames if defined?(classNames))}
+  - if title
+    %h2.rowTitle= title
+  .sectionContents
+    - if articles.main
+      .mainArticle.contentBlock.topBlock
+        = render 'components/article_preview_types/single_block_with_meta', article: articles.main, featuredImage: articles.main.featured_media

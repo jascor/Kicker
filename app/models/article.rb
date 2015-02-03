@@ -1,7 +1,7 @@
 class Article < BaseModel
   include SanitizationHelper
 
-  has_one :featured_image, class_name: 'Section', foreign_key: 'user_id'
+  has_one :featured_media, class_name: 'Medium', primary_key: 'featured_media_id', foreign_key: 'id'
 
   has_many :article_tags
   has_many :section_page_section_contents

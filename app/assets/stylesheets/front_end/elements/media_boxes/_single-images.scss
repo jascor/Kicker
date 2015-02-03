@@ -1,0 +1,31 @@
+.mediaBox
+{
+  &.single .mediaBoxItem
+  {
+    position: relative;
+
+    &:hover
+    {
+      > .zoomToMedia
+      {
+        display: block;
+      }
+    }
+  }
+}
+
+.zoomToMedia
+{
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+
+  &:after
+  {
+    font-family: 'FontAwesome';
+    content: '\f196';
+    font-size: 50px;
+  }
+}

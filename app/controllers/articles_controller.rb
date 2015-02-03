@@ -2,9 +2,8 @@ class ArticlesController < ApplicationController
   def show
     @article = Article.find_cached_by_slug(params[:slug])
 
-    if @article.section.slug != params[:section] ||
-        @article.subsection.slug != params[:subsection]
-      return redirect_to article_path(section: @article.section.slug, subsection: @article.subsection.slug)
+    if @article.section.slug != params[:section]
+      return redirect_to article_path(section: @article.section.slug)
     end
 
     unless @article.article_type.nil?

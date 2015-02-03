@@ -1,0 +1,13 @@
+%article.partialOverlay{class: (classNames if defined?(classNames)), itemscope: true, itemtype: 'http://schema.org/Article'}
+  %a.imaginaryOverlay{href: '#', itemprop: 'url'}
+  %a.featuredImage{href: '#', itemprop: 'url'}
+    %img{src: article.featured_image.link, alt: article.featured_image.alt_text, itemprop: 'thumbnailUrl'}
+  .pOverlayContents
+    %h1.headline{itemprop: 'headline'}
+      %a{href: '#', itemprop: 'url'}= article.headline
+    %p.excerpt{itemprop: 'description'}= article.summary
+    %div.byline
+      by
+      %address.author{itemprop: 'creator'}= article.author.full_name
+      %span.category{itemprop: 'articleSection'}
+        %a{href: '#'}= article.section.name

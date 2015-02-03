@@ -1,0 +1,16 @@
+%section.contentBlock.singleFullArticleMO{class: ('fullWidth' if section.full_width)}
+  %article.partialOverlay{itemscope: true, itemtype: 'http://schema.org/Article'}
+    - if section.title
+      %h2.blockTitle= section.title
+    %a.imaginaryOverlay{href: '#', itemprop: 'url'}
+    %a.featuredImage{href: '#', itemprop: 'url'}
+      %img{src: article.media.link, alt: article.media.alt_text, itemprop: 'thumbnailUrl'}
+    .pOverlayContents
+      %h1.headline{itemprop: 'headline'}
+        %a{href: '#', itemprop: 'url'}= article.headline
+      %p.excerpt{itemprop: 'description'}= article.summary
+      %div.byline
+        by
+        %address.author{itemprop: 'creator'}= article.author.full_name
+        %span.category{itemprop: 'articleSection'}
+          %a{href: '#'}= article.section.name

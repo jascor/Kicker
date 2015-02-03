@@ -1,0 +1,16 @@
+$fullHeaderHeight: 60px;
+$miniHeaderHeight: 40px;
+
+$contentBlockPaddingToSides: 15px;
+
+$showFullMenuBreakpoint: 1000px;
+$showSocialMediaHeaderButtonsBreakpoint: 530px;
+
+// This is where most layout changes occur.
+$primaryContentBreakpoint: 700px;
+$primaryContentBreakpointWithPadding: 1040px + $contentBlockPaddingToSides + 7px;
+
+$contentSectionTitleBottomMargin: 25px;
+$sectionContentBlockTopMargin: 15px;
+
+$icons--Close: '\f00d';

@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get '/:section/:subsection/:slug' => 'articles#show', as: 'article', constraints: { slug: /.+-\d{8}-.+\.html/i }
+  get '/:section/:slug' => 'articles#show', as: 'article', constraints: { slug: /.+-\d{8}-.+\.html/i }
 
   scope 'media-collection/:collection_slug' do
     get '/content/:collection_page' => 'media_collection#show'

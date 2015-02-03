@@ -1,0 +1,5 @@
+%section.contentBlock.overlayedMetaArticles{class: (classNames if defined?(classNames))}
+  - if defined?(articles)
+    = render 'components/article_preview_types/partial-overlayed', collection: articles
+  - else
+    = render 'components/article_preview_types/partial-overlayed', article: article

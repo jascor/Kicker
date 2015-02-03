@@ -1,0 +1,84 @@
+#contentContainer
+  %main#main
+    %section.contentBlock.singleFullArticleMO.topLevel
+      %article.partialOverlay{itemscope: true, itemtype: 'http://schema.org/Article'}
+        %a.imaginaryOverlay{href: '#'}
+        %a.featuredImage{href: '#'}
+          %img{src: "http://imx2.dy.cache.fhspost-static.com/4eb33fe948c021076380c5a4eb948eacecf9ddc02c615404d45fb0a7e4dcd983_Oct-22-2014_10.%20Protesters%20gather%20in%20Tom%20McCall%20Waterfront%20Park%20before%20the%20People's%20Climate%20March%20on%20Sept.%2021.JPG?auto=format&fit=crop&q=75&w=1030"}
+        .pOverlayContents
+          %h1.headline
+            %a{href: '#'} People's Climate March
+          %p.excerpt Thousands of Portlanders flooded Waterfront Park on Sunday, Sept. 21, in solidarity with the People's Climate March in NYC that drew hundreds of thousands of protesters. Portland's event was one of thousands of marches around the world that aimed to push political leaders into action to stop global warming.
+          %div.byline
+            by
+            %address.author Stevie Mare
+            %span.category
+              %a{href: '#'} News
+    %section.contentBlock.genericSection.topLevel
+      %h2.rowTitle Latest News
+      .sectionContents
+        .mainArticle.contentBlock.topBlock
+          %article.singleBlockWMeta
+            .mediaBox.single
+              %figure.mediaBoxItem
+                .zoomToMedia
+                %a{href: '#'}
+                  %img{src: 'http://imx.dy.cache.fhspost-static.com/918f9676c5b710bf0501094283d8b63ef7a595feeb0a9e1d8691206b7d1550ff_Nov-26-2014_Dario_Raschio.jpg?auto=format&q=70&fit=crop&crop=faces'}
+            .metaInfo
+              .primary
+                %h1.headline
+                  %a{href: '#'} Dario Raschio: Homegrown Portlander, WWII Veteran, Retired FHS Teacher
+                .byline
+                  by
+                  %address.author Calli Storrs
+                  %time.publishingTime 11.23.2014
+              .excerpt
+                %p Former Franklin teacher Dario Raschio has stories of Franklin and beyond. Born in Portland in 1914, he moved to the East Coast, was drafted, fought in WWII, and returned home to teach at FHS for 36 years before retiring in 1980. Raschio celebrated his 100th birthday Nov. 10.
+        %section.contentBlock.articleColumns.three
+          - (1..3).each do |a|
+            %article.columnArticle
+              .primary
+                %h1.headline
+                  %a{href: '#'} Comcast and TWC Merger: A Bad Idea for Americans
+                .byline
+                  by
+                  %address.author Jason Chen
+                  %time.publishingTime 10.24.2014
+              .metaInfo
+                .excerpt
+                  %p Comcast and Time Warner Cable, the two largest cable companies operating in the United States, want to merge, and that's a big problem.
+                .promoteRM
+                  %a{href: '#'} Read More
+        %section.contentBlock.overlayedMetaArticles.multi.two
+          - (1..2).each do |a|
+            %article.partialOverlay
+              %a.imaginaryOverlay{href: '#'}
+              %a.featuredImage{href: '#', itemprop: 'url'}
+                %img{src: 'http://imx.dy.cache.fhspost-static.com/950ed75871f698636fe237be6f2e0c10db3e6c7cdc706e35e5b79a4241c82046_Nov-26-2014_DSCN6572.jpg?auto=format&q=70&fit=crop'}
+              .pOverlayContents
+                %h1.headline{itemprop: 'headline'}
+                  %a{href: '#', itemprop: 'url'} Cross country finishes the season strong
+                %p.excerpt{itemprop: 'description'} After a season full of learning experiences, the cross country team is looking forward to next season.
+                %div.byline
+                  by
+                  %address.author{itemprop: 'creator'} Jason Chen
+                  %span.category{itemprop: 'articleSection', itemscope: true, itemtype: ''}
+                    %a{href: '#'} News
+        %section.contentBlock.articleColumns.three
+          - (1..3).each do |a|
+            %article.columnArticle.visual
+              .primary
+                .mainImage
+                  %a{href: '#'}
+                    %img{src: 'http://imx.dy.cache.fhspost-static.com/950ed75871f698636fe237be6f2e0c10db3e6c7cdc706e35e5b79a4241c82046_Nov-26-2014_DSCN6572.jpg?auto=format&q=70&fit=crop'}
+                %h1.headline
+                  %a{href: '#'} Cross country finishes the season strong
+                .byline
+                  by
+                  %address.author Alyx Briscoe
+                  %time.publishingTime 11.20.2014
+              .metaInfo
+                .excerpt
+                  %p After a season full of learning experiences, the cross country team is looking forward to next season. After a season full of learning experiences, the cross country team is looking forward to next season.
+                .promoteRM
+                  %a{href: '#'} Read More

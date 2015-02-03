@@ -1,0 +1,17 @@
+%article.columnArticle{class: (classNames if defined?(classNames)), itemscope: true, itemtype: 'http://schema.org/Article'}
+  .primary
+    - if article.featured_media
+      .mainImage
+        %a{href: '#', itemprop: 'url'}
+          %img{src: article.featured_media.link, alt: article.featured_media.alt_text, itemprop: 'thumbnailUrl'}
+    %h1.headline{itemprop: 'headline'}
+      %a{href: '#', itemprop: 'url'}= article.headline
+    .byline
+      by
+      %address.author= article.author.full_name
+      %time.publishingTime= publishing_time(article.published_at)
+  .metaInfo
+    .excerpt
+      %p= article.summary
+    .promoteRM
+      %a{href: '#', itemprop: 'url'} Read More

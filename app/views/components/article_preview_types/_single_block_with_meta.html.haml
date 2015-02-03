@@ -1,0 +1,16 @@
+%article.singleBlockWMeta{class: (classNames if defined?(classNames)), itemscope: true, itemtype: 'http://schema.org/Article'}
+  .mediaBox.single
+    %figure.mediaBoxItem
+      .zoomToMedia
+      %a{href: '#'}
+        %img{src: featuredImage.link, alt: featuredImage.alt_text, itemprop: 'thumbnailUrl'}
+  .metaInfo
+    .primary
+      %h1.headline{itemprop: 'headline'}
+        %a{href: '#', itemprop: 'url'}= article.headline
+      .byline
+        by
+        %address.author{itemprop: 'creator'}= article.author.full_name
+        %time.publishingTime= publishing_time(article.published_at)
+    .excerpt
+      %p{itemprop: 'description'}= article.summary
