@@ -10,12 +10,22 @@ Rails.application.routes.draw do
 
     resources :media
 
+    get 'login' => 'sessions#new'
+
+    get 'register' => 'users#new'
+
+    scope 'forgot' do
+      get 'password' => 'users#forgot_password'
+    end
+
     controller 'sections' do
       get '/section/:section_id/organize', action: 'organize'
     end
   end
 
   scope 'staff.api.v1', module: 'staff' do
+    mount_devise_token_auth_for 'User', at: '/auth'
+
     resources :media
 
     resources :articles

@@ -1,3 +1,3 @@
-Kicker.SectionRoute = Ember.Route.extend(
+Kicker.SectionRoute = Kicker.BaseRoute.extend(
 
 )

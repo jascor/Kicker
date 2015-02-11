@@ -1,0 +1,13 @@
+%article#article.default{itemscope: true, itemtype: 'http://schema.org/Article', data: { type: 'default' }}
+  %header#articleHeader.articleHeader
+    %h2.sectionLabel{itemprop: 'articleSection'}
+      %a{href: '#'}= article.section.name
+    .headline
+      %h1{itemprop: 'headline'}= raw article.headline
+    .byline
+      by
+      %address.author= raw article.authors
+      %time.publishingTime= publishingTime(article.published_at)
+  #articleBody.articleBody
+    - if article.featured_media
+

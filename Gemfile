@@ -8,6 +8,10 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'uglifier', '>= 1.3.0'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+gem 'puma'
+
+# @todo Move this to production group in the future?
+gem 'multi_fetch_fragments'
 
 # Required to work on Windows
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
@@ -19,6 +23,9 @@ end
 platforms :jruby do
   gem 'therubyrhino'
 end
+
+# Authentication-related Stuff
+gem 'devise_token_auth'
 
 # Assets
 gem 'compass-rails', github: 'compass/compass-rails'

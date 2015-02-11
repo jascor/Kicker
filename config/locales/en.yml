@@ -20,4 +20,21 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: "An email address is required for registration."
+              invalid: "You supplied an invalid email address."
+            password:
+              blank: "You must supply a password with at least 6 characters."
+              too_short: "Passwords must be at least 6 characters long."
+              too_long: "Passwords may only have 64 characters at most."
+            password_confirmation:
+              confirmation: "The two entered passwords must match."
+            first_name:
+              blank: "Please enter your first name."
+            last_name:
+              blank: "Please enter your last name."

@@ -1,0 +1,49 @@
+.popupNotification
+{
+  position: relative;
+  width: 250px;
+  padding: 15px;
+  margin-top: 10px;
+
+  &:first-of-type
+  {
+    margin-top: 0;
+  }
+
+  &.clickable
+  {
+    cursor: pointer;
+  }
+
+  &.error
+  {
+    background: #F22613;
+
+    &:hover
+    {
+      background: #F44336;
+    }
+
+    @include transition(background 0.25s ease);
+  }
+
+  > div
+  {
+
+  }
+}
+
+.closePopupNotification
+{
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  &:after
+  {
+    font-family: 'FontAwesome';
+    content: '\f057';
+    font-size: 25px;
+    color: #000;
+  }
+}

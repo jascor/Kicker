@@ -7,8 +7,10 @@ class Article < BaseModel
   has_many :section_page_section_contents
 
   belongs_to :section
-  belongs_to :subsection, class_name: 'Section'
+  belongs_to :subsection, class_name: 'Section', primary_key: 'subsection_id'
   belongs_to :article_type
+  belongs_to :writer_article
+  belongs_to :submitter, class_name :'User', primary_key: 'user_id'
 
   after_save :make_slug_if_pubbed
   after_save :published_timestamp_if_pubbed
@@ -43,7 +45,10 @@ private
   end
 
   def remove_stale_cache
-    Rails.cache.delete([self.class.name, id])
-    Rails.cache.delete([self.class.name, slug])
+    # @todo Very "hacky" solution to this; build engine to handle config options and load from database on app init and reload on settings update
+    if Kicker::Application.config.enable_redis_cache
+      Rails.cache.delete([self.class.name, id])
+      Rails.cache.delete([self.class.name, slug])
+    end
   end
 end

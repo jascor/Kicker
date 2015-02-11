@@ -15,7 +15,7 @@ Kicker.ArticleTagsBoxComponent = Ember.Component.extend(Kicker.ArticleTags,
     addTag: ->
       tag = @get('tagName').trim()
 
-      if tag.length is 0 or not tag.trim() or not @validateTag tag
+      if not tag or tag.length is 0 or not @validateTag tag
         @set 'errorNotice', 'A tag may not be empty and can only contain alphanumeric and the following special characters: !, @, #, ?, $%&*+;:\'"/.,.'
         return false
 

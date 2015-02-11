@@ -1,0 +1,101 @@
+.authInputBox
+{
+  //border-radius: 3px;
+  outline: 0;
+  border: none;
+  height: 35px;
+  width: 200px;
+  background: #515151;
+  font-family: 'Open Sans', san-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  line-height: 35px;
+  color: #FFF;
+
+  &:focus
+  {
+    background: #666;
+  }
+
+  @include transition(background ease 0.5s);
+}
+
+.authButton
+{
+  height: 35px;
+  //border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  background: #2196F3;
+  font-family: 'Open Sans', san-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #FFF;
+  padding-left: 15px;
+  padding-right: 15px;
+  letter-spacing: 1px;
+  outline: 0;
+
+  &:hover
+  {
+    background: #64B5F6;
+  }
+
+  @include transition(background ease 0.5s);
+}
+
+.authFormHelpers
+{
+  margin-top: 6px;
+}
+
+.authHelperLink
+{
+  text-decoration: none;
+  color: #646D70;
+  font-family: 'Open Sans', san-serif;
+  font-weight: 300;
+  font-size: 0.75em;
+  padding-right: 10px;
+
+  &:last-of-type
+  {
+    padding-right: 0;
+  }
+
+  &:hover
+  {
+    color: #838a8c;
+  }
+
+  @include transition(color ease 0.25s);
+}
+
+#auth
+{
+  .stack
+  {
+    .authInputBox, .authButton
+    {
+      display: block;
+    }
+
+    .authInputBox
+    {
+      margin-bottom: 5px;
+
+      &:last-of-type
+      {
+        margin-bottom: 15px;
+      }
+    }
+
+    .authButton
+    {
+      width: 100%;
+    }
+  }
+}

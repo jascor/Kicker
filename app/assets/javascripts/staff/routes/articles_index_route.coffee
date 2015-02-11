@@ -1,5 +1,8 @@
 Kicker.ArticlesIndexRoute = Kicker.BaseRoute.extend(
-  model: () ->
+  beforeModel: ->
+    @_super()
+
+  model: ->
     #@store.find('article')
     [{
       headline: 'Dario Raschio: Homegrown Portlander, WWII Veteran, Retired FHS Teacher',
@@ -41,7 +44,7 @@ Kicker.ArticlesIndexRoute = Kicker.BaseRoute.extend(
   setupController: (controller, model) ->
     controller.set 'model', model
 
-  renderTemplate: () ->
+  renderTemplate: ->
     @_super()
 
     @render 'staff.articles.index'

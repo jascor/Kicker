@@ -1,4 +1,4 @@
-Kicker.ArticlesNewController = Ember.ObjectController.extend(Ember.Evented, Kicker.MediaUpload, Kicker.Notification,
+Kicker.ArticlesNewController = Ember.ObjectController.extend(Ember.Evented, Kicker.MediaUpload,
   submittingNewObject: false
 
   messages: ['dfgdfg', 'dfgdfg', 'dfgdfg', 'dfgsdgsdfg', 'sdfgsdgsdfg', 'sdfgsdgsdfg']

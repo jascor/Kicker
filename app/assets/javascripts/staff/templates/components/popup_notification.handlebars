@@ -1,9 +1,12 @@
-<div class="notification closeable">
-    <h2 class="notifTitle">
-        {{title}}
-    </h2>
+<h2 class="title">
+    {{title}}
+</h2>
 
-    <p class="notifContents">
-        {{contents}}
-    </p>
-</div>
+<p class="contents">
+    {{message}}
+</p>
+
+{{#if clickable}}
+    <div class="closePopupNotification" {{ action "close" on="click" bubbles=false}}>
+    </div>
+{{/if}}

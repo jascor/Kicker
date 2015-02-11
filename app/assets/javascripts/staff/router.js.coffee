@@ -1,4 +1,10 @@
 Kicker.Router.map ->
+  @route 'login'
+
+  @route 'register'
+
+  @route 'forgotPassword', path: '/forgot/password'
+
   @resource 'articles', ->
     @route 'new'
 

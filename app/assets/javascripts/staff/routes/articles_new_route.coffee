@@ -1,4 +1,7 @@
 Kicker.ArticlesNewRoute = Kicker.BaseRoute.extend(
+  beforeModel: (transition) ->
+    @_super transition
+
   model: ->
     Ember.RSVP.hash (
       sections: @store.find 'section'

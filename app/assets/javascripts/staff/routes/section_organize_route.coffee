@@ -1,4 +1,4 @@
-Kicker.SectionOrganizeRoute = Ember.Route.extend(
+Kicker.SectionOrganizeRoute = Kicker.BaseRoute.extend(
   model: (params) ->
     @store.find 'section', params.section_id
 

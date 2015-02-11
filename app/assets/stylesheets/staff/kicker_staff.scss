@@ -6,12 +6,16 @@
 
 @import '../universal/helpers/*';
 
+@import 'base/*';
+
 @import 'layout/*';
 
 @import 'elements/*';
 @import 'elements/redactor_plugins/*';
 @import 'elements/media_library/*';
+@import 'elements/popup_notifications/*';
 
 @import 'pages/*';
+@import 'pages/auth_pages/*';
 
 @import 'libraries/*';

@@ -5,10 +5,10 @@
         %a{href: '#', itemprop: 'url'}
           %img{src: article.featured_media.link, alt: article.featured_media.alt_text, itemprop: 'thumbnailUrl'}
     %h1.headline{itemprop: 'headline'}
-      %a{href: '#', itemprop: 'url'}= article.headline
+      %a{href: '#', itemprop: 'url'}= raw article.headline
     .byline
       by
-      %address.author= article.author.full_name
+      %address.author= raw article.authors
       %time.publishingTime= publishing_time(article.published_at)
   .metaInfo
     .excerpt

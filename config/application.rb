@@ -12,6 +12,8 @@ module Kicker
 
     config.autoload_paths << Rails.root.join('lib')
 
-    #config.react.addons = true
+    config.react.addons = true
+
+    config.enable_redis_cache = false
   end
 end

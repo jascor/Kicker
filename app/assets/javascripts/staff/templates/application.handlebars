@@ -1,7 +1,9 @@
-{{ render 'staff/partials/header' }}
+{{#if isAuthenticated}}
+    {{ render 'staff/partials/header' }}
 
-{{ render 'staff/partials/sidebar' }}
+    {{ render 'staff/partials/sidebar' }}
+{{/if}}
 
 {{ outlet }}
 
-<div id="notificationsContainer"></div>
+{{ popup-notifications-container notifications=unreadNotifications }}

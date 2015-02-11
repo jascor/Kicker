@@ -1,15 +1,6 @@
-= render 'partials/universal_header'
-
-#content-container
+#contentContainer
   %main#main
-    %article.main.s-big-wide-all
-      %header.view-a-head
-        %h1.headline= @article.headline
-        %p.byline-timestamp
-          %span.g-i by
-          %span.byline= @article.section.name
-          %span.g-i on
-          %span.timestamp= @article.published_at.strftime('%B %-d, %Y at %I:%M%p')
-      %section.main-content.ctnt-regular
-        .article
-          %p= raw @article.contents
+    - if @article.type.nil?
+      = render 'components/article_types/default', article: @article
+    - else
+      = render @article.type.layout_filename, article: @article

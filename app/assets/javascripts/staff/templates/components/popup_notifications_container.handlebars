@@ -1,0 +1,5 @@
+<aside id="notificationsContainer">
+    {{#each notification in visibleNotifications}}
+        {{ popup-notification title=notification.title message=notification.message clickable=notification.clickable intent=notification.intent dismissAfter=notification.dismissAfter }}
+    {{/each}}
+</aside>
