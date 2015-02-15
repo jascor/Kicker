@@ -6,6 +6,15 @@ Kicker.RegisterController = Ember.Controller.extend(Kicker.Sessions, Kicker.Noti
       console.log self.get 'actions'
     , 2000)
 
+  reset: ->
+    @setProperties(
+      email: null
+      firstName: null
+      lastName: null
+      password: null
+      passwordConfirmation: null
+    )
+
   actions:
     signUp: ->
       if not @get 'email' then @set 'email', ''

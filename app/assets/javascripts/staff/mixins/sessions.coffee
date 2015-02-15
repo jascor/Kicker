@@ -9,6 +9,8 @@ Kicker.Sessions = Ember.Mixin.create(
     $.post('/staff.api.v1/auth/sign_in', userData, (data, textStatus, xhrObject) ->
       headers = self.authHeadersFromXhrObject xhrObject
 
+      console.log headers
+
       self.updateCookies headers
       self.updateSessionObject data.data, headers
       self.setUserAuthenticationStatus true

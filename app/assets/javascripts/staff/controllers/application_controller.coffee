@@ -3,6 +3,5 @@ Kicker.ApplicationController = Ember.Controller.extend(Kicker.Sessions,
 
   unreadNotifications: Ember.computed.alias 'notifications.unseenNotifications'
 
-  init: ->
-
+  isStoreEnabled: store.enabled
 )

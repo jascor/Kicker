@@ -3,6 +3,8 @@
 #= require handlebars
 #= require ember
 #= require ember-data
+#= require_directory ./polyfills
+#= require ./libraries/i18n
 #= require_directory ./libraries
 #= require ./custom/jquery_ajax_csrf_header
 #= require ./custom/string_format

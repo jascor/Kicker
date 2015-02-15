@@ -3,6 +3,12 @@ Kicker.LoginController = Ember.Controller.extend(Kicker.Sessions,
 
   init: ->
 
+  reset: ->
+    @setProperties(
+      email: null
+      password: null
+    )
+
   actions:
     signIn: ->
       if not @get 'email' then @set 'email', ''
