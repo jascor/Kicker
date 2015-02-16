@@ -13,7 +13,7 @@ Kicker.Notifications = Ember.Object.extend(Ember.MutableArray,
     self = @
 
     setTimeout(->
-      self.get('unseenNotifications').addNotification (
+      self.addNotification (
         title: 'TESTING ANOTHER NOTIFICATION'
         message: 'ANOTHER NOTIFICATION MESSAGE'
         clickable: true

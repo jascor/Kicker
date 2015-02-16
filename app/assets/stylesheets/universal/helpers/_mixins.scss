@@ -29,3 +29,13 @@
   #{$property}: -moz-calc(#{$value});
   #{$property}: calc(#{$value});
 }
+
+@mixin display-flexbox
+{
+  // iOS uses this old syntax for some reason...
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}

@@ -14,7 +14,7 @@ Kicker.UnauthenticatedRoute = Ember.Route.extend(Kicker.Sessions,
         self.transitionTo 'index'
 
       validateAuth.fail (result) ->
-        @clearExistingSessionData()
+        self.clearExistingSessionData()
     else
-      @clearExisitingSessionData()
+      @clearExistingSessionData()
 )

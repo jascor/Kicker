@@ -88,7 +88,7 @@ Kicker.Sessions = Ember.Mixin.create(
     sessionObject.set 'client', headers.client
     sessionObject.set 'uid', headers.uid
 
-  clearExisitingSessionData: ->
+  clearExistingSessionData: ->
     nullHeaderValues = (
       accessToken: null
       client: null

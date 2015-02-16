@@ -2,8 +2,16 @@
 {
   .authInputBox
   {
-    width: 250px;
-    height: 40px;
-    line-height: 40px;
+    @include breakpoint(500px)
+    {
+      width: 250px;
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+
+  .authButton
+  {
+    float: none;
   }
 }

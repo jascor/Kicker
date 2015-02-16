@@ -4,7 +4,14 @@
             <form id="newSession" class="newSession auth noStack" autocomplete="off" {{ action "signIn" on="submit" }}>
                 {{ input name="email" class="authInputBox" placeholder="Email Address" type="text" value=email }}
                 {{ input name="password" class="authInputBox" placeholder="Password" type="password" value=password }}
-                <button id="signInButton" class="authButton" {{ action "signIn" on="click" }}>Log In</button>
+                {{#if isLoggingIn}}
+                    <button id="signInButton" class="authButton isLoggingIn" type="button">
+                        <div class="loading"></div>
+                        <span class="autbButtonLoadingText">Logging In...</span>
+                    </button>
+                {{else}}
+                    <button id="signInButton" class="authButton" {{ action "signIn" on="submit" }}>Log In</button>
+                {{/if}}
                 <div class="authFormHelpers">
                     <a href="/register" class="authHelperLink" {{ action "registerAccount" on="click" bubbles=false }}>Register</a>
                     <a href="/forgot/password" class="authHelperLink" {{ action "forgotPassword" on="click" bubbles=false }}>Forgot Password?</a>

@@ -5,6 +5,8 @@
 @import 'helpers/variables';
 @import 'helpers/z-index';
 
+@import '../universal/helpers/mixins';
+
 @import 'base/*';
 
 @import 'layout/*';

@@ -1,5 +1,6 @@
 Kicker.BaseRoute = Ember.Route.extend(Kicker.Sessions,
   beforeModel: (transition) ->
+    ###
     sessionObject = @get 'session'
 
     validateAuth = @validateAuthentication()
@@ -11,10 +12,11 @@ Kicker.BaseRoute = Ember.Route.extend(Kicker.Sessions,
       self.redirectToAuth transition
 
   redirectToAuth: (transition) ->
-    @clearExistingSessionData
+    @clearExistingSessionData()
 
     loginController = @controllerFor 'login'
     loginController.set 'pausedTransition', transition
 
     @transitionTo 'login'
+  ###
 )

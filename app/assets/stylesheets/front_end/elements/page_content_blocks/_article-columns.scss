@@ -2,10 +2,13 @@
 {
   .articleColumns
   {
-    @include display-flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    // Not using Compass mixin due to issue with
+    // iOS requiring older syntax not included by
+    // the Compass version (display-flex)
+    @include display-flexbox;
+    @include justify-content(space-between);
+    @include align-items(center);
+    @include flex-wrap(wrap);
 
     .columnArticle
     {

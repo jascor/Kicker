@@ -1,5 +1,5 @@
 Kicker.LoginController = Ember.Controller.extend(Kicker.Sessions,
-  sdf: 2
+  isLoggingIn: false
 
   init: ->
 
@@ -11,6 +11,8 @@ Kicker.LoginController = Ember.Controller.extend(Kicker.Sessions,
 
   actions:
     signIn: ->
+      @set 'isLoggingIn', true
+      ###
       if not @get 'email' then @set 'email', ''
       data = @getProperties ['email', 'password']
 
@@ -29,6 +31,7 @@ Kicker.LoginController = Ember.Controller.extend(Kicker.Sessions,
       authenticate.fail (data, textStatus, xhrObject) ->
         # Handle sign-in errors somehow...
         console.log data
+      ###
 
     forgotPassword: ->
       @transitionToRoute 'forgotPassword'

@@ -3,10 +3,35 @@
   height: 100%;
   margin: 0;
   padding: 0;
-  align-items: center;
-  justify-content: center;
   background: $headerSidebarBGColorHex;
   background: $headerSidebarBGColorRGBA;
 
-  @include display-flex;
+  // Not using Compass mixin due to issue with
+  // iOS requiring older syntax not included by
+  // the Compass version (display-flex)
+  @include display-flexbox;
+  @include align-items(center);
+  @include justify-content(center);
+}
+
+main#auth
+{
+  width: 100%;
+
+  @include breakpoint(500px)
+  {
+    width: auto;
+  }
+}
+
+form.auth
+{
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @include breakpoint(500px)
+  {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
