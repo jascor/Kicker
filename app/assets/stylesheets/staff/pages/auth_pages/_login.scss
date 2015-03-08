@@ -2,6 +2,13 @@
 {
   @include breakpoint(500px)
   {
-
+    /*
+     * This is a somewhat hacky solution to a problem
+     * that arises with the animation used on the login
+     * button, where the input boxes are moved down
+     * when float: none is used.
+     */
+    float: right;
+    margin-left: 4px;
   }
 }

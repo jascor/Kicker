@@ -1,4 +1,4 @@
-.modalBoxOverlay
+.modalOverlay
 {
   position: fixed;
   top: 0;
@@ -12,6 +12,25 @@
   background: #000;
   opacity: 0.4;
   z-index: $zIndex--modalBoxOverlay;
+}
+
+.modalDialog
+{
+  @include display-flexbox;
+  @include align-items(center);
+  @include justify-content(center);
+  @include calc(height, '100% - 40px');
+}
+
+.modalContainer
+{
+  z-index: $zIndex--modalBox;
+}
+
+.modalBox
+{
+  max-width: 90%;
+  background: #FFF;
 }
 
 .modal

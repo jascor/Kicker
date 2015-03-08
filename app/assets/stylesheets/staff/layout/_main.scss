@@ -1,16 +1,21 @@
 #contentContainer
 {
-  margin-top: $headerHeight;
+  /*
+   * We have to use padding here or the body node will be
+   * position 40px below the top of the page (due to the
+   * header).
+   */
+  //padding-top: $headerHeight;
 
   @include breakpoint($sidebarBreakpointHide)
   {
-    margin-left: $sidebarWidth;
+    //margin-left: $sidebarWidth;
   }
 }
 
 #main
 {
-  @include propertyOnAllSidesExcept('padding', 'left', $mainContentSidePadding);
+  padding: $mainContentSidePadding;
 }
 
 #pageHeader
@@ -21,7 +26,7 @@
 
 #pageContent
 {
-  padding-left: $mainContentSidePadding;
+  //padding-left: $mainContentSidePadding;
 }
 
 #pageContentTitle

@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.2.0'
+
 gem 'rails', '~> 4.2'
 gem 'mysql2'
 gem 'redis-rails'
@@ -9,11 +11,11 @@ gem 'uglifier', '>= 1.3.0'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'puma'
+gem 'yaml_db'
+gem 'kaminari'
 
 # @todo Move this to production group in the future?
-gem 'multi_fetch_fragments'
-
-# Required to work on Windows
+gem 'multi_fetch_fragments' # Required to work on Windows
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 platforms :ruby do
@@ -28,6 +30,7 @@ end
 gem 'devise_token_auth'
 
 # Assets
+gem 'bower-rails', '~> 0.9.2'
 gem 'compass-rails', github: 'compass/compass-rails'
 gem 'breakpoint'
 gem 'font-awesome-rails'
@@ -38,10 +41,9 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'jquery-cookie-rails'
 gem 'modernizr-rails'
-gem 'ember-rails'
-gem 'ember-source'
+gem 'ember-rails', '~> 0.16.4'
+gem 'ember-source', '~> 1.11.0.beta.2.2'
 gem 'react-rails', '~> 1.0.0.pre', github: 'reactjs/react-rails'
-gem 'rails-backbone', github: 'codebrew/backbone-rails'
 
 group :development do
   gem 'faker'

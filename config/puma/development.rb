@@ -1,6 +1,6 @@
 environment 'development'
 
-bind 'tcp://0.0.0.0:3000'
+bind 'tcp://127.0.0.1:80'
 
 threads 8,32
 

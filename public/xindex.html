@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="The Franklin Post is a school newspaper written by students of Franklin High School in Portland, OR. The Post produces both print and online editions.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>The Franklin Post</title>
+
+    <script src="//fhspost-temp-down.s3-us-west-2.amazonaws.com/modernizr.min.js"></script>
+
+    <script src="//use.typekit.net/ugq5vgp.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-60202285-1', 'auto');
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+
+    </script>
+
+    <style>
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,
+        figure, figcaption, footer, header, hgroup,
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video
+        {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            font-size: 100%;
+            vertical-align: baseline;
+        }
+
+        html
+        {
+            line-height: 1;
+        }
+
+        ol, ul
+        {
+            list-style: none;
+        }
+
+        table
+        {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        caption, th, td
+        {
+            text-align: left;
+            font-weight: normal;
+            vertical-align: middle;
+        }
+
+        q, blockquote {
+            quotes: none;
+        }
+        q:before, q:after, blockquote:before, blockquote:after
+        {
+            content: "";
+            content: none;
+        }
+
+        a img {
+            border: none;
+        }
+
+        article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary
+        {
+            display: block;
+        }
+
+        *
+        {
+            word-wrap: break-word;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        html, body, #main, #contentContainer
+        {
+            width: 100%;
+            height: 100%;
+        }
+
+        .flexbox #main
+        {
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+
+        #main
+        {
+            margin: 0 auto;
+            padding: 15px;
+        }
+
+        #header
+        {
+            max-height: 100%;
+            width: 100%;
+        }
+
+        #logo
+        {
+            background: url('http://fhspost-temp-down.s3-us-west-2.amazonaws.com/fhspost-temp-min-logo.png') no-repeat;
+            background-size: 300px 300px;
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+        }
+
+        #content, #socialMedia
+        {
+            margin-top: 35px;
+        }
+
+        #content
+        {
+            font-family: 'jubilat', sans-serif;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        #content h1
+        {
+            font-size: 5em;
+        }
+
+        #socialMedia
+        {
+            width: 100%;
+            text-align: center;
+        }
+
+        .smLink
+        {
+
+            display: inline-block;
+            margin: 0 auto;
+        }
+
+        .smButton
+        {
+            width: 50px;
+            height: 50px;
+            -moz-transition: opacity 0.5s ease;
+            -o-transition: opacity 0.5s ease;
+            -webkit-transition: opacity 0.5s ease;
+            transition: opacity 0.5s ease;
+        }
+
+        .smButton:hover
+        {
+            opacity: .6;
+        }
+
+        #facebook
+        {
+            background: url('http://fhspost-temp-down.s3-us-west-2.amazonaws.com/fb-sq.svg') no-repeat;
+            background-size: 50px 50px;
+        }
+
+        #twitter
+        {
+            background: url('http://fhspost-temp-down.s3-us-west-2.amazonaws.com/twitter-sq.svg') no-repeat;
+            background-size: 50px 50px;
+        }
+
+        #footer
+        {
+            font-family: 'jubilat', san-serif;
+            margin-top: 20px;
+            padding-bottom: 15px;
+        }
+
+        #siteTitle
+        {
+            font-weight: 100;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="contentContainer">
+        <main id="main">
+            <header id="header">
+                <figure id="logo"></figure>
+            </header>
+
+            <section id="content">
+                <h1>We'll be back soon.</h1>
+            </section>
+
+            <section id="socialMedia">
+                <a href="https://www.facebook.com/fhspost" target="_blank" class="smLink facebook">
+                    <figure class="smButton" id="facebook"></figure>
+                </a>
+
+                <a href="https://twitter.com/fhspost" target="_blank" class="smLink facebook">
+                    <figure class="smButton" id="twitter"></figure>
+                </a>
+            </section>
+
+            <footer id="footer">
+                <p id="siteTitle">The Franklin Post</p>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>

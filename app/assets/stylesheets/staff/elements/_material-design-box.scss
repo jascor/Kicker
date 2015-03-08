@@ -1,0 +1,136 @@
+/*.articleConfigBox
+{
+  margin-top: $articleFormTopMargin;
+
+  &:first-of-type
+  {
+    margin-top: 0;
+  }
+
+  @include box-shadow(0 1px 3px rgba(0, 0, 0, 0.2));
+}*/
+
+.matDesignBox
+{
+  &.is-collapsed
+  {
+    > .matDesignBoxHeader
+    {
+      > p
+      {
+        display: none;
+      }
+    }
+
+    .collapseBoxButton
+    {
+      &:after
+      {
+        content: '\f0d7';
+      }
+    }
+
+    > .matDesignBoxContainer
+    {
+      display: none;
+    }
+  }
+
+  &.cannot-be-collapsed
+  {
+    > .matDesignBoxHeader
+    {
+      cursor: default;
+
+      &:hover
+      {
+        background: $primaryMenuColor;
+      }
+
+      .closeModal
+      {
+        &:hover
+        {
+          color: #FF0000;
+        }
+      }
+    }
+  }
+}
+
+.matDesignBoxHeader
+{
+  width: 100%;
+  background: $primaryMenuColor;
+  padding: 15px;
+  position: relative;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+
+  @include display-flexbox;
+  @include box-shadow(0 1px 3px rgba(0, 0, 0, 0.2));
+  @include user-select(none);
+
+  &:hover
+  {
+    background: #64B5F6;
+  }
+
+  > h2, p
+  {
+    display: block;
+  }
+
+  > h2, .collapseBoxButton
+  {
+    display: inline-block;
+  }
+
+  > h2
+  {
+    font-weight: 900;
+  }
+
+  > p
+  {
+    margin-top: 2px;
+    font-size: 0.7em;
+  }
+
+  > .collapseBoxButton, > .closeModal
+  {
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+
+    &:after
+    {
+      font-family: 'FontAwesome';
+      font-size: 15px;
+    }
+  }
+
+  > .collapseBoxButton
+  {
+    &:after
+    {
+      content: '\f0d8';
+    }
+  }
+
+  > .closeModal
+  {
+    &:after
+    {
+      content: $icons--Close;
+    }
+  }
+}
+
+.matDesignBoxContainer
+{
+  padding: 15px;
+
+  @include box-shadow(0 1px 3px rgba(0, 0, 0, 0.2));
+}

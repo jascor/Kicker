@@ -1,0 +1,119 @@
+
+---
+article_types:
+  columns:
+  - id
+  - name
+  - preview_image
+  - summary
+  - description
+  - layout
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Full Width
+    - 
+    - 
+    - 
+    - kljlkdjfgklfdj ljfdglk jfdszlgjfdklsgjlskjglksdjglkdsjglkjsdglsjdg
+    - 2015-02-16 23:05:16.000000000 Z
+    - 2015-02-16 23:05:16.000000000 Z
+
+---
+articles:
+  columns:
+  - id
+  - user_id
+  - featured_media_id
+  - article_type_id
+  - section_id
+  - subsection_id
+  - published
+  - private
+  - disable_comments
+  - writer_name
+  - raw_writer_name
+  - headline
+  - subheading
+  - summary
+  - contents
+  - raw_contents
+  - slug
+  - published_at
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - 
+    - 
+    - 
+    - 1
+    - 
+    - true
+    - false
+    - false
+    - 
+    - 
+    - What the hell is wrong with you people? God dammit!
+    - 
+    - 
+    - 
+    - 
+    - what-the-hell-is-wrong-with-you-people-god-dammit-2015216-article.html
+    - 2015-02-17 03:12:17.000000000 Z
+    - 2015-02-17 03:12:17.000000000 Z
+    - 2015-02-17 03:12:17.000000000 Z
+  - - 2
+    - 
+    - 
+    - 
+    - 2
+    - 
+    - true
+    - false
+    - false
+    - Tucker Cochenour
+    - 
+    - 'Blazers Update: A Season on Crutches'
+    - 
+    - 'Last year, fans of the Trailblazers bore witness to one of the most successful
+      seasons in recent history for the team. You probably heard about it: one of
+      the best starts in team history and multiple All-Stars, finally culminated in
+      Damian Lillard''s now-famous shot to win Portland''s first playoff series in
+      ages. One aspect often overlooked was just how healthy the team was.'
+    - 
+    - 
+    - blazers-update-a-season-on-crutches-2015218-article.html
+    - 2015-02-18 09:25:34.000000000 Z
+    - 2015-02-18 09:25:34.000000000 Z
+    - 2015-02-18 09:25:34.000000000 Z
+
+---
+sections:
+  columns:
+  - id
+  - name
+  - slug
+  - fa_icon
+  - private
+  - parent_id
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - News
+    - news
+    - 
+    - false
+    - 
+    - 2015-02-16 23:17:44.000000000 Z
+    - 2015-02-16 23:17:44.000000000 Z
+  - - 2
+    - Sports
+    - sports
+    - 
+    - false
+    - 
+    - 2015-02-18 09:23:03.000000000 Z
+    - 2015-02-18 09:23:03.000000000 Z

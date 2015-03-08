@@ -7,9 +7,7 @@ module Staff
     end
 
     def show
-      section = Section.find(params[:id])
-
-      render json: { section: section }
+      @section = Section.includes(section_page_sections: :section_page_section_contents).find(params[:id])
     end
 
     def organize

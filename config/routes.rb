@@ -28,9 +28,13 @@ Rails.application.routes.draw do
 
     resources :media
 
+    get '/articles(/:page)(/:per_page)' => 'articles#index', as: 'articles'
+
     resources :articles
 
     resources :sections
+
+    resources :article_types
   end
 
   root 'site#index'

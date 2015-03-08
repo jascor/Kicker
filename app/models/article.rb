@@ -7,10 +7,10 @@ class Article < BaseModel
   has_many :section_page_section_contents
 
   belongs_to :section
-  belongs_to :subsection, class_name: 'Section', primary_key: 'subsection_id'
+  belongs_to :subsection, class_name: 'Section', foreign_key: 'subsection_id'
   belongs_to :article_type
   belongs_to :writer_article
-  belongs_to :submitter, class_name :'User', primary_key: 'user_id'
+  belongs_to :submitter, class_name: 'User', primary_key: 'user_id'
 
   after_save :make_slug_if_pubbed
   after_save :published_timestamp_if_pubbed
@@ -34,7 +34,9 @@ private
   def make_slug_if_pubbed
     if published_and_public? && slug.nil?
       create_slug = make_slug(headline)
-      update_columns(slug: "#{create_slug}-#{created_at.year}#{created_at.month}#{created_at.day}-article.html")
+      create_timestamp = created_at.strftime('%Y%m%d')
+      make_slug = "#{create_slug}-#{create_timestamp}-article.html"
+      update_columns(slug: make_slug)
     end
   end
 

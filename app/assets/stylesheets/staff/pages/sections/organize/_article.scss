@@ -1,0 +1,23 @@
+.draggableItem
+{
+  &.article
+  {
+    width: 100%;
+    border: 1px solid #e3e3e3;
+    padding: 10px;
+
+    .headline
+    {
+      > h3
+      {
+        display: inline-block;
+      }
+    }
+
+    .sectionName
+    {
+      cursor: default;
+      margin-left: 0;
+    }
+  }
+}

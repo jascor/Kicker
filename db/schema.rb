@@ -21,10 +21,11 @@ ActiveRecord::Schema.define(version: 20150208211146) do
   end
 
   create_table "article_types", force: :cascade do |t|
-    t.string   "name",        limit: 255
-    t.text     "summary",     limit: 65535
-    t.text     "description", limit: 65535
-    t.text     "layout",      limit: 65535
+    t.string   "name",          limit: 255
+    t.string   "preview_image", limit: 255
+    t.text     "summary",       limit: 65535
+    t.text     "description",   limit: 65535
+    t.text     "layout",        limit: 65535
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -109,8 +110,10 @@ ActiveRecord::Schema.define(version: 20150208211146) do
   create_table "section_page_sections", force: :cascade do |t|
     t.string   "title",      limit: 255
     t.string   "subtitle",   limit: 255
-    t.string   "type",       limit: 255
+    t.string   "type_name",  limit: 255
+    t.string   "type_slug",  limit: 255
     t.integer  "position",   limit: 4
+    t.integer  "section_id", limit: 4
     t.boolean  "static",     limit: 1
     t.datetime "created_at",             null: false
     t.datetime "updated_at",             null: false

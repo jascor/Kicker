@@ -14,4 +14,6 @@
 
 class SectionPageSection < BaseModel
   belongs_to :section
+
+  has_many :section_page_section_contents
 end

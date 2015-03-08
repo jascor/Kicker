@@ -1,0 +1,102 @@
+#pageContent
+{
+  > .sectionOrganizer
+  {
+    @include display-flexbox;
+    @include justify-content(space-between);
+    @include flex-wrap(wrap);
+
+    .dropContainer
+    {
+      padding-right: 7.5px;
+
+      @include calc(width, '50% - 91px');
+      @include calc(height, '100% - 70px');
+
+      > .scrollableContainer
+      {
+        @include calc(width, '100% - 1px');
+
+        &:after
+        {
+          bottom: 0;
+        }
+      }
+    }
+
+    .dragContainer
+    {
+      padding-left: 7.5px;
+
+      @include calc(width, '50% - 90px');
+      @include calc(height, '100% - 120px');
+
+      > .scrollableContainer
+      {
+        &:after
+        {
+          // Fucking CSS man...
+          // there's a 50px header above this thing.
+          bottom: -50px;
+        }
+      }
+    }
+  }
+}
+
+.dropContainer, .dragContainer
+{
+  height: 100%;
+  display: inline-block;
+  position: fixed;
+}
+
+.dropContainer
+{
+  .matDesignBox
+  {
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 15px;
+
+    &:first-of-type
+    {
+      margin-top: 0;
+    }
+
+    &.is-collapsed
+    {
+      //margin-top: 0;
+    }
+  }
+}
+
+.dragContainer
+{
+  @include calc(left, '50% + 75px');
+}
+
+.scrollableContainer
+{
+  overflow-y: scroll;
+  height: 100%;
+
+  &:before, &:after
+  {
+    position: absolute;
+    content: ' ';
+    height: 10px;
+
+    @include calc(width, '100% - 8px');
+  }
+
+  &:before
+  {
+    @include box-shadow(inset 0 6px 9px -5px rgba(0,0,0,0.25));
+  }
+
+  &:after
+  {
+    @include box-shadow(rgba(0, 0, 0, 0.247059) 0px -7px 9px -7px inset);
+  }
+}

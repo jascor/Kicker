@@ -14,6 +14,8 @@ module Kicker
 
     config.react.addons = true
 
-    config.enable_redis_cache = false
+    config.handlebars.templates_root = 'staff/templates'
+
+    config.react.component_filenames = ['front_end/components.js']
   end
 end

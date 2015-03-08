@@ -1,0 +1,19 @@
+<div class="headline">
+    <h3>{{ article.headline }}</h3>
+    <span class="sectionName">{{ article.section.name }}</span>
+</div>
+
+{{#if article.summary}}
+    <div class="summary">
+        {{#if shouldShowSummary}}
+            <p>{{ article.summary }}</p>
+        {{/if}}
+
+        <span class="fakeLink showSummary" {{ action "toggleSummary" on="click" }}>{{ toggleSummaryButtonText }}</span>
+    </div>
+{{/if}}
+
+<div class="meta">
+    <span class="writer">Written by: {{ article.writerName }}</span>
+    <span class="publishingTime">{{ article.publishedAt }}</span>
+</div>
