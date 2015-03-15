@@ -26,8 +26,6 @@ Rails.application.routes.draw do
   scope 'staff.api.v1', module: 'staff' do
     mount_devise_token_auth_for 'User', at: '/auth'
 
-    resources :media
-
     get '/articles(/:page)(/:per_page)' => 'articles#index', as: 'articles'
 
     resources :articles
@@ -35,6 +33,16 @@ Rails.application.routes.draw do
     resources :sections
 
     resources :article_types
+
+    get '/media/pending' => 'media#pending'
+
+    resources :media
+
+    scope 'search', module: 'search' do
+      get '/writers' => 'writers#query'
+
+      get '/articles' => 'articles#query'
+    end
   end
 
   root 'site#index'

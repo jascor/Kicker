@@ -1,0 +1,96 @@
+.flexbox
+{
+  .columns
+  {
+    @include display-flexbox;
+
+    > .sibGroup
+    {
+      // Originally set to fix extra width caused by inline-block
+      // Flexbox doesn't have any of that nonsense
+      margin-left: 0;
+    }
+  }
+}
+
+.columns
+{
+  background: url(image-path('light-border-line.gif')) repeat-y;
+
+  > *
+  {
+    display: inline-block;
+  }
+
+  &.noBorderLine
+  {
+    background: none;
+  }
+}
+
+.ge3
+{
+  .sibAGroup
+  {
+    background: url(image-path('light-border-line.gif')) repeat-y;
+    background-position: 100% 0;
+  }
+}
+
+.col6A4
+{
+  background-position: 60% 0;
+
+  > .mastGroup
+  {
+    width: 60%;
+  }
+
+  > .sibAGroup
+  {
+    width: 40%;
+
+    // Sets this next to .mastGroup node...inline-block adds
+    // a few pixels of width
+    margin-left: -5px;
+    vertical-align: top;
+  }
+}
+
+.col4A3B3
+{
+  background-position: 40% 0;
+
+  > .mastGroup
+  {
+    width: 40%;
+  }
+
+  .sibAGroup
+  {
+    width: 30%;
+  }
+
+  .sibBGroup
+  {
+    width: 30%;
+  }
+}
+
+.col2A55B25
+{
+  > .mastGroup
+  {
+    width: 20%;
+  }
+
+  > .sibAGroup
+  {
+    width: 55%;
+  }
+
+  > .sibBGroup
+  {
+    width: 25%;
+  }
+}

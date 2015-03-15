@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.0'
+#ruby '2.2.1'
 
 gem 'rails', '~> 4.2'
 gem 'mysql2'
@@ -13,6 +13,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'puma'
 gem 'yaml_db'
 gem 'kaminari'
+gem 'elasticsearch-model'
+gem 'elasticsearch-rails'
 
 # @todo Move this to production group in the future?
 gem 'multi_fetch_fragments' # Required to work on Windows
@@ -31,6 +33,7 @@ gem 'devise_token_auth'
 
 # Assets
 gem 'bower-rails', '~> 0.9.2'
+gem 'es6_module_transpiler-rails'
 gem 'compass-rails', github: 'compass/compass-rails'
 gem 'breakpoint'
 gem 'font-awesome-rails'

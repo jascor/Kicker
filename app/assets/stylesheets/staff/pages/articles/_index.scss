@@ -1,0 +1,11 @@
+.filterable
+{
+  cursor: pointer;
+
+  &:after
+  {
+    font-family: 'FontAwesome';
+    content: '\f15d';
+    font-size: 1em;
+  }
+}

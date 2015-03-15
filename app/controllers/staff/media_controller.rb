@@ -1,13 +1,15 @@
 module Staff
   class MediaController < StaffController
     def index
-      media = Medium.all
+      @media = Medium.all
 
-      render json: { media: media }
+      render 'many'
     end
 
-    def new
+    def show
+      @media = Medium.find(params[:id])
 
+      render 'single'
     end
 
     def create
@@ -20,10 +22,24 @@ module Staff
       end
     end
 
+    def update
+      @media = Medium.find(params[:id])
+
+      @media.update(media_params)
+
+      render 'single'
+    end
+
+    def pending
+      @media = Medium.where(pending_initial_edit: true)
+
+      render 'many'
+    end
+
   private
 
     def media_params
-      params.require(:medium).permit(:filename, :mime_type, :link, :secure_link, :s3_key)
+      params.require(:medium).permit(:filename, :mime_type, :link, :secure_link, :s3_key, :title, :caption, :credit)
     end
   end
 end

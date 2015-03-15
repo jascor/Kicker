@@ -1,0 +1,58 @@
+.articleEdit
+{
+  margin-bottom: 64px;
+}
+
+.mainBottomToolbar
+{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+#columnsWrapper
+{
+  @include display-flexbox;
+  @include align-content(flex-start);
+}
+
+#leftColumn
+{
+  width: 80%;
+  padding-right: 7.5px;
+}
+
+#rightColumn
+{
+  width: 20%;
+  padding-left: 7.5px;
+}
+
+.headlineDecorator
+{
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.subheadingDecorator
+{
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.sectionSelection
+{
+  display: block;
+  padding: 15px;
+
+  &:hover
+  {
+    background: #FF0000;
+    cursor: pointer;
+  }
+
+  &.core-selected
+  {
+    background: #FF0000;
+  }
+}

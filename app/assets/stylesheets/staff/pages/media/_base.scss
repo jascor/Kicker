@@ -1,0 +1,43 @@
+#contentContainer.mediaLibrary
+{
+  @include display-flexbox;
+  @include justify-content(center);
+  @include flex-wrap(wrap);
+
+  #main
+  {
+    max-width: 1172px;
+  }
+
+  #pageContent
+  {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 102px;
+    width: 968px;
+  }
+}
+
+#mediaLibraryContainer
+{
+  padding-left: 12px;
+
+  @include display-flexbox;
+  @include align-items(flex-start);
+  @include justify-content(flex-start);
+  @include flex-wrap(wrap);
+  @include flex-direction(row);
+  @include flex-flow(row wrap);
+  @include align-content(flex-start);
+}
+
+.mediaLibraryRow
+{
+  margin-top: 15px;
+
+  &:first-of-type
+  {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,135 @@
+.fullArticle
+{
+  font-family: 'freight-text-pro', serif;
+  font-size: 1.15em;
+
+  &.defaultView
+  {
+    > .articleViewHeader
+    {
+      font-family: 'proxima-nova', sans-serif;
+
+      .mainInfo
+      {
+        border-bottom: 1px solid #E6E6E6;
+      }
+
+      .section
+      {
+        font-weight: 700;
+        font-size: 0.9em;
+        margin-bottom: 30px;
+
+        > a
+        {
+          text-decoration: none;
+        }
+      }
+
+      .headline
+      {
+        font-weight: 800;
+        font-size: 2.5em;
+        margin-bottom: 20px;
+      }
+    }
+
+    .byline
+    {
+      font-size: 0.8em;
+      margin-top: 15px;
+      margin-bottom: 25px;
+
+      > *
+      {
+        display: inline-block;
+      }
+
+      > .authors
+      {
+        > a
+        {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .articleShare
+    {
+      float: left;
+      width: 150px;
+    }
+
+    .mainVisual
+    {
+      margin-bottom: 30px;
+
+      > *
+      {
+        max-width: 810px;
+      }
+
+      .caption
+      {
+        margin-top: 5px;
+        font-size: 0.8em;
+
+        .credit
+        {
+          font-size: 0.9em;
+          color: #E6E6E6;
+        }
+      }
+    }
+
+    > .contents
+    {
+      padding-bottom: 20px;
+      border-bottom: 1px solid #E6E6E6;
+
+      > p
+      {
+        margin-bottom: 20px;
+        margin-left: 150px;
+        width: 660px;
+
+        &:last-of-type
+        {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .comments
+    {
+      margin-top: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #E6E6E6;
+
+      > header
+      {
+        > .title
+        {
+          font-family: 'proxima-nova', sans-serif;
+          font-weight: 800;
+          font-size: 1.4em;
+        }
+      }
+    }
+  }
+}
+
+.moreArticles
+{
+  margin-top: 20px;
+
+  > header
+  {
+    > .title
+    {
+      font-family: 'proxima-nova', sans-serif;
+      font-weight: 800;
+      font-size: 1.6em;
+    }
+  }
+}

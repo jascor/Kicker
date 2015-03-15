@@ -1,0 +1,138 @@
+.slideshow.mediaCollection
+{
+  border-top: 1px solid #E6E6E6;
+  border-bottom: 1px solid #E6E6E6;
+  margin-bottom: 20px;
+  position: relative;
+
+  &.inline
+  {
+    width: 660px;
+    margin-left: 150px;
+  }
+
+  > header
+  {
+    padding-top: 5px;
+
+    > .title
+    {
+      font-weight: 800;
+      font-size: 1.1em;
+    }
+  }
+
+  > .contents
+  {
+    padding-top: 20px;
+
+    > .imageContainer
+    {
+      position: relative;
+
+      > .currentSlide
+      {
+        width: 100%;
+        height: 100%;
+      }
+
+      > .leftClick, > .rightClick
+      {
+        position: absolute;
+        cursor: pointer;
+        width: 50%;
+        height: 100%;
+        top: 0;
+      }
+
+      > .leftClick
+      {
+        left: 0;
+      }
+
+      > .rightClick
+      {
+        right: 0;
+      }
+    }
+  }
+
+  > .meta
+  {
+    padding-bottom: 10px;
+    margin-top: 5px;
+
+    > .caption
+    {
+      font-size: 0.8em;
+
+      > .credit
+      {
+        font-size: 0.9em;
+      }
+    }
+  }
+
+  > .slideNav
+  {
+    text-align: right;
+    padding-bottom: 5px;
+
+    > *
+    {
+      display: inline-block;
+    }
+
+    > .slideCounter
+    {
+      position: relative;
+      top: -10px;
+      right: 15px;
+    }
+
+    > .previousSlide, > .nextSlide
+    {
+      cursor: pointer;
+      border: 1px solid #E6E6E6;
+
+      &:after
+      {
+        font-family: 'FontAwesome';
+        font-size: 45px;
+        color: #B3B3B3;
+
+        @include transition(color ease 0.25s);
+      }
+
+      &:hover
+      {
+        &:after
+        {
+          color: #666;
+        }
+      }
+    }
+
+    > .previousSlide
+    {
+      padding-left: 10px;
+      padding-right: 15px;
+
+      &:after
+      {
+        content: '\f0d9';
+      }
+    }
+
+    > .nextSlide
+    {
+      padding-right: 10px;
+      padding-left: 15px;
+
+      &:after
+      {
+        content: '\f0da';
+      }
+    }
+  }
+}

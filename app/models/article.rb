@@ -1,5 +1,6 @@
 class Article < BaseModel
   include SanitizationHelper
+  include Elasticsearch::Model
 
   has_one :featured_media, class_name: 'Medium', primary_key: 'featured_media_id', foreign_key: 'id'
 

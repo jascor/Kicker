@@ -1,0 +1,30 @@
+#mediaUploadClickToFP
+{
+  padding: 250px;
+  width: 100%;
+  border: 1px solid #000;
+  cursor: pointer;
+
+  @include display-flexbox;
+  @include align-content(center);
+  @include justify-content(center);
+  @include user-select(none);
+}
+
+.mediaUploadActions
+{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.mediaUploadFab
+{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+
+  > paper-fab
+  {
+    //background: $primaryMenuColor;
+  }
+}

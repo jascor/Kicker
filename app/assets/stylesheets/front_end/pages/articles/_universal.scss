@@ -1,0 +1,21 @@
+.fullArticle
+{
+  .contents
+  {
+    > p
+    {
+      display: block;
+      line-height: 150%;
+    }
+
+    > em
+    {
+      font-style: italic;
+    }
+
+    > strong
+    {
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,154 @@
+.story
+{
+  position: relative;
+  padding-bottom: $universalPadding;
+  padding-top: $universalPadding;
+  border-bottom: 1px solid #E6E6E6;
+  font-family: 'freight-text-pro';
+
+  &:first-of-type
+  {
+    padding-top: 0;
+  }
+
+  &:last-of-type
+  {
+    border-bottom: none;
+  }
+
+  .storyPVImage
+  {
+    float: left;
+    margin-right: 10px;
+
+    img
+    {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  &.large
+  {
+    .storyPVImage
+    {
+      position: relative;
+      float: none;
+
+      @include propertyOnAllSidesExcept('margin', 'bottom', 0);
+
+      img
+      {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+.mastGroup
+{
+  .story
+  {
+    margin-right: $universalPadding;
+  }
+
+  .storyPVImage
+  {
+    margin-right: 20px;
+  }
+}
+
+.sibAGroup, .sibBGroup
+{
+  .story
+  {
+    margin-left: $universalPadding;
+  }
+}
+
+.ge3
+{
+  .sibAGroup
+  {
+    .story
+    {
+      margin-right: $universalPadding;
+    }
+  }
+}
+
+.storyPictureLinkBox
+{
+  text-decoration: none;
+}
+
+figure.storyPVImage
+{
+  margin-bottom: 10px;
+
+  &.large
+  {
+    .imageCredit
+    {
+      display: block;
+      font-weight: 400;
+      font-size: 0.8em;
+      text-transform: uppercase;
+      text-align: right;
+      color: grey;
+    }
+  }
+}
+
+.storyImage
+{
+  width: 100%;
+}
+
+.storyDetails
+{
+  > a
+  {
+    text-decoration: none;
+  }
+}
+
+.storyTitle
+{
+  font-weight: 900;
+  font-size: 1.1em;
+  color: brown;
+  line-height: 105%;
+  margin-bottom: 5px;
+
+  &:hover
+  {
+    color: #666;
+  }
+
+  &.em
+  {
+    font-size: 1.8em;
+  }
+}
+
+.storyByline
+{
+  margin-bottom: 10px;
+
+  > *
+  {
+    display: inline-block;
+  }
+
+  .author
+  {
+    text-decoration: none;
+  }
+}
+
+.storyExcerpt
+{
+
+}

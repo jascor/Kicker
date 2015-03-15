@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150208211146) do
+ActiveRecord::Schema.define(version: 20150311043803) do
 
   create_table "article_tags", force: :cascade do |t|
     t.integer  "tag_id",     limit: 4
@@ -53,18 +53,19 @@ ActiveRecord::Schema.define(version: 20150208211146) do
   end
 
   create_table "media", force: :cascade do |t|
-    t.boolean  "video",       limit: 1
-    t.integer  "user_id",     limit: 4
-    t.string   "filename",    limit: 255
-    t.string   "title",       limit: 255
-    t.string   "credit",      limit: 255
-    t.string   "mime_type",   limit: 255
-    t.string   "s3_key",      limit: 255
-    t.text     "link",        limit: 65535
-    t.text     "secure_link", limit: 65535
-    t.text     "caption",     limit: 65535
-    t.datetime "created_at",                null: false
-    t.datetime "updated_at",                null: false
+    t.boolean  "video",                limit: 1
+    t.integer  "user_id",              limit: 4
+    t.string   "filename",             limit: 255
+    t.string   "title",                limit: 255
+    t.string   "credit",               limit: 255
+    t.string   "mime_type",            limit: 255
+    t.string   "s3_key",               limit: 255
+    t.text     "link",                 limit: 65535
+    t.text     "secure_link",          limit: 65535
+    t.text     "caption",              limit: 65535
+    t.datetime "created_at",                                        null: false
+    t.datetime "updated_at",                                        null: false
+    t.boolean  "pending_initial_edit", limit: 1,     default: true
   end
 
   create_table "media_collection_contents", force: :cascade do |t|

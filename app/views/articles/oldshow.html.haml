@@ -1,0 +1,6 @@
+#contentContainer
+  %main#main
+    - if @article.type.nil?
+      = render 'components/article_types/default', article: @article
+    - else
+      = render @article.type.layout_filename, article: @article

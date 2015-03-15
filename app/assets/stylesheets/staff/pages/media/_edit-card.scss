@@ -1,0 +1,130 @@
+.mediaEditCard
+{
+  width: 100%;
+  margin-top: 15px;
+
+  &:first-of-type
+  {
+    margin-top: 0;
+  }
+
+  core-pages
+  {
+    > div
+    {
+      position: relative;
+      display: none;
+    }
+
+    > .core-selected
+    {
+      display: block;
+    }
+  }
+
+  img
+  {
+    max-width: 100%;
+  }
+}
+
+.mediaEditCardHeader
+{
+  background: $primaryMenuColor;
+  padding: 30px;
+  color: $primaryMenuTextColor;
+  font-weight: 700;
+  position: relative;
+}
+
+.collapseEditCard
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  margin: 22px;
+
+  &:hover
+  {
+    color: #666;
+  }
+
+  &:after
+  {
+    font-family: 'FontAwesome';
+    font-size: 2em;
+    content: '\f0d8';
+  }
+
+  &.collapsed
+  {
+    &:after
+    {
+      content: '\f0d7';
+    }
+  }
+
+  @include transition(color ease 0.5s);
+}
+
+.mediaEditCardContents
+{
+  &.collapsed
+  {
+    display: none;
+  }
+}
+
+.mediaEditCardInputDecorator, .mediaEditCardCheckbox
+{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.mediaEditCardCheckbox
+{
+  > div
+  {
+    margin-left: 15px;
+
+    > h4
+    {
+      font-weight: 700;
+    }
+
+    > div
+    {
+      margin-top: 15px;
+      line-height: 120%;
+    }
+
+    @include user-select(none);
+  }
+}
+
+.mediaEditCardCropper, .mediaEditCardCheckbox
+{
+  margin-top: 15px;
+}
+
+.cropSelectionTabs
+{
+  background: $primaryMenuColor;
+
+  > *
+  {
+    color: #FFF;
+    font-weight: 700;
+  }
+}
+
+.mediaEditCardActions
+{
+  background: $primaryMenuColor;
+  color: #FFF;
+
+  @include display-flexbox;
+  @include justify-content(flex-end);
+  @include align-content(center);
+}

@@ -2,6 +2,7 @@
 
 @import 'breakpoint';
 
+@import 'helpers/breakpoints';
 @import 'helpers/variables';
 @import 'helpers/z-index';
 
@@ -10,9 +11,9 @@
 @import 'base/*';
 
 @import 'layout/*';
-@import 'layout/article_types/*';
 
 @import 'elements/*';
-@import 'elements/article_blocks/*';
-@import 'elements/page_content_blocks/*';
-@import 'elements/media_boxes/*';
+
+//@import 'pages/*';
+@import 'pages/front_page/*';
+@import 'pages/articles/*';

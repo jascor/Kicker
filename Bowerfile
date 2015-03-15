@@ -3,4 +3,5 @@ group :lib do
     asset 'backbone-brace-nytimes-cms', '1.0.0'
     asset 'underscore', '1.8.2'
     asset 'hammerjs', '2.0.4'
+    asset 'loader.js', '3.2.1'
 end

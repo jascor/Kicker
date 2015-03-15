@@ -1,0 +1,13 @@
+#= require jquery.cookie
+#= require jquery.cookie
+#= require jquery_ujs
+#= require turbolinks
+#= require underscore
+#= require backbone
+#= require react
+#= require react_ujs
+#= require ./backbone/kicker_backbone
+#= require ../components
+#= require ./custom/helpers
+#= require_tree ./custom
+#= require_directory .

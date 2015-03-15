@@ -1,0 +1,13 @@
+.paginationMenu
+{
+  @include display-flexbox;
+  @include align-items(center);
+  @include justify-content(center);
+  @include flex-wrap(wrap);
+}
+
+.pageSelectorMenu
+{
+  margin-left: 10px;
+  margin-right: 10px;
+}
