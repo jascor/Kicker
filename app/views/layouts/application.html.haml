@@ -98,6 +98,21 @@
     = render 'partials/footer'
 
 
+    :javascript
+      var _sf_async_config = { uid: 60070, domain: 'fhspost.com', useCanonical: true };
+      (function() {
+        function loadChartbeat() {
+          window._sf_endpt = (new Date()).getTime();
+          var e = document.createElement('script');
+          e.setAttribute('language', 'javascript');
+          e.setAttribute('type', 'text/javascript');
+          e.setAttribute('src','//static.chartbeat.com/js/chartbeat.js');
+          document.body.appendChild(e);
+        };
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+          loadChartbeat : function() { oldonload(); loadChartbeat(); };
+      })();
 
     = javascript_include_tag 'front_end/kicker_fe', 'data-turbolinks-track' => true
-    /%script{src: '//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5508bec169c63021', async: 'async'}
+    %script{src: '//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5508bec169c63021', async: 'async'}
