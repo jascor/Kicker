@@ -24,7 +24,9 @@ class ApplicationController < ActionController::Base
 
   private
 
-  def fastly_cache_until_purged
-    response.headers['Surrogate-Control'] = 'max-age=2592000'
+  def fastly_cache_until_purged(max_age = 1.year.to_s)
+    request.session_options[:skip] = true
+    response.headers['Cache-Control'] = 'public, no-cache'
+    response.headers['Surrogate-Control'] = "max-age=#{max_age}"
   end
 end
