@@ -24,5 +24,7 @@ class SiteController < ApplicationController
     latest_ids_concat = @data[:latest].map(&:cache_key).join(' ')
 
     response.headers['Surrogate-Key'] = "front-page #{section_names_concat} #{featured_ids_content} #{latest_ids_concat}"
+
+    request.session_options = {}
   end
 end
