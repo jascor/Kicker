@@ -5,6 +5,10 @@ Rails.application.routes.draw do
 
   get '/short/a/:id' => 'articles#short_redirect'
 
+  get '/articles/:section/:year/:month/:day/:id/:slug' => 'articles#old_redirect'
+
+  get '/articles/:section/:year/:month/:day/:id/:route_id/:slug' => 'articles#old_redirect'
+
   get '/author/:author_slug(/:page)' => 'writers#show', as: 'writer'
 
   scope 'search', module: 'search' do

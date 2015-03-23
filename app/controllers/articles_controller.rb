@@ -27,6 +27,12 @@ class ArticlesController < ApplicationController
     redirect_to "/#{article.section.name.downcase}/#{article.slug.downcase}"
   end
 
+  def old_redirect
+    article = Article.find_cached(params[:id])
+
+    redirect_to "/#{article.section.name.downcase}/#{article.slug.downcase}"
+  end
+
   def shows
     @data = {}
 
