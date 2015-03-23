@@ -119,6 +119,9 @@
 
       > header
       {
+        border-bottom: 1px solid #E6E6E6;
+        padding-bottom: 15px;
+
         > .title
         {
           font-family: 'proxima-nova', sans-serif;
@@ -177,4 +180,10 @@
       font-size: 1.6em;
     }
   }
+}
+
+.commentsBlock
+{
+  max-width: 770px;
+  margin-top: 15px;
 }

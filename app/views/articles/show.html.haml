@@ -27,6 +27,5 @@
         %section.comments
           %header
             %h4.title Comments
-      %section.moreArticles
-        %header
-          %h4.title More News
+          .commentsBlock
+            = render partial: 'components/disqus', locals: { id: @data[:article].id, title: @data[:article].headline }
