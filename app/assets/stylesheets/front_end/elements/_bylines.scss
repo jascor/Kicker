@@ -1,0 +1,41 @@
+.byline, .storyByline
+{
+  font-weight: 500;
+  font-family: 'proxima-nova', sans-serif;
+
+  > *
+  {
+    display: inline;
+  }
+
+  > .authors
+  {
+    > a
+    {
+      text-decoration: none;
+
+      .author
+      {
+        display: inline-block;
+        color: #000;
+        font-size: 1.1em;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-left: 1.5px;
+        margin-right: 1.5px;
+
+        &:hover
+        {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.storyByline
+{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 0.65em;
+}

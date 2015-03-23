@@ -1,0 +1,100 @@
+#pagedSectionHeader
+{
+  border-bottom: 1px solid #E6E6E6;
+  font-family: 'proxima-nova', sans-serif;
+
+  > h2
+  {
+    font-size: 2.3em;
+    font-weight: 800;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+
+  .pageCount
+  {
+    padding-left: 15px;
+    font-size: 0.8em;
+    color: #A1A1A1;
+  }
+}
+
+.pagedResultsList
+{
+  margin-top: 25px;
+  //margin-right: 300px;
+
+  @include breakpoint($breakpoint--defaultContentViewPadding)
+  {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+.pagedResult
+{
+  border-bottom: 1px solid #E6E6E6;
+  padding-bottom: 20px;
+  margin-top: 20px;
+
+  &:first-of-type
+  {
+    margin-top: 0;
+  }
+}
+
+.resultPictureLinkBox
+{
+
+}
+
+.resultBody
+{
+  > header
+  {
+    font-family: 'proxima-nova', sans-serif;
+
+    > a
+    {
+      > h3
+      {
+        display: inline;
+        color: #000;
+        font-weight: 700;
+        font-size: 1.5em;
+
+        &:hover
+        {
+          color: #666;
+        }
+
+        @include transition(color ease 0.25s);
+      }
+    }
+
+    > .byline
+    {
+      margin-top: 5px;
+      font-size: 0.7em;
+    }
+  }
+}
+
+.resultImage
+{
+  float: left;
+  margin-right: 1em;
+  width: 33%;
+
+  > img
+  {
+    width: 100%;
+  }
+}
+
+.resultExcerpt
+{
+  font-family: 'freight-text-pro', sans-serif;
+  line-height: 120%;
+  margin-top: 15px;
+}

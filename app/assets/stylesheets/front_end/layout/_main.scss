@@ -1,5 +1,14 @@
 #main
 {
-  margin-left: 30px;
-  margin-right: 30px;
+  &.full
+  {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  @include breakpoint($breakpoint--mainContentMargin)
+  {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 }

@@ -26,6 +26,16 @@
 {
   width: 20%;
   padding-left: 7.5px;
+
+  > *
+  {
+    margin-top: 15px;
+
+    &:first-of-type
+    {
+      margin-top: 0;
+    }
+  }
 }
 
 .headlineDecorator
@@ -55,4 +65,134 @@
   {
     background: #FF0000;
   }
+}
+
+.colHalves
+{
+  @include display-flexbox;
+  @include align-items(flex-start);
+}
+
+.selectFeaturedMedia
+{
+  margin-top: 15px;
+}
+
+.selectWriters
+{
+  margin-right: 7.5px;
+}
+
+.addTags
+{
+  margin-left: 7.5px;
+}
+
+.selectWriters, .addTags, .selectFeaturedMedia
+{
+  width: 50%;
+
+  > .cardContents
+  {
+    padding: 15px;
+  }
+
+  .selectedWriters, .addedTags, .featuredMediaEntry
+  {
+    font-weight: bold;
+    line-height: 120%;
+
+    > span
+    {
+      font-weight: normal;
+      font-size: 0.9em;
+      cursor: pointer;
+
+      &:after
+      {
+        content: ',';
+      }
+
+      &:last-of-type
+      {
+        &:after
+        {
+          content: '';
+        }
+      }
+
+      &:hover
+      {
+        color: #666;
+      }
+
+      @include transition(color ease 0.25s);
+      @include user-select(none);
+    }
+  }
+
+  .alreadyAdded
+  {
+    position: absolute;
+    right: 0;
+    //bottom: 5px;
+    font-size: 0.9em;
+  }
+}
+
+.selectableQueryResult
+{
+  border-bottom: 1px solid #E6E6E6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+
+  &:last-of-type
+  {
+    border-bottom: none;
+  }
+
+  > .select
+  {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    border-radius: 0;
+    border: 1px solid #E6E6E6;
+    outline: none;
+    cursor: pointer;
+    background: #FFF;
+    font-size: 0.9em;
+
+    &:hover
+    {
+      background: #666;
+    }
+
+    @include transition(background ease 0.25s);
+  }
+}
+
+.goToNewWriter
+{
+  text-decoration: none;
+  font-size: 0.8em;
+  text-align: right;
+  display: block;
+  margin-top: 10px;
+}
+
+.selectImportance
+{
+  width: 100%;
+
+  paper-slider
+  {
+    width: 100%;
+  }
+}
+
+.customSASS
+{
+  margin-top: 15px;
 }

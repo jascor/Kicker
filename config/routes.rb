@@ -1,9 +1,19 @@
 Rails.application.routes.draw do
-  get '/:section/:slug' => 'articles#show', as: 'article', constraints: { slug: /.+-\d{8}-.+\.html/i }
+  get '/:section/:slug' => 'articles#show', as: 'article', constraints: { slug: /.+-(\d+)-\d{8}-.+\.html/i }
 
-  scope 'media-collection/:collection_slug' do
-    get '/content/:collection_page' => 'media_collection#show'
+  get '/sf/:id' => 'articles#shows'
+
+  get '/short/a/:id' => 'articles#short_redirect'
+
+  get '/author/:author_slug(/:page)' => 'writers#show', as: 'writer'
+
+  scope 'search', module: 'search' do
+    get '/' => 'search#index'
   end
+
+  get '/:section_slug' => 'sections#show'
+
+  get '/:section_slug/:page' => 'sections#show_page'
 
   scope module: 'staff', as: 'staff' do
     resources :articles
@@ -26,7 +36,7 @@ Rails.application.routes.draw do
   scope 'staff.api.v1', module: 'staff' do
     mount_devise_token_auth_for 'User', at: '/auth'
 
-    get '/articles(/:page)(/:per_page)' => 'articles#index', as: 'articles'
+   # get '/articles(/:page)(/:per_page)' => 'articles#index', as: 'articles'
 
     resources :articles
 
@@ -41,6 +51,12 @@ Rails.application.routes.draw do
     scope 'search', module: 'search' do
       get '/writers' => 'writers#query'
 
+      get '/articles' => 'articles#query'
+    end
+  end
+
+  scope 'api.v1' do
+    scope 'search', module: 'search' do
       get '/articles' => 'articles#query'
     end
   end

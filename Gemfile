@@ -15,10 +15,11 @@ gem 'yaml_db'
 gem 'kaminari'
 gem 'elasticsearch-model'
 gem 'elasticsearch-rails'
+gem 'sucker_punch'
+gem 'tzinfo-data', platforms: [:mingw, :mswin] # Required to work on Windows
 
 # @todo Move this to production group in the future?
-gem 'multi_fetch_fragments' # Required to work on Windows
-gem 'tzinfo-data', platforms: [:mingw, :mswin]
+gem 'multi_fetch_fragments'
 
 platforms :ruby do
   gem 'therubyracer'
@@ -29,9 +30,10 @@ platforms :jruby do
 end
 
 # Authentication-related Stuff
-gem 'devise_token_auth'
+gem 'devise_token_auth', '~> 0.1.32.beta8'
 
 # Assets
+gem 'browserify-rails', '0.7.5'
 gem 'bower-rails', '~> 0.9.2'
 gem 'es6_module_transpiler-rails'
 gem 'compass-rails', github: 'compass/compass-rails'
@@ -50,4 +52,5 @@ gem 'react-rails', '~> 1.0.0.pre', github: 'reactjs/react-rails'
 
 group :development do
   gem 'faker'
+  gem 'rack-mini-profiler'
 end

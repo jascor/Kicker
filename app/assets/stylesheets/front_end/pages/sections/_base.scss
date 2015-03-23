@@ -1,0 +1,55 @@
+#sectionTitle
+{
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  background: #FFF;
+  font-size: 2.5em;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 800;
+  border-bottom: 1px solid #E6E6E6;
+
+  @include breakpoint($breakpoint--mainContentMargin)
+  {
+    margin-left: -30px;
+
+    @include calc(width, '100% + 60px');
+  }
+}
+
+.sectionLead
+{
+
+}
+
+.moreFromSection
+{
+  margin-top: 20px;
+  text-align: center;
+  border-top: 1px solid #E6E6E6;
+  padding: 20px;
+  vertical-align: middle;
+  font-family: 'proxima-nova', sans-serif;
+  font-size: 1.6em;
+
+  > a
+  {
+    display: inline;
+    font-weight: 800;
+    color: #000;
+
+    &:hover
+    {
+      color: #666;
+    }
+
+    &:after
+    {
+      font-family: 'FontAwesome';
+      content: '\f105';
+      padding-left: 10px;
+    }
+
+    @include transition(color ease 0.25s);
+  }
+}

@@ -76,5 +76,5 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.cache_store = :redis_store, "redis://#{ENV['REDIS_HOST']}:#{ENV['REDIS_PORT']}/#{ENV['REDIS_DB'] ? ENV['REDIS_DB'] : 1}/cache"
+  config.cache_store = :redis_store, ENV['REDIS_URL']#"redis://#{ENV['REDIS_HOST']}:#{ENV['REDIS_PORT']}/#{ENV['REDIS_DB'] ? ENV['REDIS_DB'] : 1}/cache"
 end

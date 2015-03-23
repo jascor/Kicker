@@ -1,17 +1,105 @@
 !!!
-%html
+%html{lang: 'en-US'}
   %head
+    :javascript
+      var _sf_startpt=(new Date()).getTime()
+    \
+    %meta{content: 'text/html; charset=utf-8', 'http-equiv' => 'Content-Type'}/
     %meta{:name => 'viewport', :content => 'width=device-width, initial-scale=1'}
-    %title Kicker
+    %meta{content: 'IE=edge', 'http-equiv' => 'X-UA-Compatible'}/
+    \
+    %title= yield(:title)
+    \
     %script{:src => '//use.typekit.net/ctk3sil.js'}
     %script try{Typekit.load();}catch(e){}
-    = javascript_include_tag 'modernizr', 'data-turbolinks-track' => true
+    \
+    = javascript_include_tag 'front_end/libraries/modernizr', 'data-turbolinks-track' => true
+    \
+    %link{href: '//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,300,400', rel: 'stylesheet', type: 'text/css'}/
     = stylesheet_link_tag    'kicker_universal', media: 'all', 'data-turbolinks-track' => true
     = stylesheet_link_tag    'front_end/kicker_fe', media: 'all', 'data-turbolinks-track' => true
+    \
+    %link{rel: 'canonical', href: request.original_url}
+    \
     = csrf_meta_tags
+    \
+
+    %meta{property: 'og:site_name', content: 'The Franklin Post'}
+    %meta{property: 'fb:app_id', content: '1503441436539822'}
+    - if @data[:article]
+      - article = @data[:article]
+      %meta{property: 'og:description', content: article.summary}/
+      %meta{name: 'description', content: article.summary}/
+      %meta{property: 'og:title', content: article.headline}/
+      %meta{property: 'og:type', content: 'article'}/
+      %meta{property: 'og:url', content: full_link_to_article(article)}/
+      \
+      - if article.featured_media
+        %meta{property: 'og:image', content: article.featured_media.link}/
+        %meta{name: 'twitter:image:src', content: article.featured_media.link}/
+      \
+      %meta{name: 'twitter:card', content: 'summary_large_image'}/
+      %meta{name: 'twitter:site', content: '@fhspost'}/
+      %meta{name: 'twitter:creator', content: '@fhspost'}/
+      %meta{name: 'twitter:title', content: article.headline}/
+      %meta{name: 'twitter:description', content: article.summary}/
+      \
+    - else
+      %meta{content: 'The Franklin Post is a school newspaper written by students of Franklin High School in Portland, OR. The Post produces both print and online editions.',  property: 'og:description'}/
+      %meta{content: 'The Franklin Post is a school newspaper written by students of Franklin High School in Portland, OR. The Post produces both print and online editions.', name: 'description'}/
+      %meta{content: yield(:title), property: 'og:title'}/
+      %meta{content: 'website', property: 'og:type'}/
+      %meta{content: request.original_url, property: 'og:url'}/
+      \
+
+    :javascript
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-60202285-1', 'auto');
+      ga('require', 'displayfeatures');
+      ga('send', 'pageview');
+
+    \
+
+    :javascript
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId: '1503441436539822',
+          xfbml: true,
+          version: 'v2.0'
+        });
+      };
+
+      (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+
+        if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js";
+          fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+
+    \
+
+    - if @data[:custom_css]
+      %style= raw @data[:custom_css]
   %body
+    #mainOverlay.blank.overlay
+
+    #modalOutlet
+
     = render 'partials/header'
+
+    = render 'partials/menu'
 
     = yield
 
+    = render 'partials/footer'
+
+
+
     = javascript_include_tag 'front_end/kicker_fe', 'data-turbolinks-track' => true
+    /%script{src: '//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5508bec169c63021', async: 'async'}

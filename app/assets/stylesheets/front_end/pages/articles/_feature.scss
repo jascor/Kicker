@@ -1,0 +1,108 @@
+.featureHeader
+{
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  background-position-x: 50%;
+  padding-top: 200px;
+  text-align: right;
+
+  > *
+  {
+    text-align: center;
+  }
+
+  > h1
+  {
+    color: #FFF;
+    font-size: 3em;
+    font-family: 'proxim-nova', sans-serif;
+    font-weight: 800;
+  }
+
+  > .byline
+  {
+    margin-top: 20px;
+    color: #FFF;
+
+    > .authors
+    {
+      > a
+      {
+        > .author
+        {
+          color: #FFF;
+        }
+      }
+    }
+  }
+}
+
+.featureBody
+{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-family: 'freight-text-pro', sans-serif;
+
+  > *
+  {
+    margin-top: 20px;
+
+    &:first-child
+    {
+      margin-top: 0;
+    }
+  }
+
+  > p
+  {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3em;
+    line-height: 140%;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @include breakpoint(730px)
+    {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  > .visual
+  {
+    margin-top: 45px;
+    margin-bottom: 45px;
+
+    > img
+    {
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+
+    &.left
+    {
+      float: left;
+      margin-left: 80px;
+      margin-right: 30px;
+      max-width: 660px;
+    }
+
+    &.right
+    {
+      float: right;
+      margin-right: 80px;
+      margin-left: 30px;
+      max-width: 660px;
+    }
+
+    .caption
+    {
+      display: none;
+    }
+  }
+}

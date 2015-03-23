@@ -8,14 +8,22 @@
       line-height: 150%;
     }
 
-    > em
+    em
     {
       font-style: italic;
     }
 
-    > strong
+    strong
     {
       font-weight: bold;
+    }
+
+    a
+    {
+      &:hover
+      {
+        text-decoration: underline;
+      }
     }
   }
 }

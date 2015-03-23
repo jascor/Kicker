@@ -1,0 +1,87 @@
+.modalSearch
+{
+  > .results
+  {
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+
+    >.result
+    {
+      display: block;
+      border-bottom: 1px solid #FFF;
+      padding-top: 25px;
+      padding-bottom: 25px;
+
+      &:last-of-type
+      {
+        border-bottom: none;
+      }
+
+      > a
+      {
+        > .title
+        {
+          color: #FFF;
+          font-size: 1.2em;
+          font-family: 'proxima-nova', sans-serif;
+          font-weight: 700;
+        }
+      }
+
+      > time
+      {
+        display: block;
+        margin-top: 10px;
+        font-size: 0.8em;
+        color: #FFF;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+.totalResults
+{
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  padding-top: 30px;
+  color: #FFF;
+  text-align: center;
+}
+
+.searchBox
+{
+  padding-top: 100px;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #E6E6E6;
+  margin-left: 15px;
+  margin-right: 15px;
+
+  @include calc(width, '100% - 30px');
+}
+
+#modalSearchQueryInput
+{
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #FFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+
+  @include input-placeholder
+  {
+    color: #FFF;
+  }
+}

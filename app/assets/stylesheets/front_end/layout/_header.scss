@@ -4,30 +4,170 @@
   height: $headerHeight;
   background: #FFF;
   border-bottom: 1px solid #E6E6E6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  @include transition(top ease 0.25s);
+  @include box-shadow(0px 2px 5px -3px rgba(0, 0, 0, 0.4));
+
+  &.scrollDown
+  {
+    top: -$headerHeight;
+  }
 }
 
-#openMenu
+.headerButton
 {
   display: inline-block;
   position: absolute;
-  left: 0;
   cursor: pointer;
+  top: 0;
   vertical-align: middle;
-  line-height: $headerHeight;
+  height: $headerHeight;
+  line-height:$headerHeight;
   padding-left: 25px;
   padding-right: 25px;
-  border-right: 1px solid #E6E6E6;
 
   &:after
   {
     font-family: 'FontAwesome';
-    content: '\f0c9';
     font-size: 25px;
     color: #B8B8B8;
+
+    @include transition(color ease 0.25s);
+  }
+
+  &:hover
+  {
+    &:after
+    {
+      color: #666;
+    }
+  }
+}
+
+#openMenu
+{
+  left: 0;
+  border-right: 1px solid #E6E6E6;
+
+  &:after
+  {
+    content: '\f0c9';
+  }
+}
+
+#openSearch
+{
+  right: 0;
+  //display: none;
+  border-left: 1px solid #E6E6E6;
+
+  &:after
+  {
+    content: '\f002';
+  }
+
+  @include breakpoint($breakpoint--showFacebookInHeader)
+  {
+    right: 65px;
+  }
+
+  @include breakpoint($breakpoint--showTwitterInHeader)
+  {
+    right: 139px;
+  }
+}
+
+#openFacebook
+{
+  display: none;
+  border-left: 1px solid #E6E6E6;
+  text-decoration: none;
+
+  &:after
+  {
+    content: '\f09a';
+  }
+
+  @include breakpoint($breakpoint--showFacebookInHeader)
+  {
+    right: 0;
+    display: inline-block;
+  }
+
+  @include breakpoint($breakpoint--showTwitterInHeader)
+  {
+    right: 74px;
+  }
+}
+
+#openTwitter
+{
+  display: none;
+  border-left: 1px solid #E6E6E6;
+  text-decoration: none;
+
+  &:after
+  {
+    content: '\f099';
+  }
+
+  @include breakpoint($breakpoint--showTwitterInHeader)
+  {
+    right: 0;
+    display: inline-block;
   }
 }
 
 #siteTitle
 {
   text-align: center;
+}
+
+#logo
+{
+  > svg
+  {
+    width: 140px;
+    height: 25.2px;
+    margin-top: 14.4px;
+
+    @include breakpoint($breakpoint--logoWidth1)
+    {
+      width: 180px;
+      height: 32.4px;
+      margin-top: 10.8px;
+    }
+
+    @include breakpoint($breakpoint--logoWidth2)
+    {
+      width: 200px;
+      height: 36px;
+      margin-top: 9px;
+    }
+
+    @include breakpoint($breakpoint--logoWidth3)
+    {
+      width: 250px;
+      height: 45px;
+      margin-top: 4.5px;
+    }
+
+    @include breakpoint($breakpoint--logoWidth4)
+    {
+      width: 280px;
+      height: 50.4px;
+      margin-top: 1.8px;
+    }
+
+    @include breakpoint($breakpoint--logoWidth5)
+    {
+      width: 300px;
+      height: 54px;
+      margin-top: 0;
+    }
+  }
 }

@@ -1,0 +1,62 @@
+#searchForm
+{
+  border-bottom: 1px solid #E6E6E6;
+  padding-bottom: 10px;
+}
+
+#searchBox
+{
+  border: none;
+  outline: none;
+  font-family: 'freight-text-pro', serif;
+  font-weight: 800;
+  font-size: 2em;
+  width: 87%;
+
+  @include breakpoint(500px)
+  {
+    width: 90%;
+  }
+
+  @include breakpoint(700px)
+  {
+    width: 93%;
+  }
+
+  @include breakpoint(950px)
+  {
+    width: 94%;
+  }
+
+  @include breakpoint(1100px)
+  {
+    width: 95%;
+  }
+
+  @include breakpoint($breakpoint--maxPageContent)
+  {
+    width: 96%;
+  }
+}
+
+#submitSearch
+{
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 2em;
+
+  &:hover
+  {
+    color: #666;
+  }
+
+  @include transition(color ease 0.25s);
+}
+
+.searchQuery
+{
+  font-size: 0.5em;
+  font-weight: 500;
+}

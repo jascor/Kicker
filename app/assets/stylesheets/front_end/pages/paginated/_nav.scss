@@ -1,0 +1,38 @@
+nav.pagination
+{
+  margin-top: 30px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.paginationNavBtn
+{
+  &.next
+  {
+    float: right;
+  }
+
+  &.previous
+  {
+    float: left;
+  }
+
+  > a
+  {
+    padding: 15px;
+    background: #0086b3;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    font-size: 0.8em;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 600;
+
+    &:hover
+    {
+      background: #666;
+    }
+
+    @include transition(background ease 0.5s);
+  }
+}

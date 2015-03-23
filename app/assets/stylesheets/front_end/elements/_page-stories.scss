@@ -50,7 +50,7 @@
 {
   .story
   {
-    margin-right: $universalPadding;
+    //margin-right: $universalPadding;
   }
 
   .storyPVImage
@@ -59,11 +59,25 @@
   }
 }
 
-.sibAGroup, .sibBGroup
+.sibAGroup
 {
   .story
   {
-    margin-left: $universalPadding;
+    @include breakpoint($breakpoint--3ColumnsDisplay2)
+    {
+      margin-left: $universalPadding;
+    }
+  }
+}
+
+.sibBGroup
+{
+  .story
+  {
+    @include breakpoint($breakpoint--3ColumnsDisplayAll)
+    {
+      margin-left: $universalPadding;
+    }
   }
 }
 
@@ -73,7 +87,7 @@
   {
     .story
     {
-      margin-right: $universalPadding;
+      //margin-right: $universalPadding;
     }
   }
 }
@@ -85,10 +99,10 @@
 
 figure.storyPVImage
 {
-  margin-bottom: 10px;
-
   &.large
   {
+    margin-bottom: 10px;
+
     .imageCredit
     {
       display: block;
@@ -108,7 +122,7 @@ figure.storyPVImage
 
 .storyDetails
 {
-  > a
+  a
   {
     text-decoration: none;
   }
@@ -116,11 +130,13 @@ figure.storyPVImage
 
 .storyTitle
 {
-  font-weight: 900;
-  font-size: 1.1em;
-  color: brown;
+  display: inline;
+  font-weight: 800;
+  font-size: 1.2em;
   line-height: 105%;
-  margin-bottom: 5px;
+  font-family: 'proxima-nova', sans-serif;
+  color: #000;
+  color: rgba(0, 0, 0, 0.9);
 
   &:hover
   {
@@ -129,26 +145,13 @@ figure.storyPVImage
 
   &.em
   {
-    font-size: 1.8em;
-  }
-}
-
-.storyByline
-{
-  margin-bottom: 10px;
-
-  > *
-  {
-    display: inline-block;
+    font-size: 2em;
   }
 
-  .author
-  {
-    text-decoration: none;
-  }
+  @include transition(color ease 0.25s);
 }
 
 .storyExcerpt
 {
-
+  line-height: 115%;
 }

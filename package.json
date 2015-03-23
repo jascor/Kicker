@@ -1,0 +1,13 @@
+{
+  "name": "kicker",
+  "devDependencies" : {
+    "browserify": "9.0.3",
+    "browserify-incremental": "1.5.0",
+    "reactify": "1.1.0",
+    "react-animate": "1.2.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  }
+}

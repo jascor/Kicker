@@ -1,0 +1,29 @@
+.caption, .credit
+{
+  display: block;
+
+  &.inline
+  {
+    display: inline;
+  }
+}
+
+.caption
+{
+  font-size: 0.9em;
+  line-height: 110%;
+  color: #000;
+  margin-top: 5px;
+}
+
+.credit
+{
+  font-size: 0.7em;
+  color: #AAAAAA;
+  margin-top: 5px;
+
+  &.inline
+  {
+    //margin-left: 5px;
+  }
+}

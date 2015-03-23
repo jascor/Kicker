@@ -12,8 +12,14 @@ module Kicker
 
     config.autoload_paths << Rails.root.join('lib')
 
+    config.cache_store = :redis_store, ENV['REDIS_URL']
+
     config.react.addons = true
 
     config.react.component_filenames = ['front_end/components.js']
+
+    config.browserify_rails.commandline_options = "-t reactify --extension=\".js.jsx\""
+
+    #ES6ModuleTranspiler.compile_to = :cjs
   end
 end

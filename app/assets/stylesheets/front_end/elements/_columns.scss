@@ -1,8 +1,15 @@
-.flexbox
+.can-flexbox
 {
   .columns
   {
     @include display-flexbox;
+    @include flex-wrap(wrap);
+
+    > *
+    {
+      margin-left: 0;
+      display: block;
+    }
 
     > .sibGroup
     {
@@ -11,15 +18,38 @@
       margin-left: 0;
     }
   }
+
+  .colThirds
+  {
+    > .mastGroup
+    {
+      width: 33.3333333333333333333333333333333%;
+    }
+
+    > .sibAGroup
+    {
+      width: 33.3333333333333333333333333333333%;
+    }
+
+    > .sibBGroup
+    {
+      width: 33.3333333333333333333333333333333%;
+    }
+  }
 }
 
 .columns
 {
-  background: url(image-path('light-border-line.gif')) repeat-y;
-
   > *
   {
     display: inline-block;
+    vertical-align: top;
+    margin-left: -4px;
+
+    &:first-child
+    {
+      margin-left: 0;
+    }
   }
 
   &.noBorderLine
@@ -32,8 +62,11 @@
 {
   .sibAGroup
   {
-    background: url(image-path('light-border-line.gif')) repeat-y;
-    background-position: 100% 0;
+    @include breakpoint($breakpoint--3ColumnsDisplayAll)
+    {
+      background: url(image-path('light-border-line.gif')) repeat-y;
+      background-position: 100% 0;
+    }
   }
 }
 
@@ -59,38 +92,93 @@
 
 .col4A3B3
 {
-  background-position: 40% 0;
+  //background-position: 40% 0;
+
+  @include breakpoint($breakpoint--3ColumnsDisplay2)
+  {
+    background: url(image-path('light-border-line.gif')) repeat-y;
+    background-position: 60% 0;
+  }
+
+  @include breakpoint($breakpoint--3ColumnsDisplayAll)
+  {
+    background: url(image-path('light-border-line.gif')) repeat-y;
+    background-position: 40% 0;
+  }
+
+  > *
+  {
+    width: 100%;
+  }
 
   > .mastGroup
   {
-    width: 40%;
+    @include breakpoint($breakpoint--3ColumnsDisplay2)
+    {
+      width: 60%;
+
+      > *
+      {
+        margin-right: 20px;
+      }
+    }
+
+    @include breakpoint($breakpoint--3ColumnsDisplayAll)
+    {
+      width: 40%;
+    }
   }
 
   .sibAGroup
   {
-    width: 30%;
+    @include breakpoint($breakpoint--3ColumnsDisplay2)
+    {
+      width: 40%;
+
+      > *
+      {
+        margin-right: 20px;
+      }
+    }
+
+    @include breakpoint($breakpoint--3ColumnsDisplayAll)
+    {
+      width: 30%;
+    }
   }
 
   .sibBGroup
   {
-    width: 30%;
+    @include breakpoint($breakpoint--3ColumnsDisplayAll)
+    {
+      width: 30%;
+    }
   }
 }
 
-.col2A55B25
+.colThirds
 {
   > .mastGroup
   {
-    width: 20%;
+    width: 33%;
   }
 
   > .sibAGroup
   {
-    width: 55%;
+    width: 34%;
   }
 
   > .sibBGroup
   {
-    width: 25%;
+    width: 33%;
+  }
+}
+
+.colHalves
+{
+  > *
+  {
+    display: inline-block;
+    width: 50%;
   }
 }

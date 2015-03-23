@@ -1,0 +1,34 @@
+- set_title(@data[:section].name + ' - Page ' + @data[:current_page].to_s + ' | The Franklin Post')
+
+#contentContainer
+  %main#main
+  #pageContent
+    %header#pagedSectionHeader
+      %h2= "Latest #{@data[:section].short_name}"
+      %span.pageCount= "Page #{@data[:current_page]} of #{@data[:paginated_articles].total_pages}"
+    .pagedResultsList
+      - @data[:paginated_articles].each do |article|
+        %article.pagedResult{class: "#{('clear' if article.has_featured_media?)}", itemscope: true, itemtype: 'http://schema.org/Article'}
+          - if article.has_featured_media?
+            - if article.featured_media_is_collection?
+            - else
+              %a.resultPictureLinkBox{href: link_to_article(article), itemprop: 'url'}
+                %figure.resultImage
+                  %img{src: article.featured_media.link, alt: article.featured_media.caption, itemprop: 'thumbnailUrl'}
+          .resultBody
+            %header
+              %a{href: link_to_article(article), itemprop: 'url'}
+                %h3{itemprop: 'headline'}= article.headline
+              .byline
+                by
+                .authors= raw article.formatted_writers_names
+                %time.publishingTime{datetime: article.published_at, itemprop: 'datePublished'}= publishing_time(article.published_at)
+            .resultExcerpt
+              %p{itemprop: 'description'}= raw article.summary
+    %nav.pagination.clear
+      - if @data[:current_page] > 1
+        .previous.paginationNavBtn
+          %a{href: "/#{@data[:section].slug}/#{@data[:current_page] - 1}"} Previous Page
+      - if @data[:current_page] < @data[:paginated_articles].total_pages
+        .next.paginationNavBtn
+          %a{href: "/#{@data[:section].slug}/#{@data[:current_page] + 1}"} Next Page

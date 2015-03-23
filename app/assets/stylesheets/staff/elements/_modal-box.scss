@@ -17,19 +17,20 @@
 .modalDialog
 {
   @include display-flexbox;
-  @include align-items(center);
-  @include justify-content(center);
-  @include calc(height, '100% - 40px');
 }
 
 .modalContainer
 {
   z-index: $zIndex--modalBox;
+  overflow-y: scroll;
+
+  @include display-flexbox;
+  @include align-items(center);
+  @include justify-content(center);
 }
 
 .modalBox
 {
-  max-width: 90%;
   background: #FFF;
 }
 

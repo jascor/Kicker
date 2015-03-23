@@ -21,6 +21,11 @@
     margin-bottom: 0;
   }
 
+  &.is-in-modal
+  {
+    cursor: pointer;
+  }
+
   .cardHeader.normal
   {
     width: 300px;
@@ -50,4 +55,38 @@
 {
   padding: 0;
   margin: 8px;
+}
+
+.selectedCardOverlay
+{
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left:  0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  cursor: pointer;
+  color: #FFF;
+  font-size: 1.2em;
+  font-weight: 300;
+
+  @include display-flexbox;
+  @include justify-content(center);
+  @include align-items(center);
+
+  &:after
+  {
+    content: 'Selected';
+  }
+
+  &.noDefaultText
+  {
+    &:after
+    {
+      content: '';
+    }
+  }
+
 }

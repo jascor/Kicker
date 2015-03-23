@@ -1,150 +1,69 @@
+- set_title('The Franklin Post')
+
 #contentContainer
   %main#main
     #pageContent
       #fpLead
+        -#absLeadStory
+          .storyCard
+            %article.card
+              %a{href: '#'}
+                %figure.mainImage
+                  %img{src: 'http://upload.wikimedia.org/wikipedia/commons/d/d5/OverWhelmingly_Large_Telescope.jpg'}
+              .cardDetails
+                %a{href: '#'}
+                  %h1.cardStoryTitle These are the silly URLs the NSA uses for cyber espionage
+                .storyByline
+                  by
+                  %a{href: '#'}
+                    %address.author Jason Chen
         #fpFeaturedContent.col4A3B3.columns.ge3
           .mastGroup
-            %article.story.mainStory.large
-              %a.storyPictureLinkBox{href: '#'}
-                %figure.storyPVImage.large
-                  %img.largeStoryImage.storyImage{src: 'http://imx.dy.cache.fhspost-static.com/9860bef4a9a5ae962d7e0a153579ecd9e301305203e9090d33a11a0342bc801f_Dec-18-2014_8504146027_b575806d52_b.jpg?auto=format'}
-                  %span.imageCredit Jason Chen
-              .storyDetails
-                %a{href: '#'}
-                  %h2.storyTitle.em Civil Rights Investigation in Ferguson Continues
-                %div.storyByline
-                  by
-                  %a.authorLink{href: '#'}
-                    %address.author Jason Chen
-                  %time.publishingTime 03.24.2015
-                %div.storyExcerpt
-                  Comcast and Time Warner Cable, the two largest cable companies operating in the United States, want to merge, and that's a big problem.
-            %article.story
-              %a.storyPictureLinkBox{href: '#'}
-                %figure.storyPVImage
-                  %img.storyImage{src: 'http://imx.dy.cache.fhspost-static.com/9860bef4a9a5ae962d7e0a153579ecd9e301305203e9090d33a11a0342bc801f_Dec-18-2014_8504146027_b575806d52_b.jpg?auto=format'}
-              .storyDetails
-                %a{href: '#'}
-                  %h2.storyTitle Civil Rights Investigation in Ferguson Continues
-                %div.storyByline
-                  by
-                  %a.authorLink{href: '#'}
-                    %address.author Jason Chen
-                  %time.publishingTime 03.24.2015
-                %div.storyExcerpt
-                  Comcast and Time Warner Cable, the two largest cable companies operating in the United States, want to merge, and that's a big problem.
-            %article.story
-              %a.storyPictureLinkBox{href: '#'}
-                %figure.storyPVImage
-                  %img.storyImage{src: 'http://imx.dy.cache.fhspost-static.com/9860bef4a9a5ae962d7e0a153579ecd9e301305203e9090d33a11a0342bc801f_Dec-18-2014_8504146027_b575806d52_b.jpg?auto=format'}
-              .storyDetails
-                %a{href: '#'}
-                  %h2.storyTitle Civil Rights Investigation in Ferguson Continues
-                %div.storyByline
-                  by
-                  %a.authorLink{href: '#'}
-                    %address.author Jason Chen
-                  %time.publishingTime 03.24.2015
-                %div.storyExcerpt
-                  Comcast and Time Warner Cable, the two largest cable companies operating in the United States, want to merge, and that's a big problem.
-            %article.story
-              %a.storyPictureLinkBox{href: '#'}
-                %figure.storyPVImage
-                  %img.storyImage{src: 'http://imx.dy.cache.fhspost-static.com/9860bef4a9a5ae962d7e0a153579ecd9e301305203e9090d33a11a0342bc801f_Dec-18-2014_8504146027_b575806d52_b.jpg?auto=format'}
-              .storyDetails
-                %a{href: '#'}
-                  %h2.storyTitle Civil Rights Investigation in Ferguson Continues
-                %div.storyByline
-                  by
-                  %a.authorLink{href: '#'}
-                    %address.author Jason Chen
-                  %time.publishingTime 03.24.2015
-                %div.storyExcerpt
-                  Comcast and Time Warner Cable, the two largest cable companies operating in the United States, want to merge, and that's a big problem.
-            %article.story.large
-              %a.storyPictureLinkBox{href: '#'}
-                %figure.storyPVImage
-                  %img.storyImage{src: 'http://imx.dy.cache.fhspost-static.com/9860bef4a9a5ae962d7e0a153579ecd9e301305203e9090d33a11a0342bc801f_Dec-18-2014_8504146027_b575806d52_b.jpg?auto=format'}
-              .storyDetails
-                %a{href: '#'}
-                  %h2.storyTitle Civil Rights Investigation in Ferguson Continues
-                %div.storyByline
-                  by
-                  %a.authorLink{href: '#'}
-                    %address.author Jason Chen
-                  %time.publishingTime 03.24.2015
-                %div.storyExcerpt
-                  Comcast and Time Warner Cable, the two largest cable companies operating in the United States, want to merge, and that's a big problem.
+            = render partial: 'partials/page_stories/generic-mast-group', collection: @data[:featured], as: :article, cache: true, importance_threshold: 25
           .sibAGroup
-            %article.story.large
-              %a.storyPictureLinkBox{href: '#'}
-                %figure.storyPVImage.large
-                  %img.largeStoryImage.storyImage{src: 'http://imx.dy.cache.fhspost-static.com/9860bef4a9a5ae962d7e0a153579ecd9e301305203e9090d33a11a0342bc801f_Dec-18-2014_8504146027_b575806d52_b.jpg?auto=format'}
-              .storyDetails
-                %a{href: '#'}
-                  %h2.storyTitle Civil Rights Investigation in Ferguson Continues
-                %div.storyByline
-                  by
-                  %a.authorLink{href: '#'}
-                    %address.author Jason Chen
-                  %time.publishingTime 03.24.2015
-                %div.storyExcerpt
-                  Comcast and Time Warner Cable, the two largest cable companies operating in the United States, want to merge, and that's a big problem.
-            %article.story
-              %a.storyPictureLinkBox{href: '#'}
-                %figure.storyPVImage
-                  %img.storyImage{src: 'http://imx.dy.cache.fhspost-static.com/9860bef4a9a5ae962d7e0a153579ecd9e301305203e9090d33a11a0342bc801f_Dec-18-2014_8504146027_b575806d52_b.jpg?auto=format'}
-              .storyDetails
-                %a{href: '#'}
-                  %h2.storyTitle Civil Rights Investigation in Ferguson Continues
-                %div.storyByline
-                  by
-                  %a.authorLink{href: '#'}
-                    %address.author Jason Chen
-                  %time.publishingTime 03.24.2015
-                %div.storyExcerpt
-                  Comcast and Time Warner Cable, the two largest cable companies operating in the United States, want to merge, and that's a big problem.
+            = render partial: 'partials/page_stories/generic', collection: @data[:latest], as: :article, cache: true, importance_threshold: 25
           .sibBGroup
             .tabuList
               %header
-                %h4.title Popular Articles
-              .items
-                %article.story
-                  %a.storyPictureLinkBox{href: '#'}
-                    %figure.storyPVImage
-                      %img.storyImage{src: 'http://imx.dy.cache.fhspost-static.com/9860bef4a9a5ae962d7e0a153579ecd9e301305203e9090d33a11a0342bc801f_Dec-18-2014_8504146027_b575806d52_b.jpg?auto=format'}
-                  .storyDetails
-                    %a{href: '#'}
-                      %h2.storyTitle Civil Rights Investigation in Ferguson Continues
-                    %div.storyByline
-                      by
-                      %a.authorLink{href: '#'}
-                        %address.author Jason Chen
-                      %time.publishingTime 03.24.2015
-                    %div.storyExcerpt
-                      Comcast and Time Warner Cable, the two largest cable companies operating in the United States, want to merge, and that's a big problem.
-                %article.story
-                  .storyDetails
-                    %a{href: '#'}
-                      %h2.storyTitle Civil Rights Investigation in Ferguson Continues
-                    %div.storyByline
-                      by
-                      %a.authorLink{href: '#'}
-                        %address.author Jason Chen
-                      %time.publishingTime 03.24.2015
-                    %div.storyExcerpt
-                      Comcast and Time Warner Cable, the two largest cable companies operating in the United States, want to merge, and that's a big problem.
-                %article.story
-                  %a.storyPictureLinkBox{href: '#'}
-                    %figure.storyPVImage
-                      %img.storyImage{src: 'http://imx.dy.cache.fhspost-static.com/9860bef4a9a5ae962d7e0a153579ecd9e301305203e9090d33a11a0342bc801f_Dec-18-2014_8504146027_b575806d52_b.jpg?auto=format'}
-                  .storyDetails
-                    %a{href: '#'}
-                      %h2.storyTitle Civil Rights Investigation in Ferguson Continues
-                    %div.storyByline
-                      by
-                      %a.authorLink{href: '#'}
-                        %address.author Jason Chen
-                      %time.publishingTime 03.24.2015
-                    %div.storyExcerpt
-                      Comcast and Time Warner Cable, the two largest cable companies operating in the United States, want to merge, and that's a big problem.
+                %h4.title Popular Stories
+      - @data[:sections].each_with_index do |section, index|
+        .entrySection.genericSectionBlock
+          %aside.sectionSidebar
+            %h4.title
+              %a{href: "/#{section.slug}"}= section.name
+          .sectionContents
+            .colHalves.columns
+              .leadStory
+                - article = @data[:sections_featured_articles][index]
+                - article_link = link_to_article(article)
+                %article{style: ("background-image: url(#{article.featured_media.link}?fit=crop&w=450&h=300)" if article.featured_media), class: (article.featured_media ? 'overlayedStory' : 'mainStory story'), itemscope: true, itemtype: 'http://schema.org/Article'}
+                  - if article.featured_media
+                    %img{src: article.featured_media.link + '?fit=crop&w=450&h=300', alt: article.featured_media.caption, itemprop: 'thumbnailUrl'}
+                    %a.overlayLink{href: article_link, itemprop: 'url'}
+                    .overlayDetails
+                      %a{href: article_link, itemprop: 'url'}
+                        %h2.storyTitle{itemprop: 'headline'}= article.headline
+                      .storyByline
+                        by
+                        .authors= raw article.formatted_writers_names
+                        %time.publishingTime{datetime: article.published_at, itemprop: 'datePublished'}= publishing_time(article.published_at)
+                  - else
+                    .storyDetails
+                      %a{href: article_link, itemprop: 'url'}
+                        %h2.storyTitle.em{itemprop: 'headline'}= article.headline
+                      .storyByline
+                        by
+                        .authors= raw article.formatted_writers_names
+                        %time.publishingTime{datetime: article.published_at, itemprop: 'datePublished'}= publishing_time(article.published_at)
+                      .storyExcerpt
+                        %p{itemprop: 'description'}= raw article.summary
+              .tabuList
+                %header
+                  %h4.title
+                    Latest in
+                    %span.sectionName= section.short_name
+                .items
+                  - @data[:sections_latest_articles][index].each do |article|
+                    %article.story{itemscope: true, itemtype: 'http://schema.org/Article'}
+                      %a{href: link_to_article(article), itemprop: 'url'}
+                        %h2.storyTitle{itemprop: 'headline'}= article.headline

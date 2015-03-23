@@ -1,0 +1,36 @@
+.mainVisual
+{
+  max-width: 770px;
+
+  .slideshow.inline
+  {
+    margin-left: 0;
+    width: auto;
+    border-top: none;
+
+    header
+    {
+      display: none;
+    }
+
+    .contents
+    {
+      padding-top: 0;
+    }
+
+    .currentSlide
+    {
+      height: 500px;
+    }
+  }
+
+  &.right
+  {
+    float: right;
+  }
+
+  &.leftContent
+  {
+    margin-left: 25px;
+  }
+}

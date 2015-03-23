@@ -3,7 +3,7 @@ json.results do
     json.id r.id
     json.title r.headline
     json.additional_info do
-      json.writer_name r.writer_name
+
     end
   end
 end

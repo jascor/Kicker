@@ -3,9 +3,11 @@
 =end
 
 class Medium < BaseModel
-  has_many :media_collection_contents
+  has_many :media_collection_contents, dependent: :destroy
 
   after_update :check_for_no_longer_pending
+
+  after_destroy :fix_articles_after_medium_destroy
 
   private
 
@@ -15,5 +17,9 @@ class Medium < BaseModel
         self.update({pending_initial_edit: false})
       end
     end
+  end
+
+  def fix_articles_after_medium_destroy
+    FixArticlesAfterMediaDestroy.new.async.perform(self.id)
   end
 end

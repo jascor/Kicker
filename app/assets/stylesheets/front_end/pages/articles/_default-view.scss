@@ -1,3 +1,15 @@
+#pageContent
+{
+  &.articleView
+  {
+    @include breakpoint($breakpoint--defaultContentViewPadding)
+    {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+  }
+}
+
 .fullArticle
 {
   font-family: 'freight-text-pro', serif;
@@ -17,12 +29,19 @@
       .section
       {
         font-weight: 700;
-        font-size: 0.9em;
+        font-size: 0.8em;
+        text-transform: uppercase;
         margin-bottom: 30px;
 
         > a
         {
+          color: #000;
           text-decoration: none;
+
+          &:hover
+          {
+            text-decoration: underline;
+          }
         }
       }
 
@@ -36,21 +55,14 @@
 
     .byline
     {
-      font-size: 0.8em;
+      font-size: 0.7em;
       margin-top: 15px;
       margin-bottom: 25px;
 
-      > *
+      time
       {
-        display: inline-block;
-      }
-
-      > .authors
-      {
-        > a
-        {
-          text-decoration: none;
-        }
+        margin-left: 10px;
+        text-transform: uppercase;
       }
     }
 
@@ -66,7 +78,7 @@
 
       > *
       {
-        max-width: 810px;
+        max-width: 100%;
       }
 
       .caption
@@ -90,8 +102,7 @@
       > p
       {
         margin-bottom: 20px;
-        margin-left: 150px;
-        width: 660px;
+        max-width: 770px;
 
         &:last-of-type
         {
@@ -115,6 +126,40 @@
           font-size: 1.4em;
         }
       }
+    }
+  }
+
+  .slideshow.inline
+  {
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    margin-bottom: 20px;
+    width: 770px;
+
+    > header
+    {
+      padding-top: 5px;
+      padding-bottom: 20px;
+    }
+  }
+
+  .visual
+  {
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    clear: both;
+
+    &.inline
+    {
+      width: 770px;
+    }
+
+    img
+    {
+      width: 100%;
     }
   }
 }

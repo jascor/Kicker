@@ -1,0 +1,11 @@
+#contentContainer
+  %main#main.full
+    #pageContent.full
+      %article.feature{itemscope: true, itemtype: 'http://schema.org/Article'}
+        %header.featureHeader{style: "background-image: url('#{@data[:article].featured_media.link}');"}
+          %h1{itemtype: 'headline'}= @data[:article].headline
+          .byline
+            by
+            .authors= raw @data[:article].formatted_writers_names
+            %time.publishingTime{datetime: @data[:article].published_at, itemtype: 'datePublished'}= publishing_time(@data[:article].published_at)
+        .featureBody.clear{itemtype: 'articleBody'}= raw @data[:article].contents

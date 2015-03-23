@@ -1,0 +1,40 @@
+- if @data[:query]
+  - set_title('Search: ' + @data[:query] + ' | The Franklin Post')
+- else
+  - set_title('Search | The Franklin Post')
+
+#contentContainer
+  %main#main
+    %h1#sectionTitle
+      - if @data[:query]
+        Search:
+        %span.searchQuery= @data[:query]
+      - else
+        Search
+    #pageContent
+      = form_tag('/search', method: :get, id: 'searchForm') do
+        = text_field_tag('q', (@data[:query] || nil), placeholder: 'Search Query', id: 'searchBox')
+        = button_tag('', id: 'submitSearch') do
+          %i.fa.fa-search
+      - if @data[:results]
+        .pagedResultsList
+          - @data[:results].each do |result|
+            - if !result.published || result.private
+              - next
+            %article.pagedResult
+              .resultBody
+                %header
+                  %a{href: short_link_to_article(result.id)}
+                    %h3= result.headline
+                  .byline
+                    %time.publishingTime{datetime: result.published_at}= publishing_time(result.published_at)
+                .resultExcerpt
+                  %p= raw result.summary
+        - if @data[:results].total_pages > 1
+          %nav.pagination.clear
+            - if @data[:current_page] > 1
+              .previous.paginationNavBtn
+                %a{href: "/search?q=#{CGI.escape(@data[:query])}&p=#{@data[:current_page] - 1}"} Previous Page
+            - if @data[:current_page] < @data[:results].total_pages
+              .next.paginationNavBtn
+                %a{href: "/search?q=#{CGI.escape(@data[:query])}&p=#{@data[:current_page] + 1}"} Next Page

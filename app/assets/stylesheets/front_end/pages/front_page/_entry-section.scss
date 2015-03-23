@@ -1,0 +1,49 @@
+.entrySection
+{
+  border-top: 1px solid #E6E6E6;
+  margin-top: 25px;
+  position: relative;
+
+  > .sectionSidebar
+  {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E6E6E6;
+    //position: absolute;
+    //top: 0;
+    //left: 0;
+    //width: 250px;
+    //height: 100%;
+    //margin-top: 7.5px;
+    //border-right: 1px solid #E6E6E6;
+
+    > .title
+    {
+      font-size: 1.8em;
+      font-family: 'proxima-nova', sans-serif;
+      font-weight: 800;
+
+      > a
+      {
+        text-decoration: none;
+        color: #000;
+
+        &:hover
+        {
+          color: #666;
+        }
+
+        @include transition(color ease 0.25s);
+      }
+    }
+  }
+
+  > .sectionContents
+  {
+    //margin-left: 250px;
+    margin-top: 20px;
+    //padding-left: $universalPadding;
+    min-height: 50px;
+  }
+}

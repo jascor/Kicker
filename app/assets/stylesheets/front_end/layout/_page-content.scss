@@ -4,4 +4,10 @@
   padding: $universalPadding;
   background: #FFF;
   max-width: $breakpoint--maxPageContent;
+
+  &.full
+  {
+    max-width: none;
+    padding: 0;
+  }
 }

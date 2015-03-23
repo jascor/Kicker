@@ -8,6 +8,7 @@ Rails.application.config.assets.precompile += %w( kicker_universal.css )
 Rails.application.config.assets.precompile += %w( staff/kicker_staff.css )
 Rails.application.config.assets.precompile += %w( staff/kicker_staff.js )
 Rails.application.config.assets.precompile += %w( front_end/kicker_fe.js )
+Rails.application.config.assets.precompile += %w( front_end/libraries/modernizr.js )
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.

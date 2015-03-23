@@ -1,0 +1,30 @@
+#menuContainer
+{
+  position: fixed;
+  top: 0;
+  left: -250px;
+  height: 100%;
+  width: 250px;
+  background: #F9F9F9;
+  z-index: 1300;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  //-ms-overflow-style: -ms-autohiding-scrollbar;
+/*
+  &::-webkit-scrollbar
+  {
+    display: none;
+  }*/
+
+  //@include translateX(-250px);
+  @include transition(all ease 0.5s);
+}
+
+body.menu
+{
+  #menuContainer
+  {
+    left: 0;
+    //@include translateX(0);
+  }
+}

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150311043803) do
+ActiveRecord::Schema.define(version: 20150323160219) do
 
   create_table "article_tags", force: :cascade do |t|
     t.integer  "tag_id",     limit: 4
@@ -31,25 +31,28 @@ ActiveRecord::Schema.define(version: 20150311043803) do
   end
 
   create_table "articles", force: :cascade do |t|
-    t.integer  "user_id",           limit: 4
-    t.integer  "featured_media_id", limit: 4
-    t.integer  "article_type_id",   limit: 4
-    t.integer  "section_id",        limit: 4
-    t.integer  "subsection_id",     limit: 4
-    t.boolean  "published",         limit: 1,     default: false
-    t.boolean  "private",           limit: 1,     default: true
-    t.boolean  "disable_comments",  limit: 1,     default: false
-    t.string   "writer_name",       limit: 255
-    t.string   "raw_writer_name",   limit: 255
-    t.string   "headline",          limit: 255
-    t.string   "subheading",        limit: 255
-    t.text     "summary",           limit: 65535
-    t.text     "contents",          limit: 65535
-    t.text     "raw_contents",      limit: 65535
-    t.string   "slug",              limit: 255
+    t.integer  "user_id",                      limit: 4
+    t.integer  "article_type_id",              limit: 4
+    t.integer  "section_id",                   limit: 4
+    t.integer  "featured_media_id",            limit: 4
+    t.integer  "score",                        limit: 4
+    t.integer  "importance",                   limit: 4
+    t.boolean  "featured_media_is_collection", limit: 1,     default: false
+    t.boolean  "published",                    limit: 1,     default: false
+    t.boolean  "private",                      limit: 1,     default: false
+    t.boolean  "disable_comments",             limit: 1,     default: false
+    t.string   "headline",                     limit: 255
+    t.string   "subheading",                   limit: 255
+    t.text     "summary",                      limit: 65535
+    t.text     "contents",                     limit: 65535
+    t.text     "raw_contents",                 limit: 65535
+    t.text     "raw_sass",                     limit: 65535
+    t.text     "custom_sass",                  limit: 65535
+    t.string   "slug",                         limit: 255
     t.datetime "published_at"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "formatted_writers_names",      limit: 65535
   end
 
   create_table "media", force: :cascade do |t|
@@ -60,12 +63,19 @@ ActiveRecord::Schema.define(version: 20150311043803) do
     t.string   "credit",               limit: 255
     t.string   "mime_type",            limit: 255
     t.string   "s3_key",               limit: 255
+    t.string   "one_to_one_crop",      limit: 255
+    t.string   "three_to_two_crop",    limit: 255
+    t.string   "four_to_three_crop",   limit: 255
+    t.string   "sixteen_to_nine_crop", limit: 255
+    t.integer  "image_width",          limit: 4
+    t.integer  "image_height",         limit: 4
     t.text     "link",                 limit: 65535
     t.text     "secure_link",          limit: 65535
     t.text     "caption",              limit: 65535
     t.datetime "created_at",                                        null: false
     t.datetime "updated_at",                                        null: false
     t.boolean  "pending_initial_edit", limit: 1,     default: true
+    t.boolean  "watermark",            limit: 1
   end
 
   create_table "media_collection_contents", force: :cascade do |t|
@@ -79,12 +89,10 @@ ActiveRecord::Schema.define(version: 20150311043803) do
   end
 
   create_table "media_collections", force: :cascade do |t|
-    t.string   "title",            limit: 255
-    t.string   "raw_creator_name", limit: 255
-    t.string   "creator_name",     limit: 255
-    t.text     "description",      limit: 65535
-    t.datetime "created_at",                     null: false
-    t.datetime "updated_at",                     null: false
+    t.string   "title",       limit: 255
+    t.text     "description", limit: 65535
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
   end
 
   create_table "section_page_section_contents", force: :cascade do |t|
@@ -122,6 +130,7 @@ ActiveRecord::Schema.define(version: 20150311043803) do
 
   create_table "sections", force: :cascade do |t|
     t.string   "name",       limit: 255
+    t.string   "short_name", limit: 255
     t.string   "slug",       limit: 255
     t.string   "fa_icon",    limit: 255
     t.boolean  "private",    limit: 1
@@ -152,12 +161,17 @@ ActiveRecord::Schema.define(version: 20150311043803) do
     t.datetime "confirmed_at"
     t.datetime "confirmation_sent_at"
     t.string   "unconfirmed_email",      limit: 255
-    t.string   "first_name",             limit: 255
-    t.string   "last_name",              limit: 255
+    t.string   "name",                   limit: 255
+    t.string   "nickname",               limit: 255
+    t.string   "image",                  limit: 255
     t.string   "email",                  limit: 255
     t.text     "tokens",                 limit: 65535
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "username",               limit: 255
+    t.string   "first_name",             limit: 255
+    t.string   "last_name",              limit: 255
+    t.boolean  "staff",                  limit: 1
   end
 
   add_index "users", ["email"], name: "index_users_on_email", using: :btree
@@ -173,6 +187,7 @@ ActiveRecord::Schema.define(version: 20150311043803) do
 
   create_table "writers", force: :cascade do |t|
     t.string   "name",       limit: 255
+    t.string   "slug",       limit: 255
     t.datetime "created_at",             null: false
     t.datetime "updated_at",             null: false
   end

@@ -1,0 +1,53 @@
+- set_title(@data[:section].name + ' | The Franklin Post')
+
+#contentContainer
+  %main#main
+    %h1#sectionTitle= @data[:section].name
+    #pageContent
+      #sectionLead
+        #sectionFeaturedContent.col4A3B3.columns.ge3
+          .mastGroup
+            - importance_threshold = 25
+            - @data[:featured].each_with_index do |article, index|
+              %article.story{class: "#{('mainStory' if index == 0)} #{('large' if index == 0 || article.importance > importance_threshold)}", itemscope: true, itemtype: 'http://schema.org/Article'}
+                - if article.has_featured_media?
+                  - if article.featured_media_is_collection?
+                  - else
+                    %a.storyPictureLinkBox{href: link_to_article(article), itemtype: 'url'}
+                      %figure.storyPVImage{class: "#{('large' if index == 0 || article.importance > importance_threshold)}"}
+                        %img.storyImage{class: "#{('largeStoryImage' if index == 0 || article.importance > importance_threshold)}", src: article.featured_media.link, alt: article.featured_media.caption, itemtype: 'thumbnailUrl'}
+                .storyDetails
+                  %a{href: link_to_article(article), itemtype: 'url'}
+                    %h2.storyTitle{class: "#{('em' if index == 0 || article.importance > importance_threshold)}", itemtype: 'headline'}= article.headline
+                  .storyByline
+                    by
+                    .authors= raw article.formatted_writers_names
+                    %time.publishingTime{datetime: article.published_at, itemtype: 'datePublished'}= publishing_time(article.published_at)
+                  .storyExcerpt
+                    %p{itemtype: 'description'}= raw article.summary
+          .sibAGroup
+            - importance_threshold = 25
+            - @data[:latest].each do |article|
+              %article.story{class: "#{('clear' if article.has_featured_media?)} #{'large' if article.importance > importance_threshold}", itemscope: true, itemtype: 'http//schema.org/Article'}
+                - if article.has_featured_media?
+                  - if article.featured_media_is_collection?
+                  - else
+                    %a.storyPictureLinkBox{href: link_to_article(article), itemprop: 'url'}
+                      %figure.storyPVImage{class: "#{'large' if article.importance > importance_threshold}"}
+                        %img.storyImage{class: "#{'large' if article.importance > importance_threshold}", src: article.get_featured_media.link, alt: article.get_featured_media.caption, itemprop: 'thumbnailUrl'}
+                .storyDetails
+                  %a{href: link_to_article(article), itemprop: 'url'}
+                    %h2.storyTitle{itemprop: 'headline'}= article.headline
+                  .storyByline
+                    by
+                    .authors= raw article.formatted_writers_names
+                    %time.publishingTime{datetime: article.published_at, itemprop: 'datePublished'}= publishing_time(article.published_at)
+                  .storyExcerpt
+                    %p{itemprop: 'description'}= raw article.summary
+          .sibBGroup
+            .tabuList
+              %header
+                %h4.title Popular News
+              .items
+      .moreFromSection
+        %a{href: "/#{@data[:section].slug}/1"}= "More #{@data[:section].short_name}"

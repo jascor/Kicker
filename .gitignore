@@ -24,4 +24,7 @@ dump.rdb
 # Ignore RubyMine/IntelliJ
 /.idea
 
-config/database.yml
+node_modules
+
+lib/assets/bower_components
+

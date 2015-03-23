@@ -1,7 +1,13 @@
 module Staff
   class MediaController < StaffController
+    before_action :authenticate_user!
+
     def index
-      @media = Medium.all
+      page = (params[:page] || 1).to_i
+
+      per_page = (params[:per_page] || 15).to_i
+
+      @media = Medium.order(created_at: :desc).page(page).per(per_page)
 
       render 'many'
     end

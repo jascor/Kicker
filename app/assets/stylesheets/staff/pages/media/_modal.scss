@@ -1,0 +1,21 @@
+.insertImagesFromModal
+{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1;
+}
+
+.modalMediaLibrary
+{
+  .matDesignBoxContainer
+  {
+    @include display-flexbox;
+    @include align-items(flex-start);
+    @include justify-content(flex-start);
+    @include flex-wrap(wrap);
+    @include flex-direction(row);
+    @include flex-flow(row wrap);
+    @include align-content(flex-start);
+  }
+}

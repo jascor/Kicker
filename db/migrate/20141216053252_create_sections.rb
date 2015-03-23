@@ -2,6 +2,7 @@ class CreateSections < ActiveRecord::Migration
   def change
     create_table :sections do |t|
       t.string :name
+      t.string :short_name
       t.string :slug
       t.string :fa_icon
       t.boolean :private

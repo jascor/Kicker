@@ -1,0 +1,18 @@
+- importance_threshold = (defined? importance_thresh ? importance_thresh : 25).to_i
+%article.story{class: "#{('mainStory' if article_counter == 0)} #{('large' if article_counter == 0 || article.importance > importance_threshold)} #{('clear' if article.has_featured_media?)}", itemscope: true, itemtype: 'http://schema.org/Article'}
+  - if article.has_featured_media?
+    - if article.featured_media_is_collection?
+    - else
+      %a.storyPictureLinkBox{href: link_to_article(article), itemprop: 'url'}
+        %figure.storyPVImage{class: "#{('large' if article_counter == 0 || article.importance > importance_threshold)}"}
+          - is_important = (article_counter == 0 || article.importance > importance_threshold)
+          %img.storyImage{class: "#{('largeStoryImage' if is_important)}", src: article.featured_media.link + (is_important ? '?fit=crop&w=470&h=300' : '?fit=crop&w=100&h=100'), alt: article.featured_media.caption, itemprop: 'thumbnailUrl'}
+  .storyDetails
+    %a{href: link_to_article(article), itemprop: 'url'}
+      %h2.storyTitle{class: "#{('em' if article_counter == 0 || article.importance > importance_threshold)}", itemprop: 'headline'}= article.headline
+    .storyByline
+      by
+      .authors= raw article.formatted_writers_names
+      %time.publishingTime{datetime: article.published_at, itemprop: 'datePublished'}= publishing_time(article.published_at)
+    .storyExcerpt
+      %p{itemprop: 'description'}= raw article.summary

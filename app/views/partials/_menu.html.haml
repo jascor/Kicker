@@ -1,0 +1,11 @@
+#menuContainer
+  %aside#menu
+    %nav#mainNav
+      = render partial: 'partials/menu/nav-section', collection: @data[:sections], as: :section, cache: true
+    .socialMedia
+      .navItem#navFacebook
+        %a{href: 'https://www.facebook.com/fhspost', target: '_blank'}
+          %h4.title Like us on Facebook!
+      .navItem#navTwitter
+        %a{href: 'https://twitter.com/fhspost', target: '_blank'}
+          %h4.title Follow our Twitter!
