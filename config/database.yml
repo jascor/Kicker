@@ -14,4 +14,4 @@ production:
   username: <%= ENV['DB_USER'] %>
   password: <%= ENV['DB_PASS'] %>
   database: <%= ENV['DB_NAME'] %>
-  socket: <%= ENV['DB_SOCKET'] %>
+  host: <%= ENV['DB_HOST'] %>
