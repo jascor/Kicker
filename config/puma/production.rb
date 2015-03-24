@@ -2,9 +2,9 @@ environment 'production'
 
 bind 'unix:///tmp/fhspost-prod.sock'
 
-threads 16,32
+threads 8,32
 
-workers 4
+workers 2
 
 daemonize
 
