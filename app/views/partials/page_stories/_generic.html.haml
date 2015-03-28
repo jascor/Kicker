@@ -1,4 +1,3 @@
-- importance_threshold = (defined? importance_thresh ? importance_thresh : 25).to_i
 %article.story{class: ('clear' if article.has_featured_media?), itemscope: true, itemtype: 'http://schema.org/Article'}
   - if article.has_featured_media?
     - if article.featured_media_is_collection?

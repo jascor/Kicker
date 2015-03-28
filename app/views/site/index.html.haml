@@ -21,7 +21,7 @@
           .mastGroup
             = render partial: 'partials/page_stories/generic-mast-group', collection: @data[:featured], as: :article, cache: true, importance_threshold: 25
           .sibAGroup
-            = render partial: 'partials/page_stories/generic', collection: @data[:latest], as: :article, cache: true, importance_threshold: 25
+            = render partial: 'partials/page_stories/generic', collection: @data[:latest], as: :article, cache: true
           .sibBGroup
             .tabuList
               %header

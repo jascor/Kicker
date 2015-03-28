@@ -155,6 +155,7 @@ class Article < ActiveRecord::Base
     Rails.cache.delete([self.class.name, slug])
     Rails.cache.delete([self.class.name, 'latest'])
     Rails.cache.delete([self.class.name, 'latestFor_' + self.section.name]) if self.section
+    Rails.cache.delete([Section.name, self.section.name + '_latest']) if self.section
     Rails.cache.delete([self.class.name, 'mostImportantPublished'])
     Rails.cache.delete([self.class.name, 'mostImportantPublishedFor_' + self.section.name]) if self.section
 

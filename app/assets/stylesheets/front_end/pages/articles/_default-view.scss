@@ -110,26 +110,6 @@
         }
       }
     }
-
-    .comments
-    {
-      margin-top: 20px;
-      padding-bottom: 20px;
-      border-bottom: 1px solid #E6E6E6;
-
-      > header
-      {
-        border-bottom: 1px solid #E6E6E6;
-        padding-bottom: 15px;
-
-        > .title
-        {
-          font-family: 'proxima-nova', sans-serif;
-          font-weight: 800;
-          font-size: 1.4em;
-        }
-      }
-    }
   }
 
   .slideshow.inline
@@ -182,8 +162,109 @@
   }
 }
 
-.commentsBlock
+.articlePageBlock
 {
-  max-width: 770px;
   margin-top: 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E6E6E6;
+  max-width: 770px;
+
+  &.readMore
+  {
+    .blockContents
+    {
+      > .singleRow
+      {
+        border-bottom: 1px solid #E6E6E6;
+        padding-top: 15px;
+
+        &:first-of-type
+        {
+          padding-top: 0;
+
+          > article
+          {
+            &:last-of-type
+            {
+              padding-bottom: 20px;
+            }
+          }
+        }
+
+        &:last-of-type
+        {
+          border-bottom: none;
+          padding-bottom: none;
+        }
+
+        > article
+        {
+          &:last-of-type
+          {
+            padding-bottom: 0;
+          }
+        }
+      }
+
+      @include breakpoint($breakpoint--defaultArticleViewReadMoreArticlesSplitToGrid)
+      {
+        > .singleRow
+        {
+          background: url(image-path('light-border-line.gif')) repeat-y 50% 0;
+          padding-bottom: 15px;
+
+          > article
+          {
+            width: 50%;
+            display: inline-block;
+            vertical-align: top;
+            padding-top: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+
+            &:first-of-type
+            {
+              padding-right: 10px;
+            }
+
+            &:last-of-type
+            {
+              margin-left: -4px;
+              padding-left: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    a
+    {
+      color: #FF0000;
+
+      &:hover
+      {
+        color: #FF6666;
+      }
+
+      @include transition(color ease 0.5s);
+    }
+  }
+
+  > header
+  {
+    border-bottom: 1px solid #E6E6E6;
+    padding-bottom: 15px;
+
+    > .title
+    {
+      font-family: 'proxima-nova', sans-serif;
+      font-weight: 800;
+      font-size: 1.4em;
+    }
+  }
+
+  > .blockContents
+  {
+    margin-top: 15px;
+  }
 }

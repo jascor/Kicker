@@ -10,6 +10,8 @@ class ArticlesController < ApplicationController
 
     @data[:sections] = Section.all
 
+    @data[:read_more] = @data[:article].section.latest(4)
+
     @data[:custom_css] = @data[:article].custom_sass
 
     section_ids_concat = @data[:sections].map(&:cache_key).join(' ')

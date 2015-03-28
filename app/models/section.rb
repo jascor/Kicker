@@ -18,12 +18,17 @@ class Section < ActiveRecord::Base
     Rails.cache.fetch([name, 'all']) { all }
   end
 
+  def latest(limit)
+    Rails.cache.fetch([self.class.name, self.name + '_latest']) { Article.where(section_id: self.id).take(limit) }
+  end
+
   def self.find_cached_by_slug(slug)
     Rails.cache.fetch([name, slug]) { find_by_slug!(slug) }
   end
 
   def remove_stale_cache
     Rails.cache.delete([self.class.name, slug])
+    Rails.cache.delete([self.class.name, self.name + '_latest'])
 
     Fastly::purge_key(cache_key)
   end

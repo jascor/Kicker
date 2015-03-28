@@ -24,8 +24,25 @@
                 %p.caption= @data[:article].featured_media.caption
                 %span.credit= @data[:article].featured_media.credit
           = raw @data[:article].contents
-        %section.comments
+        %section.comments.articlePageBlock
           %header
             %h4.title Comments
-          .commentsBlock
+          .commentsBlock.blockContents
             = render partial: 'components/disqus', locals: { id: @data[:article].id, title: @data[:article].headline }
+      - if @data[:read_more].length
+        - number_of_articles = @data[:read_more].length
+        %section.articlePageBlock.readMore
+          %header
+            %h4.title
+              More
+              %a{href: "/#{@data[:article].section.slug}"}= @data[:article].section.short_name
+              Stories
+          .blockContents.clear
+            - if number_of_articles < 3
+              .singleRow.noBoundary
+                = render partial: 'partials/page_stories/generic', collection: @data[:read_more][0..number_of_articles], as: :article, cache: true
+            - else
+              .singleRow
+                = render partial: 'partials/page_stories/generic', collection: @data[:read_more][0..1], as: :article, cache: true
+              .singleRow
+                = render partial: 'partials/page_stories/generic', collection: @data[:read_more][2..number_of_articles], as: :article, cache: true
