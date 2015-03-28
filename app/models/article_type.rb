@@ -1,6 +1,6 @@
 require 'fileutils'
 
-class ArticleType < BaseModel
+class ArticleType < ActiveRecord::Base
   include SanitizationHelper
 
   has_many :articles

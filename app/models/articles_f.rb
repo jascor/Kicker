@@ -1,3 +1,0 @@
-class ArticlesF < BaseModel
-
-end

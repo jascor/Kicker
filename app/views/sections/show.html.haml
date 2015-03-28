@@ -47,7 +47,7 @@
           .sibBGroup
             .tabuList
               %header
-                %h4.title Popular News
+                %h4.title= "Popular in #{@data[:section].short_name}"
               .items
       .moreFromSection
         %a{href: "/#{@data[:section].slug}/1"}= "More #{@data[:section].short_name}"

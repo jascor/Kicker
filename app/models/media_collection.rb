@@ -4,7 +4,7 @@
   of related media content.
 =end
 
-class MediaCollection < BaseModel
+class MediaCollection < ActiveRecord::Base
   has_many :media_collection_contents, dependent: :destroy
 
   after_destroy :fix_articles_after_collection_destroy

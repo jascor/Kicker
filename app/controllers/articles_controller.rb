@@ -16,6 +16,11 @@ class ArticlesController < ApplicationController
 
     response.headers['Surrogate-Key'] = "#{@data[:article].cache_key} #{section_ids_concat}"
 
+    @data[:add_this_config] = {
+        url: @data[:article].short_url,
+        title: @data[:article].headline + ' | The Franklin Post'
+    }
+
     unless @data[:article].article_type.nil?
       render @data[:article].article_type.layout_file_location
     end

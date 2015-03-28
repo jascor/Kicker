@@ -12,7 +12,7 @@
   @todo Document all valid content sections
 =end
 
-class SectionPageSection < BaseModel
+class SectionPageSection < ActiveRecord::Base
   belongs_to :section
 
   has_many :section_page_section_contents

@@ -1,4 +1,4 @@
-class Section < BaseModel
+class Section < ActiveRecord::Base
   include SanitizationHelper
   #include Cacheable
 

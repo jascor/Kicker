@@ -1,4 +1,4 @@
-class Article < BaseModel
+class Article < ActiveRecord::Base
   include SanitizationHelper
   include Elasticsearch::Model
   include Elasticsearch::Model::Callbacks
@@ -22,6 +22,7 @@ class Article < BaseModel
   after_save :published_timestamp_if_pubbed
   after_save :create_summary_if_nil, if: :published?
   after_save :render_custom_sass_to_css
+  after_save :create_short_link
   after_save :update_formatted_writers_names, if: :published?
 
   after_save :remove_stale_cache, if: :published_and_public?
@@ -163,6 +164,26 @@ class Article < BaseModel
 
   def cache_key
     "#{self.class.name}/#{id}"
+  end
+
+  def link_path
+    "/#{section.name}/#{self.slug}"
+  end
+
+  def full_link
+    "http://www.fhspost.com#{link_path}"
+  end
+
+  def create_short_link
+    if published_and_public? && short_url.nil?
+      begin
+        short_link = Bitly.new.shorten_url(self.full_link)
+
+        update_columns(short_url: short_link)
+      rescue Bitly.const_get('BitlyAPIError')
+        nil
+      end
+    end
   end
 
   private

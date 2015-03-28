@@ -2,7 +2,7 @@
   This model actually represents media content.
 =end
 
-class Medium < BaseModel
+class Medium < ActiveRecord::Base
   has_many :media_collection_contents, dependent: :destroy
 
   after_update :check_for_no_longer_pending

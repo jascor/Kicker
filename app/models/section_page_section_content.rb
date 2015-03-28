@@ -5,7 +5,7 @@
   such as image slideshows and videos.
 =end
 
-class SectionPageSectionContent < BaseModel
+class SectionPageSectionContent < ActiveRecord::Base
   belongs_to :section_page_section
   belongs_to :article
   belongs_to :media_collection
