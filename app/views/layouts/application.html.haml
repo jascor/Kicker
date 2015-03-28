@@ -103,8 +103,8 @@
       - addthis_config = @data[:add_this_config]
       :javascript
         var addthis_share = {
-          url: #{addthis_config[:url]},
-          title: #{addthis_config[:title]}
+          url: '#{addthis_config[:url]}',
+          title: '#{addthis_config[:title]}'
         };
 
     = javascript_include_tag 'front_end/kicker_fe', 'data-turbolinks-track' => true
