@@ -168,7 +168,7 @@ class Article < ActiveRecord::Base
   end
 
   def link_path
-    "/#{section.name}/#{self.slug}"
+    "/#{section.slug}/#{self.slug}"
   end
 
   def full_link
