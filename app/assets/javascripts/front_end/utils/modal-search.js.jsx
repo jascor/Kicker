@@ -1,18 +1,21 @@
 var openSearchButton = document.getElementById('openSearch');
 
-openSearchButton.addEventListener('click', function(e)
+if (openSearchButton)
 {
-    if (e.preventDefault)
+    openSearchButton.addEventListener('click', function(e)
     {
-        e.preventDefault();
-    }
-    else
-    {
-        this.returnValue = false;
-    }
+        if (e.preventDefault)
+        {
+            e.preventDefault();
+        }
+        else
+        {
+            this.returnValue = false;
+        }
 
-    React.render(
-        <FullScreenSearchBox />,
-        document.getElementById('modalOutlet')
-    );
-});
+        React.render(
+            <FullScreenSearchBox />,
+            document.getElementById('modalOutlet')
+        );
+    });
+}

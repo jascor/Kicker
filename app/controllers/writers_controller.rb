@@ -8,7 +8,7 @@ class WritersController < ApplicationController
 
     @data[:current_page] = (params[:page] || 1).to_i
 
-    @data[:paginated_articles] = WriterArticle.includes(article: [:section, { writers: :writer }, :featured_media, { featured_media_collection: { media_collection_contents: :medium } }]).where(writer_id: @data[:writer].id).page(@data[:current_page]).per(15)
+    @data[:paginated_articles] = WriterArticle.includes(article: [:section, { writers: :writer }, :featured_media, { featured_media_collection: { media_collection_contents: :medium } }]).order(published_at: :desc).where(writer_id: @data[:writer].id).where.not(published_at: nil).page(@data[:current_page]).per(15)
 
     section_ids_concat = @data[:sections].map(&:cache_key).join(' ')
     article_ids_concat = @data[:paginated_articles].map(&:cache_key).join(' ')

@@ -5,6 +5,9 @@
 
 #contentContainer
   %main#main
+    #pageContent
+      %span.notice{style: 'display:block;text-align:center;font-family:"proxima-nova",sans-serif;font-weight:500;font-size:1.8em;'} Search functionality is currently unavailable.
+  -#%main#main
     %h1#sectionTitle
       - if @data[:query]
         Search:

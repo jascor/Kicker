@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150328083809) do
+ActiveRecord::Schema.define(version: 20150330235705) do
 
   create_table "article_tags", force: :cascade do |t|
     t.integer  "tag_id",     limit: 4
@@ -36,7 +36,7 @@ ActiveRecord::Schema.define(version: 20150328083809) do
     t.integer  "section_id",                   limit: 4
     t.integer  "featured_media_id",            limit: 4
     t.integer  "score",                        limit: 4
-    t.integer  "importance",                   limit: 4
+    t.integer  "importance",                   limit: 4,     default: 0
     t.boolean  "featured_media_is_collection", limit: 1,     default: false
     t.boolean  "published",                    limit: 1,     default: false
     t.boolean  "private",                      limit: 1,     default: false
@@ -180,10 +180,11 @@ ActiveRecord::Schema.define(version: 20150328083809) do
   add_index "users", ["uid", "provider"], name: "index_users_on_uid_and_provider", unique: true, using: :btree
 
   create_table "writer_articles", force: :cascade do |t|
-    t.integer  "article_id", limit: 4
-    t.integer  "writer_id",  limit: 4
-    t.datetime "created_at",           null: false
-    t.datetime "updated_at",           null: false
+    t.integer  "article_id",   limit: 4
+    t.integer  "writer_id",    limit: 4
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+    t.datetime "published_at"
   end
 
   create_table "writers", force: :cascade do |t|

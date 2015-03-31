@@ -101,6 +101,7 @@ articles:
   - created_at
   - updated_at
   - formatted_writers_names
+  - short_url
   records: 
   - - 8
     - 2
@@ -176,8 +177,10 @@ articles:
     - the-captain-hangs-up-his-cleats-8-20141021-article.html
     - 2014-10-22 04:06:08.000000000 Z
     - 2014-10-22 04:06:08.000000000 Z
-    - 2015-03-19 10:57:16.000000000 Z
-    - <a href="/author/eamonn-hartmann"><address class="author">Eamonn Hartmann</address></a>
+    - 2015-03-29 04:10:38.000000000 Z
+    - <a href="/author/eamonn-hartmann"><address class="author" itemprop="creator">Eamonn
+      Hartmann</address></a>
+    - http://fpo.pw/1FY3NEZ
   - - 9
     - 5
     - 
@@ -284,8 +287,10 @@ articles:
     - five-inch-screens-9-20141021-article.html
     - 2014-10-22 04:06:32.000000000 Z
     - 2014-10-22 04:06:32.000000000 Z
-    - 2015-03-19 10:57:26.000000000 Z
-    - <a href="/author/tucker-cochenour"><address class="author">Tucker Cochenour</address></a>
+    - 2015-03-29 04:10:40.000000000 Z
+    - <a href="/author/tucker-cochenour"><address class="author" itemprop="creator">Tucker
+      Cochenour</address></a>
+    - http://fpo.pw/1FY3Mko
   - - 10
     - 2
     - 
@@ -320,8 +325,10 @@ articles:
     - election-preview-congressmen-governor-ballot-initiatives-vie-for-votes-on-november-4-10-20141021-article.html
     - 2014-10-22 04:13:07.000000000 Z
     - 2014-10-22 04:13:07.000000000 Z
-    - 2015-03-19 10:57:34.000000000 Z
-    - <a href="/author/stevie-mare"><address class="author">Stevie Maré</address></a>
+    - 2015-03-29 04:10:41.000000000 Z
+    - <a href="/author/stevie-mare"><address class="author" itemprop="creator">Stevie
+      Maré</address></a>
+    - http://fpo.pw/1FY3PfS
   - - 11
     - 4
     - 
@@ -430,8 +437,10 @@ articles:
     - swatting-11-20141021-article.html
     - 2014-10-22 04:24:37.000000000 Z
     - 2014-10-22 04:24:37.000000000 Z
-    - 2015-03-23 12:44:59.000000000 Z
-    - <a href="/author/devlin-gillespie"><address class="author">Devlin Gillespie</address></a>
+    - 2015-03-29 04:10:42.000000000 Z
+    - <a href="/author/devlin-gillespie"><address class="author" itemprop="creator">Devlin
+      Gillespie</address></a>
+    - http://fpo.pw/1FY3NVj
   - - 12
     - 6
     - 
@@ -511,8 +520,10 @@ articles:
     - sushi-ichiban-lives-up-to-its-name-12-20141021-article.html
     - 2014-10-22 04:34:55.000000000 Z
     - 2014-10-22 04:34:55.000000000 Z
-    - 2015-03-19 10:57:41.000000000 Z
-    - <a href="/author/morgan-kender"><address class="author">Morgan Kender</address></a>
+    - 2015-03-29 04:10:43.000000000 Z
+    - <a href="/author/morgan-kender"><address class="author" itemprop="creator">Morgan
+      Kender</address></a>
+    - http://fpo.pw/1FY3Pg0
   - - 13
     - 4
     - 
@@ -628,8 +639,10 @@ articles:
     - radical-feminism-13-20141021-article.html
     - 2014-10-22 04:58:06.000000000 Z
     - 2014-10-22 04:58:06.000000000 Z
-    - 2015-03-19 10:57:46.000000000 Z
-    - <a href="/author/berkeley-wheeler"><address class="author">Berkeley Wheeler</address></a>
+    - 2015-03-29 04:10:44.000000000 Z
+    - <a href="/author/berkeley-wheeler"><address class="author" itemprop="creator">Berkeley
+      Wheeler</address></a>
+    - http://fpo.pw/1FY3Pg2
   - - 14
     - 9
     - 
@@ -754,8 +767,10 @@ articles:
     - peoples-climate-march-14-20141022-article.html
     - 2014-10-22 07:01:13.000000000 Z
     - 2014-10-22 07:01:13.000000000 Z
-    - 2015-03-19 10:58:05.000000000 Z
-    - <a href="/author/stevie-mare"><address class="author">Stevie Maré</address></a>
+    - 2015-03-29 04:10:45.000000000 Z
+    - <a href="/author/stevie-mare"><address class="author" itemprop="creator">Stevie
+      Maré</address></a>
+    - http://fpo.pw/1FY3NVx
   - - 15
     - 6
     - 
@@ -830,8 +845,10 @@ articles:
     - diavolo-performance-review-15-20141023-article.html
     - 2014-10-24 03:37:40.000000000 Z
     - 2014-10-24 03:37:40.000000000 Z
-    - 2015-03-23 07:16:38.000000000 Z
-    - <a href="/author/emma-harbison"><address class="author">Emma Harbison</address></a>
+    - 2015-03-29 04:10:46.000000000 Z
+    - <a href="/author/emma-harbison"><address class="author" itemprop="creator">Emma
+      Harbison</address></a>
+    - http://fpo.pw/1FY3ObN
   - - 19
     - 10
     - 
@@ -888,8 +905,10 @@ articles:
     - athlete-spotlight-makennah-kelly-19-20141023-article.html
     - 2014-10-24 03:47:59.000000000 Z
     - 2014-10-24 03:47:59.000000000 Z
-    - 2015-03-19 10:58:15.000000000 Z
-    - <a href="/author/alyx-briscoe"><address class="author">Alyx Briscoe</address></a>
+    - 2015-03-29 04:10:47.000000000 Z
+    - <a href="/author/alyx-briscoe"><address class="author" itemprop="creator">Alyx
+      Briscoe</address></a>
+    - http://fpo.pw/1FY3Pwv
   - - 21
     - 2
     - 
@@ -924,8 +943,10 @@ articles:
     - comcast-and-twc-merger-a-bad-idea-for-americans-21-20141024-article.html
     - 2014-10-24 12:11:58.000000000 Z
     - 2014-10-24 12:11:58.000000000 Z
-    - 2015-03-19 10:58:20.000000000 Z
-    - <a href="/author/jason-chen"><address class="author">Jason Chen</address></a>
+    - 2015-03-29 04:10:49.000000000 Z
+    - <a href="/author/jason-chen"><address class="author" itemprop="creator">Jason
+      Chen</address></a>
+    - http://fpo.pw/1FY3PMR
   - - 22
     - 7
     - 
@@ -1008,8 +1029,10 @@ articles:
     - civil-rights-investigation-in-ferguson-continues-22-20141027-article.html
     - 2014-10-28 00:54:25.000000000 Z
     - 2014-10-28 00:54:25.000000000 Z
-    - 2015-03-19 10:58:24.000000000 Z
-    - <a href="/author/liam-anderson"><address class="author">Liam Anderson</address></a>
+    - 2015-03-29 04:10:50.000000000 Z
+    - <a href="/author/liam-anderson"><address class="author" itemprop="creator">Liam
+      Anderson</address></a>
+    - http://fpo.pw/1FY3PN0
   - - 23
     - 10
     - 
@@ -1093,8 +1116,10 @@ articles:
     - where-are-they-now-23-20141027-article.html
     - 2014-10-28 00:58:50.000000000 Z
     - 2014-10-28 00:58:50.000000000 Z
-    - 2015-03-19 10:58:29.000000000 Z
-    - <a href="/author/delaney-hartmann"><address class="author">Delaney Hartmann</address></a>
+    - 2015-03-29 04:10:51.000000000 Z
+    - <a href="/author/delaney-hartmann"><address class="author" itemprop="creator">Delaney
+      Hartmann</address></a>
+    - http://fpo.pw/1FY3ObW
   - - 24
     - 6
     - 
@@ -1176,8 +1201,10 @@ articles:
     - god-is-disappointed-in-you-24-20141027-article.html
     - 2014-10-28 01:15:31.000000000 Z
     - 2014-10-28 01:15:31.000000000 Z
-    - 2015-03-19 10:58:31.000000000 Z
-    - <a href="/author/berkeley-wheeler"><address class="author">Berkeley Wheeler</address></a>
+    - 2015-03-29 04:10:52.000000000 Z
+    - <a href="/author/berkeley-wheeler"><address class="author" itemprop="creator">Berkeley
+      Wheeler</address></a>
+    - http://fpo.pw/1FY3Osh
   - - 25
     - 6
     - 
@@ -1344,8 +1371,10 @@ articles:
     - 2014-fall-tv-season-25-20141027-article.html
     - 2014-10-28 01:23:05.000000000 Z
     - 2014-10-28 01:23:05.000000000 Z
-    - 2015-03-19 10:58:33.000000000 Z
-    - <a href="/author/olivia-jensen"><address class="author">Olivia Jensen</address></a>
+    - 2015-03-29 04:10:53.000000000 Z
+    - <a href="/author/olivia-jensen"><address class="author" itemprop="creator">Olivia
+      Jensen</address></a>
+    - http://fpo.pw/1FY3PN9
   - - 26
     - 7
     - 
@@ -1423,8 +1452,10 @@ articles:
     - white-house-fence-jumper-26-20141027-article.html
     - 2014-10-28 01:25:38.000000000 Z
     - 2014-10-28 01:25:38.000000000 Z
-    - 2015-03-19 10:58:44.000000000 Z
-    - <a href="/author/liam-anderson"><address class="author">Liam Anderson</address></a>
+    - 2015-03-29 04:10:54.000000000 Z
+    - <a href="/author/liam-anderson"><address class="author" itemprop="creator">Liam
+      Anderson</address></a>
+    - http://fpo.pw/1FY3Oss
   - - 27
     - 5
     - 
@@ -1532,8 +1563,10 @@ articles:
     - classroom-technology-update-27-20141028-article.html
     - 2014-10-29 04:22:03.000000000 Z
     - 2014-10-29 04:22:03.000000000 Z
-    - 2015-03-19 10:58:50.000000000 Z
-    - <a href="/author/stevie-mare"><address class="author">Stevie Maré</address></a>
+    - 2015-03-29 04:10:55.000000000 Z
+    - <a href="/author/stevie-mare"><address class="author" itemprop="creator">Stevie
+      Maré</address></a>
+    - http://fpo.pw/1FY3Q3u
   - - 28
     - 5
     - 
@@ -1606,8 +1639,9 @@ articles:
     - school-abroad-28-20141028-article.html
     - 2014-10-29 04:35:25.000000000 Z
     - 2014-10-29 04:35:25.000000000 Z
-    - 2015-03-19 10:58:53.000000000 Z
-    - <a href="/author/max-hoots"><address class="author">Max Hoots</address></a>
+    - 2015-03-29 04:10:56.000000000 Z
+    - <a href="/author/max-hoots"><address class="author" itemprop="creator">Max Hoots</address></a>
+    - http://fpo.pw/1FY3Osw
   - - 29
     - 9
     - 
@@ -1727,8 +1761,10 @@ articles:
     - pigs-29-20141028-article.html
     - 2014-10-29 05:03:22.000000000 Z
     - 2014-10-29 05:03:22.000000000 Z
-    - 2015-03-19 10:58:58.000000000 Z
-    - <a href="/author/kayla-swanson"><address class="author">Kayla Swanson</address></a>
+    - 2015-03-29 04:10:57.000000000 Z
+    - <a href="/author/kayla-swanson"><address class="author" itemprop="creator">Kayla
+      Swanson</address></a>
+    - http://fpo.pw/1FY3QjU
   - - 30
     - 3
     - 
@@ -1845,8 +1881,10 @@ articles:
     - gold-growth-part-1-30-20141028-article.html
     - 2014-10-29 05:07:52.000000000 Z
     - 2014-10-29 05:07:52.000000000 Z
-    - 2015-03-19 10:59:00.000000000 Z
-    - <a href="/author/luna-koenig"><address class="author">Luna Koenig</address></a>
+    - 2015-03-29 04:10:59.000000000 Z
+    - <a href="/author/luna-koenig"><address class="author" itemprop="creator">Luna
+      Koenig</address></a>
+    - http://fpo.pw/1FY3OIT
   - - 33
     - 5
     - 
@@ -1928,8 +1966,10 @@ articles:
     - fresh-tee-crew-33-20141103-article.html
     - 2014-11-04 02:56:03.000000000 Z
     - 2014-11-04 02:56:03.000000000 Z
-    - 2015-03-19 10:59:04.000000000 Z
-    - <a href="/author/morgan-kender"><address class="author">Morgan Kender</address></a>
+    - 2015-03-29 04:11:00.000000000 Z
+    - <a href="/author/morgan-kender"><address class="author" itemprop="creator">Morgan
+      Kender</address></a>
+    - http://fpo.pw/1FY3OJ1
   - - 35
     - 7
     - 
@@ -1999,8 +2039,10 @@ articles:
     - the-future-of-fhs-announcements-35-20141120-article.html
     - 2014-11-20 23:54:31.000000000 Z
     - 2014-11-20 23:54:31.000000000 Z
-    - 2015-03-19 12:57:27.000000000 Z
-    - <a href="/author/liam-anderson"><address class="author">Liam Anderson</address></a>
+    - 2015-03-29 04:11:01.000000000 Z
+    - <a href="/author/liam-anderson"><address class="author" itemprop="creator">Liam
+      Anderson</address></a>
+    - http://fpo.pw/1FY3QAz
   - - 37
     - 7
     - 
@@ -2068,8 +2110,10 @@ articles:
     - nigerian-girls-abducted-37-20141120-article.html
     - 2014-11-21 00:10:30.000000000 Z
     - 2014-11-21 00:10:30.000000000 Z
-    - 2015-03-19 10:59:14.000000000 Z
-    - <a href="/author/sarah-rose-ezelle"><address class="author">Sarah Rose Ezelle</address></a>
+    - 2015-03-29 04:11:05.000000000 Z
+    - <a href="/author/sarah-rose-ezelle"><address class="author" itemprop="creator">Sarah
+      Rose Ezelle</address></a>
+    - http://fpo.pw/1FY3QAD
   - - 38
     - 4
     - 
@@ -2230,8 +2274,10 @@ articles:
     - the-consequences-of-concussions-38-20141120-article.html
     - 2014-11-21 00:11:34.000000000 Z
     - 2014-11-21 00:11:34.000000000 Z
-    - 2015-03-19 10:59:24.000000000 Z
-    - <a href="/author/erin-ford"><address class="author">Erin Ford</address></a>
+    - 2015-03-29 04:11:06.000000000 Z
+    - <a href="/author/erin-ford"><address class="author" itemprop="creator">Erin
+      Ford</address></a>
+    - http://fpo.pw/1FY3QAH
   - - 39
     - 7
     - 
@@ -2324,8 +2370,10 @@ articles:
     - the-marysville-tragedy-39-20141120-article.html
     - 2014-11-21 00:15:10.000000000 Z
     - 2014-11-21 00:15:10.000000000 Z
-    - 2015-03-19 10:59:36.000000000 Z
-    - <a href="/author/kayla-swanson"><address class="author">Kayla Swanson</address></a>
+    - 2015-03-29 04:11:07.000000000 Z
+    - <a href="/author/kayla-swanson"><address class="author" itemprop="creator">Kayla
+      Swanson</address></a>
+    - http://fpo.pw/1FY3QQZ
   - - 41
     - 7
     - 
@@ -2397,8 +2445,10 @@ articles:
     - supersac-41-20141120-article.html
     - 2014-11-21 00:21:17.000000000 Z
     - 2014-11-21 00:21:17.000000000 Z
-    - 2015-03-19 10:59:54.000000000 Z
-    - <a href="/author/delaney-hartmann"><address class="author">Delaney Hartmann</address></a>
+    - 2015-03-29 04:11:08.000000000 Z
+    - <a href="/author/delaney-hartmann"><address class="author" itemprop="creator">Delaney
+      Hartmann</address></a>
+    - http://fpo.pw/1FY3RUZ
   - - 42
     - 3
     - 
@@ -2499,8 +2549,10 @@ articles:
     - empty-space-42-20141120-article.html
     - 2014-11-21 00:23:38.000000000 Z
     - 2014-11-21 00:23:38.000000000 Z
-    - 2015-03-19 11:00:08.000000000 Z
-    - <a href="/author/annie-phan"><address class="author">Annie Phan</address></a>
+    - 2015-03-29 04:11:09.000000000 Z
+    - <a href="/author/annie-phan"><address class="author" itemprop="creator">Annie
+      Phan</address></a>
+    - http://fpo.pw/1FY3RV5
   - - 43
     - 7
     - 
@@ -2592,8 +2644,10 @@ articles:
     - yemeni-capital-overthrown-43-20141120-article.html
     - 2014-11-21 00:29:35.000000000 Z
     - 2014-11-21 00:29:35.000000000 Z
-    - 2015-03-19 11:00:10.000000000 Z
-    - <a href="/author/erin-ford"><address class="author">Erin Ford</address></a>
+    - 2015-03-29 04:11:10.000000000 Z
+    - <a href="/author/erin-ford"><address class="author" itemprop="creator">Erin
+      Ford</address></a>
+    - http://fpo.pw/1FY3R7u
   - - 44
     - 7
     - 
@@ -2715,10 +2769,12 @@ articles:
     - gamergate-44-20141120-article.html
     - 2014-11-21 00:41:49.000000000 Z
     - 2014-11-21 00:41:49.000000000 Z
-    - 2015-03-19 11:00:13.000000000 Z
-    - <a href="/author/stevie-mare"><address class="author">Stevie Maré</address></a>,
-      <a href="/author/jason-chen"><address class="author">Jason Chen</address></a>,  and
-      <a href="/author/tucker-cochenour"><address class="author">Tucker Cochenour</address></a>
+    - 2015-03-29 04:11:11.000000000 Z
+    - <a href="/author/stevie-mare"><address class="author" itemprop="creator">Stevie
+      Maré</address></a>, <a href="/author/jason-chen"><address class="author" itemprop="creator">Jason
+      Chen</address></a>,  and <a href="/author/tucker-cochenour"><address class="author"
+      itemprop="creator">Tucker Cochenour</address></a>
+    - http://fpo.pw/1FY3R7w
   - - 45
     - 4
     - 
@@ -2824,8 +2880,10 @@ articles:
     - australia-may-silence-more-than-just-whistleblowers-with-new-legislation-45-20141120-article.html
     - 2014-11-21 00:44:49.000000000 Z
     - 2014-11-21 00:44:49.000000000 Z
-    - 2015-03-19 11:00:16.000000000 Z
-    - <a href="/author/tucker-cochenour"><address class="author">Tucker Cochenour</address></a>
+    - 2015-03-29 04:11:12.000000000 Z
+    - <a href="/author/tucker-cochenour"><address class="author" itemprop="creator">Tucker
+      Cochenour</address></a>
+    - http://fpo.pw/1FY3SbA
   - - 46
     - 3
     - 
@@ -2895,8 +2953,10 @@ articles:
     - anti-inspirational-haikus-46-20141120-article.html
     - 2014-11-21 00:46:29.000000000 Z
     - 2014-11-21 00:46:29.000000000 Z
-    - 2015-03-19 11:00:19.000000000 Z
-    - <a href="/author/milo-bennet"><address class="author">Milo Bennet</address></a>
+    - 2015-03-29 04:11:14.000000000 Z
+    - <a href="/author/milo-bennet"><address class="author" itemprop="creator">Milo
+      Bennet</address></a>
+    - http://fpo.pw/1FY3R7J
   - - 47
     - 6
     - 
@@ -2965,8 +3025,10 @@ articles:
     - the-delish-thai-dish-47-20141120-article.html
     - 2014-11-21 00:52:11.000000000 Z
     - 2014-11-21 00:52:11.000000000 Z
-    - 2015-03-19 11:01:25.000000000 Z
-    - <a href="/author/morgan-kender"><address class="author">Morgan Kender</address></a>
+    - 2015-03-29 04:11:15.000000000 Z
+    - <a href="/author/morgan-kender"><address class="author" itemprop="creator">Morgan
+      Kender</address></a>
+    - http://fpo.pw/1FY3Ro1
   - - 48
     - 4
     - 
@@ -3098,8 +3160,10 @@ articles:
     - a-texas-sized-monopoly-on-calculators-48-20141120-article.html
     - 2014-11-21 00:52:12.000000000 Z
     - 2014-11-21 00:52:12.000000000 Z
-    - 2015-03-19 11:01:29.000000000 Z
-    - <a href="/author/griffin-drake"><address class="author">Griffin Drake</address></a>
+    - 2015-03-29 04:11:16.000000000 Z
+    - <a href="/author/griffin-drake"><address class="author" itemprop="creator">Griffin
+      Drake</address></a>
+    - http://fpo.pw/1FY3SbE
   - - 49
     - 6
     - 
@@ -3159,8 +3223,10 @@ articles:
     - graffiti-becomes-art-at-franklin-49-20141120-article.html
     - 2014-11-21 00:59:24.000000000 Z
     - 2014-11-21 00:59:24.000000000 Z
-    - 2015-03-19 11:01:32.000000000 Z
-    - <a href="/author/alyx-briscoe"><address class="author">Alyx Briscoe</address></a>
+    - 2015-03-29 04:11:17.000000000 Z
+    - <a href="/author/alyx-briscoe"><address class="author" itemprop="creator">Alyx
+      Briscoe</address></a>
+    - http://fpo.pw/1FY3Ro7
   - - 50
     - 7
     - 
@@ -3238,8 +3304,10 @@ articles:
     - oscar-pistorius-found-guilty-50-20141120-article.html
     - 2014-11-21 00:59:57.000000000 Z
     - 2014-11-21 00:59:57.000000000 Z
-    - 2015-03-19 11:01:36.000000000 Z
-    - <a href="/author/erin-ford"><address class="author">Erin Ford</address></a>
+    - 2015-03-29 04:11:18.000000000 Z
+    - <a href="/author/erin-ford"><address class="author" itemprop="creator">Erin
+      Ford</address></a>
+    - http://fpo.pw/1FY3Roc
   - - 51
     - 6
     - 
@@ -3320,8 +3388,10 @@ articles:
     - gone-girl-movie-review-51-20141120-article.html
     - 2014-11-21 01:17:04.000000000 Z
     - 2014-11-21 01:17:04.000000000 Z
-    - 2015-03-19 11:01:38.000000000 Z
-    - <a href="/author/sarah-rose-ezelle"><address class="author">Sarah Rose Ezelle</address></a>
+    - 2015-03-29 04:11:19.000000000 Z
+    - <a href="/author/sarah-rose-ezelle"><address class="author" itemprop="creator">Sarah
+      Rose Ezelle</address></a>
+    - http://fpo.pw/1FY3REx
   - - 52
     - 6
     - 
@@ -3384,8 +3454,10 @@ articles:
     - smart-collective-a-music-home-for-all-52-20141120-article.html
     - 2014-11-21 01:31:45.000000000 Z
     - 2014-11-21 01:31:45.000000000 Z
-    - 2015-03-19 11:01:51.000000000 Z
-    - <a href="/author/berkeley-wheeler"><address class="author">Berkeley Wheeler</address></a>
+    - 2015-03-29 04:11:20.000000000 Z
+    - <a href="/author/berkeley-wheeler"><address class="author" itemprop="creator">Berkeley
+      Wheeler</address></a>
+    - http://fpo.pw/1FY3SID
   - - 53
     - 5
     - 
@@ -3509,8 +3581,10 @@ articles:
     - a-new-era-for-android-53-20141120-article.html
     - 2014-11-21 01:52:01.000000000 Z
     - 2014-11-21 01:52:01.000000000 Z
-    - 2015-03-19 11:01:58.000000000 Z
-    - <a href="/author/tucker-cochenour"><address class="author">Tucker Cochenour</address></a>
+    - 2015-03-29 04:11:21.000000000 Z
+    - <a href="/author/tucker-cochenour"><address class="author" itemprop="creator">Tucker
+      Cochenour</address></a>
+    - http://fpo.pw/1FY3SIJ
   - - 55
     - 6
     - 
@@ -3604,8 +3678,10 @@ articles:
     - flying-lotus-concert-55-20141120-article.html
     - 2014-11-21 01:54:48.000000000 Z
     - 2014-11-21 01:54:48.000000000 Z
-    - 2015-03-19 11:02:04.000000000 Z
-    - <a href="/author/milo-bennett"><address class="author">Milo Bennett</address></a>
+    - 2015-03-29 04:11:22.000000000 Z
+    - <a href="/author/milo-bennett"><address class="author" itemprop="creator">Milo
+      Bennett</address></a>
+    - http://fpo.pw/1FY3UAb
   - - 56
     - 8
     - 
@@ -3673,8 +3749,10 @@ articles:
     - athlete-spotlight-will-reed-dustin-56-20141120-article.html
     - 2014-11-21 01:58:43.000000000 Z
     - 2014-11-21 01:58:43.000000000 Z
-    - 2015-03-19 11:02:08.000000000 Z
-    - <a href="/author/tayler-stephens"><address class="author">Tayler Stephens</address></a>
+    - 2015-03-29 04:11:24.000000000 Z
+    - <a href="/author/tayler-stephens"><address class="author" itemprop="creator">Tayler
+      Stephens</address></a>
+    - http://fpo.pw/1FY3UAh
   - - 57
     - 5
     - 1
@@ -3878,8 +3956,10 @@ articles:
     - dario-raschio-homegrown-portlander-wwii-veteran-retired-fhs-teacher-57-20141120-article.html
     - 2014-11-21 02:02:27.000000000 Z
     - 2014-11-21 02:02:27.000000000 Z
-    - 2015-03-19 19:55:53.000000000 Z
-    - <a href="/author/stevie-mare"><address class="author">Stevie Maré</address></a>
+    - 2015-03-29 04:11:25.000000000 Z
+    - <a href="/author/stevie-mare"><address class="author" itemprop="creator">Stevie
+      Maré</address></a>
+    - http://fpo.pw/1FY3UAn
   - - 58
     - 5
     - 
@@ -3957,8 +4037,9 @@ articles:
     - feed-us-club-58-20141120-article.html
     - 2014-11-21 02:04:40.000000000 Z
     - 2014-11-21 02:04:40.000000000 Z
-    - 2015-03-19 11:02:35.000000000 Z
-    - <a href="/author/max-hoots"><address class="author">Max Hoots</address></a>
+    - 2015-03-29 04:11:26.000000000 Z
+    - <a href="/author/max-hoots"><address class="author" itemprop="creator">Max Hoots</address></a>
+    - http://fpo.pw/1FY3SZ9
   - - 59
     - 5
     - 
@@ -4035,8 +4116,10 @@ articles:
     - fhs-harvest-festival-2014-59-20141120-article.html
     - 2014-11-21 02:13:54.000000000 Z
     - 2014-11-21 02:13:54.000000000 Z
-    - 2015-03-19 11:02:37.000000000 Z
-    - <a href="/author/eliana-eby"><address class="author">Eliana Eby</address></a>
+    - 2015-03-29 04:11:27.000000000 Z
+    - <a href="/author/eliana-eby"><address class="author" itemprop="creator">Eliana
+      Eby</address></a>
+    - http://fpo.pw/1FY3UQE
   - - 60
     - 5
     - 
@@ -4107,8 +4190,10 @@ articles:
     - portland-fashion-60-20141120-article.html
     - 2014-11-21 02:17:18.000000000 Z
     - 2014-11-21 02:17:18.000000000 Z
-    - 2015-03-19 11:02:41.000000000 Z
-    - <a href="/author/karina-santacruz"><address class="author">Karina Santacruz</address></a>
+    - 2015-03-29 04:11:28.000000000 Z
+    - <a href="/author/karina-santacruz"><address class="author" itemprop="creator">Karina
+      Santacruz</address></a>
+    - http://fpo.pw/1FY3SZb
   - - 61
     - 6
     - 
@@ -4278,8 +4363,10 @@ articles:
     - hip-hop-streetwear-61-20141120-article.html
     - 2014-11-21 02:18:10.000000000 Z
     - 2014-11-21 02:18:10.000000000 Z
-    - 2015-03-19 11:02:57.000000000 Z
-    - <a href="/author/milo-bennett"><address class="author">Milo Bennett</address></a>
+    - 2015-03-29 04:11:29.000000000 Z
+    - <a href="/author/milo-bennett"><address class="author" itemprop="creator">Milo
+      Bennett</address></a>
+    - http://fpo.pw/1FY3SZe
   - - 62
     - 8
     - 
@@ -4394,8 +4481,10 @@ articles:
     - seniors-pull-through-with-victory-in-powderpuff-62-20141120-article.html
     - 2014-11-21 02:20:48.000000000 Z
     - 2014-11-21 02:20:48.000000000 Z
-    - 2015-03-19 11:03:10.000000000 Z
-    - <a href="/author/calli-storrs"><address class="author">Calli Storrs</address></a>
+    - 2015-03-29 04:11:30.000000000 Z
+    - <a href="/author/calli-storrs"><address class="author" itemprop="creator">Calli
+      Storrs</address></a>
+    - http://fpo.pw/1FY3UQO
   - - 63
     - 8
     - 
@@ -4453,8 +4542,10 @@ articles:
     - cross-country-finishes-season-strong-63-20141120-article.html
     - 2014-11-21 02:29:57.000000000 Z
     - 2014-11-21 02:29:57.000000000 Z
-    - 2015-03-19 11:03:12.000000000 Z
-    - <a href="/author/alyx-briscoe"><address class="author">Alyx Briscoe</address></a>
+    - 2015-03-29 04:11:31.000000000 Z
+    - <a href="/author/alyx-briscoe"><address class="author" itemprop="creator">Alyx
+      Briscoe</address></a>
+    - http://fpo.pw/1FY3TfA
   - - 65
     - 3
     - 
@@ -4573,8 +4664,10 @@ articles:
     - bus-stop-65-20141124-article.html
     - 2014-11-24 19:05:24.000000000 Z
     - 2014-11-24 19:05:24.000000000 Z
-    - 2015-03-19 11:03:22.000000000 Z
-    - <a href="/author/maya-coseo"><address class="author">Maya Coseo</address></a>
+    - 2015-03-29 04:11:32.000000000 Z
+    - <a href="/author/maya-coseo"><address class="author" itemprop="creator">Maya
+      Coseo</address></a>
+    - http://fpo.pw/1FY3TfE
   - - 66
     - 3
     - 
@@ -4694,8 +4787,10 @@ articles:
     - gold-growth-part-2-66-20141124-article.html
     - 2014-11-24 19:23:29.000000000 Z
     - 2014-11-24 19:23:29.000000000 Z
-    - 2015-03-19 11:03:24.000000000 Z
-    - <a href="/author/luna-koenig"><address class="author">Luna Koenig</address></a>
+    - 2015-03-29 04:11:33.000000000 Z
+    - <a href="/author/luna-koenig"><address class="author" itemprop="creator">Luna
+      Koenig</address></a>
+    - http://fpo.pw/1FY3V7c
   - - 227
     - 3
     - 
@@ -4782,8 +4877,10 @@ articles:
     - the-general-227-20141216-article.html
     - 2014-12-16 21:55:18.000000000 Z
     - 2014-12-16 21:55:18.000000000 Z
-    - 2015-03-19 11:03:28.000000000 Z
-    - <a href="/author/kieran-andrews"><address class="author">Kieran Andrews</address></a>
+    - 2015-03-29 04:11:35.000000000 Z
+    - <a href="/author/kieran-andrews"><address class="author" itemprop="creator">Kieran
+      Andrews</address></a>
+    - http://fpo.pw/1FY3TfL
   - - 228
     - 6
     - 
@@ -4979,8 +5076,10 @@ articles:
     - discover-franklin-228-20141216-article.html
     - 2014-12-16 21:55:40.000000000 Z
     - 2014-12-16 21:55:40.000000000 Z
-    - 2015-03-19 11:03:32.000000000 Z
-    - <a href="/author/stevie-mare"><address class="author">Stevie Maré</address></a>
+    - 2015-03-29 04:11:36.000000000 Z
+    - <a href="/author/stevie-mare"><address class="author" itemprop="creator">Stevie
+      Maré</address></a>
+    - http://fpo.pw/1FY3V7g
   - - 229
     - 3
     - 
@@ -5067,8 +5166,9 @@ articles:
     - shakespeare-power-229-20141216-article.html
     - 2014-12-16 22:06:14.000000000 Z
     - 2014-12-16 22:06:14.000000000 Z
-    - 2015-03-19 11:03:42.000000000 Z
-    - <a href="/author/max-hoots"><address class="author">Max Hoots</address></a>
+    - 2015-03-29 04:11:37.000000000 Z
+    - <a href="/author/max-hoots"><address class="author" itemprop="creator">Max Hoots</address></a>
+    - http://fpo.pw/1FY3V7m
   - - 230
     - 7
     - 
@@ -5165,8 +5265,10 @@ articles:
     - new-york-city-protests-verdict-230-20141218-article.html
     - 2014-12-18 21:50:08.000000000 Z
     - 2014-12-18 21:50:08.000000000 Z
-    - 2015-03-19 11:03:44.000000000 Z
-    - <a href="/author/milo-bennett"><address class="author">Milo Bennett</address></a>
+    - 2015-03-29 04:11:38.000000000 Z
+    - <a href="/author/milo-bennett"><address class="author" itemprop="creator">Milo
+      Bennett</address></a>
+    - http://fpo.pw/1FY3V7s
   - - 232
     - 3
     - 
@@ -5259,8 +5361,10 @@ articles:
     - esports-leveling-up-232-20150115-article.html
     - 2015-01-15 21:21:42.000000000 Z
     - 2015-01-15 21:21:42.000000000 Z
-    - 2015-03-19 11:03:48.000000000 Z
-    - <a href="/author/berkeley-wheeler"><address class="author">Berkeley Wheeler</address></a>
+    - 2015-03-29 04:11:39.000000000 Z
+    - <a href="/author/berkeley-wheeler"><address class="author" itemprop="creator">Berkeley
+      Wheeler</address></a>
+    - http://fpo.pw/1FY3Twd
   - - 233
     - 6
     - 
@@ -5340,99 +5444,10 @@ articles:
     - the-living-review-233-20150115-article.html
     - 2015-01-15 21:23:17.000000000 Z
     - 2015-01-15 21:23:17.000000000 Z
-    - 2015-03-19 11:03:56.000000000 Z
-    - <a href="/author/maya-coseo"><address class="author">Maya Coseo</address></a>
-  - - 235
-    - 7
-    - 
-    - 1
-    - 156
-    - 
-    - 15
-    - false
-    - false
-    - true
-    - false
-    - EU Parliament Votes to Divide Google Search Engine, Other Services
-    - ''
-    - On November 27, 2014, the European Parliament passed a measure to break up Google,
-      the company behind the world's most popular search engine. The vote is nonbinding,
-      meaning it cannot be enforced as law, but it's the latest event in a series
-      of disagreements between Google and the European Union (EU) regarding the latter's
-      policies on the handling of citizens' data and privacy.
-    - "<p>\n                \tOn November 27, 2014, the European Parliament passed
-      a measure to break up Google, the company behind the world's most popular search
-      engine. The vote is nonbinding, meaning it cannot be enforced as law, but it's
-      the latest event in a series of disagreements between Google and the European
-      Union (EU) regarding the latter's policies on the handling of citizens' data
-      and privacy.\n                </p>\n                <p>\n                \tTensions
-      between Google and Europe heightened after the search company was ordered to
-      comply with the EU's \"right to be forgotten\" law, a policy allowing citizens
-      to request the removal of links (from Google Search) to pages that contain outdated
-      information about them.\n                </p>\n                <p>\n                \tThis
-      latest vote by the parliament expresses concern over a potential monopoly by
-      Google. The company is estimated to have a 90 percent share of Europe's search
-      market. European lawmakers worry this will stifle competition from rival search
-      engines such as Microsoft Bing, Yahoo Search, and DuckDuckGo.\n                </p>\n
-      \               <p>\n                \tThe EU is afraid that Google will unfairly
-      rank their other products, such as Gmail and Calendar, higher than those of
-      their competition. Thus, the parliament has proposed that Google's search division
-      be separated from the rest of the company. The implications of such an action
-      are unclear. Google's primary source of revenue from their search engine is
-      advertising, another division of Google.\n                </p>\n                <p>\n
-      \               \tMario Mariniello, an employee for the European economic research
-      organization Bruegel believes this will bring more harm than good.\n                </p>\n
-      \               <p>\n                \t\"Breaking up Google would be unprecedented
-      in all kinds of ways and seems hugely unlikely in absence of massive, proven
-      consumer harm,\" he said. \"And it's very unclear to me whether the commission
-      is going to find that harm.\"\n                </p>\n                <p>\n                \tAn
-      ongoing antitrust investigation of Google is being done by the EU's Commissioner
-      for Competition, Margrethe Vestager. Along with Google Search, she is also looking
-      into whether the company's mobile operating system, Android, should be investigated
-      for anti-competitive practices.\n                </p>\n                <p>\n
-      \               \tGoogle representatives could not be reached for comment.­­­\n
-      \               </p>\n                <p>\n                \t<strongr></strongr>\n
-      \               </p>"
-    - "<p>\n                \tOn November 27, 2014, the European Parliament passed
-      a measure to break up Google, the company behind the world's most popular search
-      engine. The vote is nonbinding, meaning it cannot be enforced as law, but it's
-      the latest event in a series of disagreements between Google and the European
-      Union (EU) regarding the latter's policies on the handling of citizens' data
-      and privacy.\n                </p>\n                <p>\n                \tTensions
-      between Google and Europe heightened after the search company was ordered to
-      comply with the EU's \"right to be forgotten\" law, a policy allowing citizens
-      to request the removal of links (from Google Search) to pages that contain outdated
-      information about them.\n                </p>\n                <p>\n                \tThis
-      latest vote by the parliament expresses concern over a potential monopoly by
-      Google. The company is estimated to have a 90 percent share of Europe's search
-      market. European lawmakers worry this will stifle competition from rival search
-      engines such as Microsoft Bing, Yahoo Search, and DuckDuckGo.\n                </p>\n
-      \               <p>\n                \tThe EU is afraid that Google will unfairly
-      rank their other products, such as Gmail and Calendar, higher than those of
-      their competition. Thus, the parliament has proposed that Google's search division
-      be separated from the rest of the company. The implications of such an action
-      are unclear. Google's primary source of revenue from their search engine is
-      advertising, another division of Google.\n                </p>\n                <p>\n
-      \               \tMario Mariniello, an employee for the European economic research
-      organization Bruegel believes this will bring more harm than good.\n                </p>\n
-      \               <p>\n                \t\"Breaking up Google would be unprecedented
-      in all kinds of ways and seems hugely unlikely in absence of massive, proven
-      consumer harm,\" he said. \"And it's very unclear to me whether the commission
-      is going to find that harm.\"\n                </p>\n                <p>\n                \tAn
-      ongoing antitrust investigation of Google is being done by the EU's Commissioner
-      for Competition, Margrethe Vestager. Along with Google Search, she is also looking
-      into whether the company's mobile operating system, Android, should be investigated
-      for anti-competitive practices.\n                </p>\n                <p>\n
-      \               \tGoogle representatives could not be reached for comment.­­­\n
-      \               </p>\n                <p>\n                \t<strongr></strongr>\n
-      \               </p>"
-    - 
-    - 
-    - eu-parliament-votes-to-divide-google-search-engine-other-services-235-20150115-article.html
-    - 2015-01-15 21:23:33.000000000 Z
-    - 2015-01-15 21:23:33.000000000 Z
-    - 2015-03-19 11:04:15.000000000 Z
-    - <a href="/author/jason-chen"><address class="author">Jason Chen</address></a>
+    - 2015-03-29 04:11:40.000000000 Z
+    - <a href="/author/maya-coseo"><address class="author" itemprop="creator">Maya
+      Coseo</address></a>
+    - http://fpo.pw/1FY3VnJ
   - - 236
     - 5
     - 
@@ -5519,8 +5534,10 @@ articles:
     - graduation-rates-improve-at-franklin-236-20150115-article.html
     - 2015-01-15 21:24:56.000000000 Z
     - 2015-01-15 21:24:56.000000000 Z
-    - 2015-03-19 11:04:18.000000000 Z
-    - <a href="/author/eliana-eby"><address class="author">Eliana Eby</address></a>
+    - 2015-03-29 04:11:42.000000000 Z
+    - <a href="/author/eliana-eby"><address class="author" itemprop="creator">Eliana
+      Eby</address></a>
+    - http://fpo.pw/1FY3VnP
   - - 238
     - 3
     - 
@@ -5648,8 +5665,10 @@ articles:
     - gold-growth-part-3-238-20150115-article.html
     - 2015-01-15 21:27:48.000000000 Z
     - 2015-01-15 21:27:48.000000000 Z
-    - 2015-03-19 11:04:20.000000000 Z
-    - <a href="/author/luna-koenig"><address class="author">Luna Koenig</address></a>
+    - 2015-03-29 04:11:43.000000000 Z
+    - <a href="/author/luna-koenig"><address class="author" itemprop="creator">Luna
+      Koenig</address></a>
+    - http://fpo.pw/1FY3TMB
   - - 239
     - 6
     - 
@@ -5764,8 +5783,10 @@ articles:
     - edm-electronic-dance-music-239-20150115-article.html
     - 2015-01-15 21:31:32.000000000 Z
     - 2015-01-15 21:31:32.000000000 Z
-    - 2015-03-19 11:04:23.000000000 Z
-    - <a href="/author/milo-bennett"><address class="author">Milo Bennett</address></a>
+    - 2015-03-29 04:11:44.000000000 Z
+    - <a href="/author/milo-bennett"><address class="author" itemprop="creator">Milo
+      Bennett</address></a>
+    - http://fpo.pw/1FY3TMD
   - - 240
     - 8
     - 
@@ -5848,88 +5869,10 @@ articles:
     - blazers-tip-off-to-an-amazing-start-240-20150115-article.html
     - 2015-01-15 21:37:48.000000000 Z
     - 2015-01-15 21:37:48.000000000 Z
-    - 2015-03-19 11:04:27.000000000 Z
-    - <a href="/author/erin-ford"><address class="author">Erin Ford</address></a>
-  - - 241
-    - 7
-    - 
-    - 1
-    - 159
-    - 
-    - 10
-    - false
-    - true
-    - true
-    - false
-    - Public Wi-Fi to Expand in New York City
-    - ''
-    - New York City Mayor Bill de Blasio has announced an ambitious new project to
-      bring Wi-Fi access to the entire city. The plan would involve placing kiosks,
-      with free domestic calling and advertisements, all across the city that broadcast
-      a Wi-Fi hotspot to which users can connect their devices.
-    - "<p>\n                        \tNew York City Mayor Bill de Blasio has announced
-      an ambitious new project to bring Wi-Fi access to the entire city. The plan
-      would involve placing kiosks, with free domestic calling and advertisements,
-      all across the city that broadcast a Wi-Fi hotspot to which users can connect
-      their devices.\n        </p>\n        <p>\n                        \tThe project,
-      called LinkNYC, is expected to cost about $200 million and bring up to 10,000
-      kiosks to the city over the next 12 to 15 years. The internet stations would
-      provide one of the fastest connections available to consumers in the United
-      States, with speeds up to one gigabit per second.\n        </p>\n        <p>\n
-      \                       \tThe plan is for the kiosks to offer a seamless experience
-      throughout the city. Once a user signs up and connects to the kiosks with their
-      device(s), they will stay connected. If they move out of the range of one kiosk,
-      they will automatically connect to the next one within range.\n        </p>\n
-      \       <p>\n                        \tAlong with free gigabit Wi-Fi service
-      and domestic phone calls, the LinkNYC kiosks will also provide access to a \"touchscreen
-      tablet interface\" to access the city's services and get directions and a free
-      charging station for mobile devices.\n        </p>\n        <p>\n                        \tMayor
-      de Blasio's office has said that they will not forget the poorer parts of NYC.\n
-      \       </p>\n        <p>\n                        \tWhile LinkNYC is an ambitious
-      plan, Senator Kevin Parker, a Brooklyn Democrat, doesn't believe it's enough,
-      \"A limited amount of free Wi-Fi…is a step toward closing the technology gap,
-      but…more needs to be done to provide reliable broadband to all,\" he said.\n
-      \       </p>\n        <p>\n                        \tPortland hasn't seen a
-      plan to bring such widespread internet access to the city yet. The last big
-      push was made by MetroFi, a project abandoned by the city after six months in
-      2007. The de Blasio administration is hoping the LinkNYC proposal, which is
-      now awaiting approval by NYC's Franchise and Concession Review Committee, will
-      inspire other cities to follow.\n        </p>"
-    - "<p>\n                        \tNew York City Mayor Bill de Blasio has announced
-      an ambitious new project to bring Wi-Fi access to the entire city. The plan
-      would involve placing kiosks, with free domestic calling and advertisements,
-      all across the city that broadcast a Wi-Fi hotspot to which users can connect
-      their devices.\n        </p>\n        <p>\n                        \tThe project,
-      called LinkNYC, is expected to cost about $200 million and bring up to 10,000
-      kiosks to the city over the next 12 to 15 years. The internet stations would
-      provide one of the fastest connections available to consumers in the United
-      States, with speeds up to one gigabit per second.\n        </p>\n        <p>\n
-      \                       \tThe plan is for the kiosks to offer a seamless experience
-      throughout the city. Once a user signs up and connects to the kiosks with their
-      device(s), they will stay connected. If they move out of the range of one kiosk,
-      they will automatically connect to the next one within range.\n        </p>\n
-      \       <p>\n                        \tAlong with free gigabit Wi-Fi service
-      and domestic phone calls, the LinkNYC kiosks will also provide access to a \"touchscreen
-      tablet interface\" to access the city's services and get directions and a free
-      charging station for mobile devices.\n        </p>\n        <p>\n                        \tMayor
-      de Blasio's office has said that they will not forget the poorer parts of NYC.\n
-      \       </p>\n        <p>\n                        \tWhile LinkNYC is an ambitious
-      plan, Senator Kevin Parker, a Brooklyn Democrat, doesn't believe it's enough,
-      \"A limited amount of free Wi-Fi…is a step toward closing the technology gap,
-      but…more needs to be done to provide reliable broadband to all,\" he said.\n
-      \       </p>\n        <p>\n                        \tPortland hasn't seen a
-      plan to bring such widespread internet access to the city yet. The last big
-      push was made by MetroFi, a project abandoned by the city after six months in
-      2007. The de Blasio administration is hoping the LinkNYC proposal, which is
-      now awaiting approval by NYC's Franchise and Concession Review Committee, will
-      inspire other cities to follow.\n        </p>"
-    - 
-    - 
-    - public-wi-fi-to-expand-in-new-york-city-241-20150115-article.html
-    - 2015-01-15 21:39:21.000000000 Z
-    - 2015-01-15 21:39:21.000000000 Z
-    - 2015-03-19 11:04:30.000000000 Z
-    - <a href="/author/jason-chen"><address class="author">Jason Chen</address></a>
+    - 2015-03-29 04:11:45.000000000 Z
+    - <a href="/author/erin-ford"><address class="author" itemprop="creator">Erin
+      Ford</address></a>
+    - http://fpo.pw/1FY3TMN
   - - 242
     - 5
     - 
@@ -6042,8 +5985,10 @@ articles:
     - youtube-242-20150115-article.html
     - 2015-01-15 21:41:17.000000000 Z
     - 2015-01-15 21:41:17.000000000 Z
-    - 2015-03-19 11:04:36.000000000 Z
-    - <a href="/author/sarah-rose-ezelle"><address class="author">Sarah Rose Ezelle</address></a>
+    - 2015-03-29 04:11:47.000000000 Z
+    - <a href="/author/sarah-rose-ezelle"><address class="author" itemprop="creator">Sarah
+      Rose Ezelle</address></a>
+    - http://fpo.pw/1FY3VEf
   - - 243
     - 6
     - 
@@ -6121,8 +6066,10 @@ articles:
     - the-hunger-games-mockingjay-part-1-243-20150115-article.html
     - 2015-01-15 21:41:47.000000000 Z
     - 2015-01-15 21:41:47.000000000 Z
-    - 2015-03-19 11:05:08.000000000 Z
-    - <a href="/author/sarah-rose-ezelle"><address class="author">Sarah Rose Ezelle</address></a>
+    - 2015-03-29 04:11:48.000000000 Z
+    - <a href="/author/sarah-rose-ezelle"><address class="author" itemprop="creator">Sarah
+      Rose Ezelle</address></a>
+    - http://fpo.pw/1FY3U3a
   - - 244
     - 8
     - 
@@ -6210,8 +6157,10 @@ articles:
     - franklin-staff-bonds-through-bowl-bash-244-20150115-article.html
     - 2015-01-15 21:42:14.000000000 Z
     - 2015-01-15 21:42:14.000000000 Z
-    - 2015-03-19 11:05:11.000000000 Z
-    - <a href="/author/tucker-cochenour"><address class="author">Tucker Cochenour</address></a>
+    - 2015-03-29 04:11:49.000000000 Z
+    - <a href="/author/tucker-cochenour"><address class="author" itemprop="creator">Tucker
+      Cochenour</address></a>
+    - http://fpo.pw/1FY3U3k
   - - 245
     - 3
     - 
@@ -6253,8 +6202,10 @@ articles:
     - anti-inspirational-haikus-245-20150115-article.html
     - 2015-01-15 21:42:37.000000000 Z
     - 2015-01-15 21:42:37.000000000 Z
-    - 2015-03-19 11:05:17.000000000 Z
-    - <a href="/author/milo-bennett"><address class="author">Milo Bennett</address></a>
+    - 2015-03-29 04:11:50.000000000 Z
+    - <a href="/author/milo-bennett"><address class="author" itemprop="creator">Milo
+      Bennett</address></a>
+    - http://fpo.pw/1FY3VUN
   - - 246
     - 5
     - 
@@ -6357,115 +6308,10 @@ articles:
     - smartphones-and-sleep-246-20150115-article.html
     - 2015-01-15 21:48:28.000000000 Z
     - 2015-01-15 21:48:28.000000000 Z
-    - 2015-03-19 11:05:20.000000000 Z
-    - <a href="/author/delaney-hartmann"><address class="author">Delaney Hartmann</address></a>
-  - - 247
-    - 7
-    - 
-    - 1
-    - 164
-    - 
-    - 10
-    - false
-    - false
-    - true
-    - false
-    - Climate Change Poses Threat to Mountain Sports
-    - ''
-    - Every winter, all Portlanders wish for is a white Christmas. Spoons appear under
-      window sills, and people perform snow dances in the streets as they pray Portland
-      will have one of those snowy holidays that are so rare in the Pacific Northwest.
-      However, even when the snow does not arrive in town, hundreds of Portlanders
-      escape to Mt. Hood and Mt. Bachelor to ski and snowboard.
-    - "<p>\n                                                        \tEvery winter,
-      all Portlanders wish for is a white Christmas. Spoons appear under window sills,
-      and people perform snow dances in the streets as they pray Portland will have
-      one of those snowy holidays that are so rare in the Pacific Northwest. However,
-      even when the snow does not arrive in town, hundreds of Portlanders escape to
-      Mt. Hood and Mt. Bachelor to ski and snowboard.\n                                                        </p>\n
-      \                                                       <p>\n                                                        \tThis
-      December LiveScience published an article stating that global warming may in
-      fact contribute to greater snowfall. The article ends with a quote from Michael
-      Mann, professor and director of the Earth System Science Center at Pennsylvania
-      State University, who agreed that \"as long as it's cold enough to snow — which
-      it will be in the winter — you potentially will get greater snowfalls,\" he
-      said. \"In fact, up to a point, the warmer the air — when it is still below
-      freezing — the <em>more</em> snow you will get.\" This is due to more evaporation
-      from the globe's oceans.\n                                                        </p>\n
-      \                                                       <p>\n                                                        \tHowever,
-      that is not the consensus from all scientists. An accumulation of evidence shows
-      that global warming is taking a big toll on ski season.\n                                                        </p>\n
-      \                                                       <p>\n                                                        \tEnvironmental
-      Science teacher Beth Biagini says that \"normal temperatures are shifting north.\"
-      Both she and Megan Whisnand (AP Environmental Science) agree that as the ocean
-      heats up, more moisture in the air causes more snow. \"What you really have
-      to wrap your head around, is a climate crisis,\" says Whisnand.\n                                                        </p>\n
-      \                                                       <p>\n                                                        \tBoth
-      teachers pointed out that ski season is starting later, and the weather has
-      become more unpredictable.\n                                                        </p>\n
-      \                                                       <p>\n                                                        \tLast
-      winter during the Sochi Olympics officials had to cancel two Olympic test events
-      as temperatures reached 60 degrees Fahrenheit. In the past 47 years, one million
-      square miles of snow has disappeared in the northern hemisphere.\n                                                        </p>\n
-      \                                                       <p>\n                                                        \t\"Ski
-      areas have not been on the sidelines when it comes to climate change,\" Michael
-      Berry, President of the National Ski Association told the Oregonian. As a result,
-      ski resorts have been at the forefront of renewable energy. Mount Hood Meadows,
-      not even two hours out of Portland, uses wind power for electricity so that
-      they set the standard for reducing greenhouse emissions and keeping conditions
-      cool.\n                                                        </p>\n                                                        <p>\n
-      \                                                       \tTo find out how to
-      take action against the snow melt, consider cutting down on fossil fuels. Visit
-      nrdc.org/globalwarming/gsteps.asp for ideas to save Mt. Hood and planet earth.\n
-      \                                                       </p>"
-    - "<p>\n                                                        \tEvery winter,
-      all Portlanders wish for is a white Christmas. Spoons appear under window sills,
-      and people perform snow dances in the streets as they pray Portland will have
-      one of those snowy holidays that are so rare in the Pacific Northwest. However,
-      even when the snow does not arrive in town, hundreds of Portlanders escape to
-      Mt. Hood and Mt. Bachelor to ski and snowboard.\n                                                        </p>\n
-      \                                                       <p>\n                                                        \tThis
-      December LiveScience published an article stating that global warming may in
-      fact contribute to greater snowfall. The article ends with a quote from Michael
-      Mann, professor and director of the Earth System Science Center at Pennsylvania
-      State University, who agreed that \"as long as it's cold enough to snow — which
-      it will be in the winter — you potentially will get greater snowfalls,\" he
-      said. \"In fact, up to a point, the warmer the air — when it is still below
-      freezing — the <em>more</em> snow you will get.\" This is due to more evaporation
-      from the globe's oceans.\n                                                        </p>\n
-      \                                                       <p>\n                                                        \tHowever,
-      that is not the consensus from all scientists. An accumulation of evidence shows
-      that global warming is taking a big toll on ski season.\n                                                        </p>\n
-      \                                                       <p>\n                                                        \tEnvironmental
-      Science teacher Beth Biagini says that \"normal temperatures are shifting north.\"
-      Both she and Megan Whisnand (AP Environmental Science) agree that as the ocean
-      heats up, more moisture in the air causes more snow. \"What you really have
-      to wrap your head around, is a climate crisis,\" says Whisnand.\n                                                        </p>\n
-      \                                                       <p>\n                                                        \tBoth
-      teachers pointed out that ski season is starting later, and the weather has
-      become more unpredictable.\n                                                        </p>\n
-      \                                                       <p>\n                                                        \tLast
-      winter during the Sochi Olympics officials had to cancel two Olympic test events
-      as temperatures reached 60 degrees Fahrenheit. In the past 47 years, one million
-      square miles of snow has disappeared in the northern hemisphere.\n                                                        </p>\n
-      \                                                       <p>\n                                                        \t\"Ski
-      areas have not been on the sidelines when it comes to climate change,\" Michael
-      Berry, President of the National Ski Association told the Oregonian. As a result,
-      ski resorts have been at the forefront of renewable energy. Mount Hood Meadows,
-      not even two hours out of Portland, uses wind power for electricity so that
-      they set the standard for reducing greenhouse emissions and keeping conditions
-      cool.\n                                                        </p>\n                                                        <p>\n
-      \                                                       \tTo find out how to
-      take action against the snow melt, consider cutting down on fossil fuels. Visit
-      nrdc.org/globalwarming/gsteps.asp for ideas to save Mt. Hood and planet earth.\n
-      \                                                       </p>"
-    - 
-    - 
-    - climate-change-poses-threat-to-mountain-sports-247-20150115-article.html
-    - 2015-01-15 21:50:29.000000000 Z
-    - 2015-01-15 21:50:29.000000000 Z
-    - 2015-03-23 07:16:38.000000000 Z
-    - <a href="/author/emma-harbison"><address class="author">Emma Harbison</address></a>
+    - 2015-03-29 04:11:51.000000000 Z
+    - <a href="/author/delaney-hartmann"><address class="author" itemprop="creator">Delaney
+      Hartmann</address></a>
+    - http://fpo.pw/1FY3VUR
   - - 248
     - 8
     - 
@@ -6583,8 +6429,10 @@ articles:
     - franklin-winter-sports-248-20150115-article.html
     - 2015-01-15 21:56:42.000000000 Z
     - 2015-01-15 21:56:42.000000000 Z
-    - 2015-03-19 11:05:25.000000000 Z
-    - <a href="/author/tucker-cochenour"><address class="author">Tucker Cochenour</address></a>
+    - 2015-03-29 04:11:53.000000000 Z
+    - <a href="/author/tucker-cochenour"><address class="author" itemprop="creator">Tucker
+      Cochenour</address></a>
+    - http://fpo.pw/1FY3UjS
   - - 249
     - 6
     - 
@@ -6651,8 +6499,10 @@ articles:
     - artist-spotlight-249-20150115-article.html
     - 2015-01-15 22:03:14.000000000 Z
     - 2015-01-15 22:03:14.000000000 Z
-    - 2015-03-19 11:05:29.000000000 Z
-    - <a href="/author/liam-anderson"><address class="author">Liam Anderson</address></a>
+    - 2015-03-29 04:11:54.000000000 Z
+    - <a href="/author/liam-anderson"><address class="author" itemprop="creator">Liam
+      Anderson</address></a>
+    - http://fpo.pw/1FY3Xfj
   - - 250
     - 7
     - 
@@ -6734,8 +6584,10 @@ articles:
     - uber-faces-resistance-in-expansion-250-20150115-article.html
     - 2015-01-15 22:22:22.000000000 Z
     - 2015-01-15 22:22:22.000000000 Z
-    - 2015-03-19 11:05:32.000000000 Z
-    - <a href="/author/tayler-stephens"><address class="author">Tayler Stephens</address></a>
+    - 2015-03-29 04:11:55.000000000 Z
+    - <a href="/author/tayler-stephens"><address class="author" itemprop="creator">Tayler
+      Stephens</address></a>
+    - http://fpo.pw/1FY3Wbh
   - - 251
     - 7
     - 
@@ -6808,8 +6660,10 @@ articles:
     - kidnapping-in-mexico-sparks-outraged-protests-251-20150115-article.html
     - 2015-01-15 23:37:56.000000000 Z
     - 2015-01-15 23:37:56.000000000 Z
-    - 2015-03-19 11:05:35.000000000 Z
-    - <a href="/author/erin-ford"><address class="author">Erin Ford</address></a>
+    - 2015-03-29 04:11:56.000000000 Z
+    - <a href="/author/erin-ford"><address class="author" itemprop="creator">Erin
+      Ford</address></a>
+    - http://fpo.pw/1FY3Wbj
   - - 252
     - 7
     - 
@@ -6918,112 +6772,10 @@ articles:
     - presidential-potency-252-20150115-article.html
     - 2015-01-15 23:56:27.000000000 Z
     - 2015-01-15 23:56:27.000000000 Z
-    - 2015-03-19 11:05:57.000000000 Z
-    - <a href="/author/eamonn-hartmann"><address class="author">Eamonn Hartmann</address></a>
-  - - 254
-    - 4
-    - 
-    - 3
-    - 
-    - 
-    - 35
-    - false
-    - false
-    - false
-    - false
-    - Failure of Measure 92 proves that elections can be bought in Oregon
-    - 'Measure 92 was officially defeated  '
-    - Oregon Ballot Measure 92, a grassroots initiative that would have required food
-      manufacturers and retailers to label genetically modified foods, was officially
-      defeated December 16, with the certification of a statewide, hand-recount of
-      ballots. The final tally had the measure losing by an exceptionally slim margin
-      of 837 votes, or about one twentieth of one percent of the total votes cast.
-      The fate of the vote was shaped by the record-breaking spending of the 'No on
-      92 Coalition,' which ran fear-mongering TV attack ads, funded by agrochemical
-      and food giants, to mislead voters and score a narrow defeat of the measure.
-    - "<p>\n                        \tOregon Ballot Measure 92, a grassroots initiative
-      that would have required food manufacturers and retailers to label genetically
-      modified foods, was officially defeated December 16, with the certification
-      of a statewide, hand-recount of ballots. The final tally had the measure losing
-      by an exceptionally slim margin of 837 votes, or about one twentieth of one
-      percent of the total votes cast. The fate of the vote was shaped by the record-breaking
-      spending of the 'No on 92 Coalition,' which ran fear-mongering TV attack ads,
-      funded by agrochemical and food giants, to mislead voters and score a narrow
-      defeat of the measure.\n                        </p>\n                        <p>\n
-      \                       \tThe Yes on Measure 92 campaign conceded defeat on
-      December 11, after a judge ruled that he could not stop the count, despite 4,600
-      votes that would not be counted due to issues with the signature on the ballot
-      not matching the one the election office had on file. The campaign said in a
-      statement, \"Given the razor-thin margin in this race, and the failure to count
-      every valid ballot, we believe that Oregonians will never know for sure the
-      true outcome of this race.\"\n                        </p>\n                        <p>\n
-      \                       \tWhile the defeat of Measure 92 is a harrowing loss
-      in the fight against the monstrous domination of the agrochemical and food industries,
-      the sheer closeness of the race is cause for optimism. The 'No' campaign raised
-      a total of $21.9 million, 99.8% of which came from out-of-state, and 99.995%
-      donated by business entities. By contrast, the 'Yes' campaign received $9.9
-      million, 77.3% from out-of state, 40.5% from businesses. These numbers show
-      exactly how bad the 'corporationization' of the election was. For me, this is
-      reason enough to support GMO labeling initiatives. If Monsanto, Dupont Pioneer,
-      PepsiCo, Coca-Cola, and Dow AgroSciences, the top five donors to the No on 92
-      Coalition, want to deprive the consumer of the right to know what is in their
-      food, we need to fight back.\n                        </p>\n                        <p>\n
-      \                       \tPart of the problem with the Oregon Measure 92 election
-      was that TV ads were able to sway an impressionable voting public. Voters need
-      to look at these ads with a critical eye and understand how they are funded.
-      The election was also a perfect example of how democracy doesn't work if you
-      do not vote. Only 1.54 million Oregonians voted in the 2014 General Election,
-      out of an estimated 2.98 million eligible voters. In comparison, 837 votes is
-      next to nothing. A slight increase in voter turnout could easily have changed
-      the outcome of this election. Activists will continue to push GMO labeling initiatives
-      in the next few years, and young voters could very well make the difference
-      in their outcomes. Remember, as you come of voting age, that though it may sound
-      corny, every vote counts.\n                        </p>"
-    - "<p>\n                        \tOregon Ballot Measure 92, a grassroots initiative
-      that would have required food manufacturers and retailers to label genetically
-      modified foods, was officially defeated December 16, with the certification
-      of a statewide, hand-recount of ballots. The final tally had the measure losing
-      by an exceptionally slim margin of 837 votes, or about one twentieth of one
-      percent of the total votes cast. The fate of the vote was shaped by the record-breaking
-      spending of the 'No on 92 Coalition,' which ran fear-mongering TV attack ads,
-      funded by agrochemical and food giants, to mislead voters and score a narrow
-      defeat of the measure.\n                        </p>\n                        <p>\n
-      \                       \tThe Yes on Measure 92 campaign conceded defeat on
-      December 11, after a judge ruled that he could not stop the count, despite 4,600
-      votes that would not be counted due to issues with the signature on the ballot
-      not matching the one the election office had on file. The campaign said in a
-      statement, \"Given the razor-thin margin in this race, and the failure to count
-      every valid ballot, we believe that Oregonians will never know for sure the
-      true outcome of this race.\"\n                        </p>\n                        <p>\n
-      \                       \tWhile the defeat of Measure 92 is a harrowing loss
-      in the fight against the monstrous domination of the agrochemical and food industries,
-      the sheer closeness of the race is cause for optimism. The 'No' campaign raised
-      a total of $21.9 million, 99.8% of which came from out-of-state, and 99.995%
-      donated by business entities. By contrast, the 'Yes' campaign received $9.9
-      million, 77.3% from out-of state, 40.5% from businesses. These numbers show
-      exactly how bad the 'corporationization' of the election was. For me, this is
-      reason enough to support GMO labeling initiatives. If Monsanto, Dupont Pioneer,
-      PepsiCo, Coca-Cola, and Dow AgroSciences, the top five donors to the No on 92
-      Coalition, want to deprive the consumer of the right to know what is in their
-      food, we need to fight back.\n                        </p>\n                        <p>\n
-      \                       \tPart of the problem with the Oregon Measure 92 election
-      was that TV ads were able to sway an impressionable voting public. Voters need
-      to look at these ads with a critical eye and understand how they are funded.
-      The election was also a perfect example of how democracy doesn't work if you
-      do not vote. Only 1.54 million Oregonians voted in the 2014 General Election,
-      out of an estimated 2.98 million eligible voters. In comparison, 837 votes is
-      next to nothing. A slight increase in voter turnout could easily have changed
-      the outcome of this election. Activists will continue to push GMO labeling initiatives
-      in the next few years, and young voters could very well make the difference
-      in their outcomes. Remember, as you come of voting age, that though it may sound
-      corny, every vote counts.\n                        </p>"
-    - 
-    - 
-    - failure-of-measure-92-proves-that-elections-can-be-bought-in-oregon-254-20150115-article.html
-    - 2015-01-16 00:22:25.000000000 Z
-    - 2015-01-16 00:22:25.000000000 Z
-    - 2015-03-19 11:06:01.000000000 Z
-    - <a href="/author/stevie-mare"><address class="author">Stevie Maré</address></a>
+    - 2015-03-29 04:11:57.000000000 Z
+    - <a href="/author/eamonn-hartmann"><address class="author" itemprop="creator">Eamonn
+      Hartmann</address></a>
+    - http://fpo.pw/1FY3Xfq
   - - 255
     - 4
     - 
@@ -7092,8 +6844,10 @@ articles:
     - store-surveillance-255-20150115-article.html
     - 2015-01-16 01:33:26.000000000 Z
     - 2015-01-16 01:33:26.000000000 Z
-    - 2015-03-19 11:06:16.000000000 Z
-    - <a href="/author/eleanor-ewing"><address class="author">Eleanor Ewing</address></a>
+    - 2015-03-29 04:11:58.000000000 Z
+    - <a href="/author/eleanor-ewing"><address class="author" itemprop="creator">Eleanor
+      Ewing</address></a>
+    - http://fpo.pw/1FY3Wbt
   - - 258
     - 4
     - 
@@ -7280,9 +7034,11 @@ articles:
     - ferguson-258-20150120-article.html
     - 2015-01-20 21:48:03.000000000 Z
     - 2015-01-20 21:48:03.000000000 Z
-    - 2015-03-19 11:06:21.000000000 Z
-    - <a href="/author/karina-santacruz"><address class="author">Karina Santacruz</address></a>
-      and <a href="/author/max-hoots"><address class="author">Max Hoots</address></a>
+    - 2015-03-29 04:12:00.000000000 Z
+    - <a href="/author/karina-santacruz"><address class="author" itemprop="creator">Karina
+      Santacruz</address></a> and <a href="/author/max-hoots"><address class="author"
+      itemprop="creator">Max Hoots</address></a>
+    - http://fpo.pw/1FY3WrL
   - - 259
     - 9
     - 
@@ -7389,8 +7145,10 @@ articles:
     - franklin-constitution-team-takes-fifth-at-state-259-20150122-article.html
     - 2015-01-22 22:03:26.000000000 Z
     - 2015-01-22 22:03:26.000000000 Z
-    - 2015-03-19 12:56:58.000000000 Z
-    - <a href="/author/stevie-mare"><address class="author">Stevie Maré</address></a>
+    - 2015-03-29 04:12:01.000000000 Z
+    - <a href="/author/stevie-mare"><address class="author" itemprop="creator">Stevie
+      Maré</address></a>
+    - http://fpo.pw/1FY3WrT
   - - 260
     - 5
     - 
@@ -7453,8 +7211,10 @@ articles:
     - animal-rights-club-260-20150122-article.html
     - 2015-01-22 22:04:42.000000000 Z
     - 2015-01-22 22:04:42.000000000 Z
-    - 2015-03-19 11:06:32.000000000 Z
-    - <a href="/author/liam-anderson"><address class="author">Liam Anderson</address></a>
+    - 2015-03-29 04:12:02.000000000 Z
+    - <a href="/author/liam-anderson"><address class="author" itemprop="creator">Liam
+      Anderson</address></a>
+    - http://fpo.pw/1FY3XvQ
   - - 261
     - 9
     - 
@@ -7601,8 +7361,10 @@ articles:
     - a-new-face-for-marshall-261-20150209-article.html
     - 2015-02-09 19:09:52.000000000 Z
     - 2015-02-09 19:09:52.000000000 Z
-    - 2015-03-19 12:13:32.000000000 Z
-    - <a href="/author/stevie-mare"><address class="author">Stevie Maré</address></a>
+    - 2015-03-29 04:12:03.000000000 Z
+    - <a href="/author/stevie-mare"><address class="author" itemprop="creator">Stevie
+      Maré</address></a>
+    - http://fpo.pw/1FY3XvY
   - - 262
     - 5
     - 
@@ -7695,8 +7457,10 @@ articles:
     - street-roots-262-20150212-article.html
     - 2015-02-12 21:29:19.000000000 Z
     - 2015-02-12 21:29:19.000000000 Z
-    - 2015-03-23 07:16:38.000000000 Z
-    - <a href="/author/emma-harbison"><address class="author">Emma Harbison</address></a>
+    - 2015-03-29 04:12:04.000000000 Z
+    - <a href="/author/emma-harbison"><address class="author" itemprop="creator">Emma
+      Harbison</address></a>
+    - http://fpo.pw/1FY3WIm
   - - 263
     - 7
     - 
@@ -7775,8 +7539,10 @@ articles:
     - yellowstone-river-oil-spill-causes-outrage-263-20150212-article.html
     - 2015-02-12 21:29:50.000000000 Z
     - 2015-02-12 21:29:50.000000000 Z
-    - 2015-03-23 07:16:38.000000000 Z
-    - <a href="/author/emma-harbison"><address class="author">Emma Harbison</address></a>
+    - 2015-03-29 04:12:05.000000000 Z
+    - <a href="/author/emma-harbison"><address class="author" itemprop="creator">Emma
+      Harbison</address></a>
+    - http://fpo.pw/1FY3WIq
   - - 264
     - 5
     - 
@@ -7861,8 +7627,10 @@ articles:
     - solar-impulse-264-20150212-article.html
     - 2015-02-12 21:33:49.000000000 Z
     - 2015-02-12 21:33:49.000000000 Z
-    - 2015-03-19 12:07:03.000000000 Z
-    - <a href="/author/liam-anderson"><address class="author">Liam Anderson</address></a>
+    - 2015-03-29 04:12:06.000000000 Z
+    - <a href="/author/liam-anderson"><address class="author" itemprop="creator">Liam
+      Anderson</address></a>
+    - http://fpo.pw/1FY3WIu
   - - 265
     - 6
     - 
@@ -7953,8 +7721,10 @@ articles:
     - the-raven-boys-review-265-20150212-article.html
     - 2015-02-12 21:45:16.000000000 Z
     - 2015-02-12 21:45:16.000000000 Z
-    - 2015-03-19 12:07:03.000000000 Z
-    - <a href="/author/olivia-jensen"><address class="author">Olivia Jensen</address></a>
+    - 2015-03-29 04:12:07.000000000 Z
+    - <a href="/author/olivia-jensen"><address class="author" itemprop="creator">Olivia
+      Jensen</address></a>
+    - http://fpo.pw/1FY3WIz
   - - 266
     - 5
     - 
@@ -8039,8 +7809,10 @@ articles:
     - billionaire-announces-plan-for-global-internet-266-20150212-article.html
     - 2015-02-12 21:52:40.000000000 Z
     - 2015-02-12 21:52:40.000000000 Z
-    - 2015-03-19 12:07:03.000000000 Z
-    - <a href="/author/tucker-cochenour"><address class="author">Tucker Cochenour</address></a>
+    - 2015-03-29 04:12:08.000000000 Z
+    - <a href="/author/tucker-cochenour"><address class="author" itemprop="creator">Tucker
+      Cochenour</address></a>
+    - http://fpo.pw/1FY3WYT
   - - 267
     - 6
     - 
@@ -8095,8 +7867,10 @@ articles:
     - eastside-deli-fills-the-belly-267-20150212-article.html
     - 2015-02-12 21:55:29.000000000 Z
     - 2015-02-12 21:55:29.000000000 Z
-    - 2015-03-19 12:07:03.000000000 Z
-    - <a href="/author/eleanor-ewing"><address class="author">Eleanor Ewing</address></a>
+    - 2015-03-29 04:12:09.000000000 Z
+    - <a href="/author/eleanor-ewing"><address class="author" itemprop="creator">Eleanor
+      Ewing</address></a>
+    - http://fpo.pw/1FY3XMr
   - - 268
     - 3
     - 
@@ -8189,8 +7963,10 @@ articles:
     - dreams-268-20150212-article.html
     - 2015-02-12 22:01:41.000000000 Z
     - 2015-02-12 22:01:41.000000000 Z
-    - 2015-03-19 12:07:03.000000000 Z
-    - <a href="/author/ellie-gentry"><address class="author">Ellie Gentry</address></a>
+    - 2015-03-29 04:12:11.000000000 Z
+    - <a href="/author/ellie-gentry"><address class="author" itemprop="creator">Ellie
+      Gentry</address></a>
+    - http://fpo.pw/1FY3XMC
   - - 269
     - 6
     - 
@@ -8271,8 +8047,10 @@ articles:
     - shadows-book-review-269-20150212-article.html
     - 2015-02-12 22:02:16.000000000 Z
     - 2015-02-12 22:02:16.000000000 Z
-    - 2015-03-19 12:07:03.000000000 Z
-    - <a href="/author/maya-coseo"><address class="author">Maya Coseo</address></a>
+    - 2015-03-29 04:12:12.000000000 Z
+    - <a href="/author/maya-coseo"><address class="author" itemprop="creator">Maya
+      Coseo</address></a>
+    - http://fpo.pw/1FY3ZUH
   - - 270
     - 8
     - 
@@ -8394,8 +8172,10 @@ articles:
     - blazers-update-a-season-on-crutches-270-20150212-article.html
     - 2015-02-12 22:19:13.000000000 Z
     - 2015-02-12 22:19:13.000000000 Z
-    - 2015-03-19 11:09:48.000000000 Z
-    - <a href="/author/tucker-cochenour"><address class="author">Tucker Cochenour</address></a>
+    - 2015-03-29 04:12:12.000000000 Z
+    - <a href="/author/tucker-cochenour"><address class="author" itemprop="creator">Tucker
+      Cochenour</address></a>
+    - http://fpo.pw/1FY3ZUL
   - - 271
     - 6
     - 
@@ -8453,8 +8233,10 @@ articles:
     - the-shakespeare-club-271-20150212-article.html
     - 2015-02-12 22:24:15.000000000 Z
     - 2015-02-12 22:24:15.000000000 Z
-    - 2015-03-19 11:09:54.000000000 Z
-    - <a href="/author/eleanor-ewing"><address class="author">Eleanor Ewing</address></a>
+    - 2015-03-29 04:12:14.000000000 Z
+    - <a href="/author/eleanor-ewing"><address class="author" itemprop="creator">Eleanor
+      Ewing</address></a>
+    - http://fpo.pw/1FY40b5
   - - 272
     - 8
     - 
@@ -8560,8 +8342,10 @@ articles:
     - preparation-begins-for-womens-world-cup-2015-272-20150212-article.html
     - 2015-02-12 22:28:36.000000000 Z
     - 2015-02-12 22:28:36.000000000 Z
-    - 2015-03-19 11:09:58.000000000 Z
-    - <a href="/author/erin-ford"><address class="author">Erin Ford</address></a>
+    - 2015-03-29 04:12:15.000000000 Z
+    - <a href="/author/erin-ford"><address class="author" itemprop="creator">Erin
+      Ford</address></a>
+    - http://fpo.pw/1FY3Yjp
   - - 273
     - 8
     - 
@@ -8634,8 +8418,10 @@ articles:
     - spring-sports-have-sprung-273-20150212-article.html
     - 2015-02-12 22:34:16.000000000 Z
     - 2015-02-12 22:34:16.000000000 Z
-    - 2015-03-19 11:10:00.000000000 Z
-    - <a href="/author/erin-ford"><address class="author">Erin Ford</address></a>
+    - 2015-03-29 04:12:16.000000000 Z
+    - <a href="/author/erin-ford"><address class="author" itemprop="creator">Erin
+      Ford</address></a>
+    - http://fpo.pw/1FY3Yjz
   - - 274
     - 8
     - 
@@ -8735,8 +8521,10 @@ articles:
     - ducks-quack-a-woeful-song-274-20150212-article.html
     - 2015-02-12 22:37:46.000000000 Z
     - 2015-02-12 22:37:46.000000000 Z
-    - 2015-03-19 12:28:40.000000000 Z
-    - <a href="/author/erin-ford"><address class="author">Erin Ford</address></a>
+    - 2015-03-29 04:12:17.000000000 Z
+    - <a href="/author/erin-ford"><address class="author" itemprop="creator">Erin
+      Ford</address></a>
+    - http://fpo.pw/1FY3YjD
   - - 275
     - 7
     - 
@@ -8824,102 +8612,10 @@ articles:
     - anti-vaccine-advocates-complicate-measles-prevention-275-20150212-article.html
     - 2015-02-12 22:55:41.000000000 Z
     - 2015-02-12 22:55:41.000000000 Z
-    - 2015-03-19 12:17:51.000000000 Z
-    - <a href="/author/kayla-swanson"><address class="author">Kayla Swanson</address></a>
-  - - 276
-    - 7
-    - 
-    - 1
-    - 
-    - 
-    - 10
-    - false
-    - false
-    - true
-    - false
-    - Anti-Vaccine Advocates Complicate Measles Prevention
-    - ''
-    - Since last December, there have been a total of 121 cases of measles in the
-      United States. The outbreak, traced back to an infected child visiting Disneyland,
-      has spread to a total 17 states so far, Oregon included. And while this pales
-      in comparison to last year's whopping 644 cases of measles, the Centers of Disease
-      Control and Prevention has said that this outbreak is easily on track for surpassing
-      its predecessor.
-    - "<p>\n        \tSince last December, there have been a total of 121 cases of
-      measles in the United States. The outbreak, traced back to an infected child
-      visiting Disneyland, has spread to a total 17 states so far, Oregon included.
-      And while this pales in comparison to last year's whopping 644 cases of measles,
-      the Centers of Disease Control and Prevention has said that this outbreak is
-      easily on track for surpassing its predecessor.\n        </p>\n        <p>\n
-      \       \tMost of the people diagnosed with measles have not received the vaccination.
-      This is due to opposition to vaccinations for religious reasons or fear of dangerous
-      side-effects. These concerns often prevent people from vaccinating themselves
-      or their children. These \"anti-vaxxers\" are quick to debate about the harmful
-      effects vaccinations can cause, ranging from blood poisoning to developing autism.
-      The problem with this argument, however, is that these correlations have been
-      proven false numerous times, all by sources such as the Institute of Medicine.
-      Despite these claims being debunked, this is still a common defense for those
-      against vaccinations.\n        </p>\n        <p>\n        \tA defense for anti-vaxxers
-      is that, besides the fact the chemicals in vaccinations are \"dangerous\", it
-      is healthy to expose children to viruses in order to boost their immune system
-      naturally. They argue that since viruses appear naturally and vaccines are man-made,
-      it would be better for a child to contract the virus and suffer through the
-      disease. These people, especially the parents at the heart of the anti-vaccine
-      movement, are being blamed as spreaders and incubators of diseases that are
-      entirely preventable.\n        </p>\n        <p>\n        \tAccording to the
-      New York Times, one anti-vax mother simply said that there was \"absolutely
-      no reason to get the shot.\" When her 16-year-old daughter was sent home for
-      two weeks due to being unvaccinated and vulnerable to measles, she requested
-      to get the required shots. Her mother replied with, \"I'd rather you miss an
-      entire semester than you get the shot.\"\n        </p>\n        <p>\n        \tAnti-vaxxers
-      aren't the only ones being called negligent; the argument is going both sides.
-      In an interview with The Washington Post, Doctor Jack Wolfson, a cardiologist
-      who is very vocal against vaccines, said, \"You didn't ask once about those
-      vaccines. You didn't ask about the chemicals in them.\"\n        </p>\n        <p>\n
-      \       \tThe scrutiny from both sides about the safety of human life has always
-      existed, but one thing is for certain; exactly what is deemed as \"healthy\"
-      when it comes to disease prevention is entirely up to opinion.\n        </p>"
-    - "<p>\n        \tSince last December, there have been a total of 121 cases of
-      measles in the United States. The outbreak, traced back to an infected child
-      visiting Disneyland, has spread to a total 17 states so far, Oregon included.
-      And while this pales in comparison to last year's whopping 644 cases of measles,
-      the Centers of Disease Control and Prevention has said that this outbreak is
-      easily on track for surpassing its predecessor.\n        </p>\n        <p>\n
-      \       \tMost of the people diagnosed with measles have not received the vaccination.
-      This is due to opposition to vaccinations for religious reasons or fear of dangerous
-      side-effects. These concerns often prevent people from vaccinating themselves
-      or their children. These \"anti-vaxxers\" are quick to debate about the harmful
-      effects vaccinations can cause, ranging from blood poisoning to developing autism.
-      The problem with this argument, however, is that these correlations have been
-      proven false numerous times, all by sources such as the Institute of Medicine.
-      Despite these claims being debunked, this is still a common defense for those
-      against vaccinations.\n        </p>\n        <p>\n        \tA defense for anti-vaxxers
-      is that, besides the fact the chemicals in vaccinations are \"dangerous\", it
-      is healthy to expose children to viruses in order to boost their immune system
-      naturally. They argue that since viruses appear naturally and vaccines are man-made,
-      it would be better for a child to contract the virus and suffer through the
-      disease. These people, especially the parents at the heart of the anti-vaccine
-      movement, are being blamed as spreaders and incubators of diseases that are
-      entirely preventable.\n        </p>\n        <p>\n        \tAccording to the
-      New York Times, one anti-vax mother simply said that there was \"absolutely
-      no reason to get the shot.\" When her 16-year-old daughter was sent home for
-      two weeks due to being unvaccinated and vulnerable to measles, she requested
-      to get the required shots. Her mother replied with, \"I'd rather you miss an
-      entire semester than you get the shot.\"\n        </p>\n        <p>\n        \tAnti-vaxxers
-      aren't the only ones being called negligent; the argument is going both sides.
-      In an interview with The Washington Post, Doctor Jack Wolfson, a cardiologist
-      who is very vocal against vaccines, said, \"You didn't ask once about those
-      vaccines. You didn't ask about the chemicals in them.\"\n        </p>\n        <p>\n
-      \       \tThe scrutiny from both sides about the safety of human life has always
-      existed, but one thing is for certain; exactly what is deemed as \"healthy\"
-      when it comes to disease prevention is entirely up to opinion.\n        </p>"
-    - 
-    - 
-    - anti-vaccine-advocates-complicate-measles-prevention-276-20150212-article.html
-    - 2015-02-12 22:55:43.000000000 Z
-    - 2015-02-12 22:55:43.000000000 Z
-    - 2015-03-19 13:41:25.000000000 Z
-    - <a href="/author/kayla-swanson"><address class="author">Kayla Swanson</address></a>
+    - 2015-03-29 04:12:18.000000000 Z
+    - <a href="/author/kayla-swanson"><address class="author" itemprop="creator">Kayla
+      Swanson</address></a>
+    - http://fpo.pw/1FY3YzT
   - - 277
     - 5
     - 
@@ -8973,8 +8669,10 @@ articles:
     - multicultural-week-277-20150212-article.html
     - 2015-02-13 01:27:39.000000000 Z
     - 2015-02-13 01:27:39.000000000 Z
-    - 2015-03-19 11:10:23.000000000 Z
-    - <a href="/author/liam-anderson"><address class="author">Liam Anderson</address></a>
+    - 2015-03-29 04:12:19.000000000 Z
+    - <a href="/author/liam-anderson"><address class="author" itemprop="creator">Liam
+      Anderson</address></a>
+    - http://fpo.pw/1FY40bf
   - - 292
     - 
     - 
@@ -9051,8 +8749,10 @@ articles:
     - birdman-review-292-20150323-article.html
     - 2015-03-23 11:12:05.000000000 Z
     - 2015-03-23 11:12:05.000000000 Z
-    - 2015-03-23 11:12:05.000000000 Z
-    - <a href="/author/sarah-rose-ezelle"><address class="author">Sarah Rose Ezelle</address></a>
+    - 2015-03-29 04:12:20.000000000 Z
+    - <a href="/author/sarah-rose-ezelle"><address class="author" itemprop="creator">Sarah
+      Rose Ezelle</address></a>
+    - http://fpo.pw/1FY40rv
   - - 293
     - 
     - 
@@ -9120,8 +8820,10 @@ articles:
     - revolution-hall-293-20150323-article.html
     - 2015-03-23 11:30:22.000000000 Z
     - 2015-03-23 11:30:22.000000000 Z
-    - 2015-03-23 11:30:22.000000000 Z
-    - <a href="/author/emma-harbison"><address class="author">Emma Harbison</address></a>
+    - 2015-03-29 04:12:21.000000000 Z
+    - <a href="/author/emma-harbison"><address class="author" itemprop="creator">Emma
+      Harbison</address></a>
+    - http://fpo.pw/1FY40rz
   - - 294
     - 
     - 
@@ -9194,8 +8896,10 @@ articles:
     - genies-too-on-hawthorne-294-20150323-article.html
     - 2015-03-23 11:36:27.000000000 Z
     - 2015-03-23 11:36:27.000000000 Z
-    - 2015-03-23 11:36:27.000000000 Z
-    - <a href="/author/delaney-hartmann"><address class="author">Delaney Hartmann</address></a>
+    - 2015-03-29 04:12:22.000000000 Z
+    - <a href="/author/delaney-hartmann"><address class="author" itemprop="creator">Delaney
+      Hartmann</address></a>
+    - http://fpo.pw/1FY40rF
   - - 295
     - 
     - 
@@ -9278,8 +8982,10 @@ articles:
     - a-community-on-the-move-295-20150323-article.html
     - 2015-03-23 11:43:50.000000000 Z
     - 2015-03-23 11:43:50.000000000 Z
-    - 2015-03-23 11:43:50.000000000 Z
-    - <a href="/author/karina-santacruz"><address class="author">Karina Santacruz</address></a>
+    - 2015-03-29 04:12:23.000000000 Z
+    - <a href="/author/karina-santacruz"><address class="author" itemprop="creator">Karina
+      Santacruz</address></a>
+    - http://fpo.pw/1FY40I6
   - - 296
     - 
     - 
@@ -9372,8 +9078,10 @@ articles:
     - drivers-ed-at-pcc-296-20150323-article.html
     - 2015-03-23 11:48:48.000000000 Z
     - 2015-03-23 11:48:48.000000000 Z
-    - 2015-03-23 11:48:48.000000000 Z
-    - <a href="/author/eliana-eby"><address class="author">Eliana Eby</address></a>
+    - 2015-03-29 04:12:24.000000000 Z
+    - <a href="/author/eliana-eby"><address class="author" itemprop="creator">Eliana
+      Eby</address></a>
+    - http://fpo.pw/1FY3YQt
   - - 297
     - 
     - 
@@ -9462,8 +9170,10 @@ articles:
     - woodblock-chocolate-297-20150323-article.html
     - 2015-03-23 11:52:49.000000000 Z
     - 2015-03-23 11:52:49.000000000 Z
-    - 2015-03-23 11:52:49.000000000 Z
-    - <a href="/author/emma-harbison"><address class="author">Emma Harbison</address></a>
+    - 2015-03-29 04:12:25.000000000 Z
+    - <a href="/author/emma-harbison"><address class="author" itemprop="creator">Emma
+      Harbison</address></a>
+    - http://fpo.pw/1FY40Yw
   - - 298
     - 
     - 
@@ -9539,8 +9249,10 @@ articles:
     - corporations-able-to-purchase-land-on-the-moon-298-20150323-article.html
     - 2015-03-23 11:56:16.000000000 Z
     - 2015-03-23 11:56:16.000000000 Z
-    - 2015-03-23 11:56:16.000000000 Z
-    - <a href="/author/liam-anderson"><address class="author">Liam Anderson</address></a>
+    - 2015-03-29 04:12:26.000000000 Z
+    - <a href="/author/liam-anderson"><address class="author" itemprop="creator">Liam
+      Anderson</address></a>
+    - http://fpo.pw/1FY40YC
   - - 299
     - 
     - 
@@ -9621,8 +9333,10 @@ articles:
     - wiedenkennedy-a-creative-driven-advertising-agency-299-20150323-article.html
     - 2015-03-23 12:00:30.000000000 Z
     - 2015-03-23 12:00:30.000000000 Z
-    - 2015-03-23 12:00:30.000000000 Z
-    - <a href="/author/liam-anderson"><address class="author">Liam Anderson</address></a>
+    - 2015-03-29 04:12:27.000000000 Z
+    - <a href="/author/liam-anderson"><address class="author" itemprop="creator">Liam
+      Anderson</address></a>
+    - http://fpo.pw/1FY3Z6Z
   - - 300
     - 
     - 
@@ -9698,8 +9412,10 @@ articles:
     - insufficient-field-space-at-marshall-300-20150323-article.html
     - 2015-03-23 12:04:29.000000000 Z
     - 2015-03-23 12:04:29.000000000 Z
-    - 2015-03-23 12:04:29.000000000 Z
-    - <a href="/author/eliana-eby"><address class="author">Eliana Eby</address></a>
+    - 2015-03-29 04:12:28.000000000 Z
+    - <a href="/author/eliana-eby"><address class="author" itemprop="creator">Eliana
+      Eby</address></a>
+    - http://fpo.pw/1FY3Z75
   - - 301
     - 
     - 
@@ -9837,8 +9553,10 @@ articles:
     - oklahoma-bill-to-ban-apush-is-a-huge-mistake-301-20150323-article.html
     - 2015-03-23 12:09:09.000000000 Z
     - 2015-03-23 12:09:09.000000000 Z
-    - 2015-03-23 12:09:09.000000000 Z
-    - <a href="/author/maya-coseo"><address class="author">Maya Coseo</address></a>
+    - 2015-03-29 04:12:29.000000000 Z
+    - <a href="/author/maya-coseo"><address class="author" itemprop="creator">Maya
+      Coseo</address></a>
+    - http://fpo.pw/1FY40YO
   - - 302
     - 
     - 
@@ -9936,8 +9654,10 @@ articles:
     - opting-out-302-20150323-article.html
     - 2015-03-23 12:13:01.000000000 Z
     - 2015-03-23 12:13:01.000000000 Z
-    - 2015-03-23 12:13:01.000000000 Z
-    - <a href="/author/morgan-kender"><address class="author">Morgan Kender</address></a>
+    - 2015-03-29 04:12:30.000000000 Z
+    - <a href="/author/morgan-kender"><address class="author" itemprop="creator">Morgan
+      Kender</address></a>
+    - http://fpo.pw/1FY41f6
 
 ---
 media:
@@ -15826,541 +15546,613 @@ writer_articles:
   - writer_id
   - created_at
   - updated_at
+  - published_at
   records: 
   - - 1
     - 8
     - 1
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-22 04:06:08.000000000 Z
   - - 2
     - 9
     - 2
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-22 04:06:32.000000000 Z
   - - 3
     - 10
     - 3
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-22 04:13:07.000000000 Z
   - - 4
     - 11
     - 4
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-22 04:24:37.000000000 Z
   - - 5
     - 12
     - 5
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-22 04:34:55.000000000 Z
   - - 6
     - 13
     - 6
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-22 04:58:06.000000000 Z
   - - 7
     - 14
     - 3
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-22 07:01:13.000000000 Z
   - - 8
     - 15
     - 7
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-24 03:37:40.000000000 Z
   - - 9
     - 19
     - 8
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-24 03:47:59.000000000 Z
   - - 10
     - 21
     - 9
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-24 12:11:58.000000000 Z
   - - 11
     - 22
     - 10
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-28 00:54:25.000000000 Z
   - - 12
     - 23
     - 11
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-28 00:58:50.000000000 Z
   - - 13
     - 24
     - 6
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-28 01:15:31.000000000 Z
   - - 14
     - 25
     - 12
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-28 01:23:05.000000000 Z
   - - 15
     - 26
     - 10
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-28 01:25:38.000000000 Z
   - - 16
     - 27
     - 3
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-29 04:22:03.000000000 Z
   - - 17
     - 28
     - 13
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-29 04:35:25.000000000 Z
   - - 18
     - 29
     - 14
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-29 05:03:22.000000000 Z
   - - 19
     - 30
     - 15
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-10-29 05:07:52.000000000 Z
   - - 20
     - 33
     - 5
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-04 02:56:03.000000000 Z
   - - 21
     - 35
     - 10
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-20 23:54:31.000000000 Z
   - - 22
     - 37
     - 16
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 00:10:30.000000000 Z
   - - 23
     - 38
     - 17
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 00:11:34.000000000 Z
   - - 24
     - 39
     - 14
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 00:15:10.000000000 Z
   - - 25
     - 41
     - 11
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 00:21:17.000000000 Z
   - - 26
     - 42
     - 18
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 00:23:38.000000000 Z
   - - 27
     - 43
     - 17
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 00:29:35.000000000 Z
   - - 28
     - 44
     - 3
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 00:41:49.000000000 Z
   - - 29
     - 44
     - 9
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 00:41:49.000000000 Z
   - - 30
     - 45
     - 2
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 00:44:49.000000000 Z
   - - 31
     - 46
     - 19
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 00:46:29.000000000 Z
   - - 32
     - 47
     - 5
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 00:52:11.000000000 Z
   - - 33
     - 48
     - 20
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 00:52:12.000000000 Z
   - - 34
     - 49
     - 8
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 00:59:24.000000000 Z
   - - 35
     - 50
     - 17
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 00:59:57.000000000 Z
   - - 36
     - 51
     - 16
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 01:17:04.000000000 Z
   - - 37
     - 52
     - 6
     - 2015-03-17 21:45:52.000000000 Z
-    - 2015-03-17 21:45:52.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 01:31:45.000000000 Z
   - - 38
     - 53
     - 2
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 01:52:01.000000000 Z
   - - 39
     - 55
     - 22
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 01:54:48.000000000 Z
   - - 40
     - 56
     - 23
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 01:58:43.000000000 Z
   - - 41
     - 57
     - 3
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 02:02:27.000000000 Z
   - - 42
     - 58
     - 13
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 02:04:40.000000000 Z
   - - 43
     - 59
     - 24
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 02:13:54.000000000 Z
   - - 44
     - 60
     - 25
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 02:17:18.000000000 Z
   - - 45
     - 61
     - 22
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 02:18:10.000000000 Z
   - - 46
     - 62
     - 26
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 02:20:48.000000000 Z
   - - 47
     - 63
     - 8
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-21 02:29:57.000000000 Z
   - - 48
     - 65
     - 27
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-24 19:05:24.000000000 Z
   - - 49
     - 66
     - 15
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-11-24 19:23:29.000000000 Z
   - - 50
     - 227
     - 28
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-12-16 21:55:18.000000000 Z
   - - 51
     - 228
     - 3
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-12-16 21:55:40.000000000 Z
   - - 52
     - 229
     - 13
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-12-16 22:06:14.000000000 Z
   - - 53
     - 230
     - 22
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2014-12-18 21:50:08.000000000 Z
   - - 54
     - 232
     - 6
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-15 21:21:42.000000000 Z
   - - 55
     - 233
     - 27
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
-  - - 56
-    - 235
-    - 9
-    - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-15 21:23:17.000000000 Z
   - - 57
     - 236
     - 24
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-15 21:24:56.000000000 Z
   - - 58
     - 238
     - 15
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-15 21:27:48.000000000 Z
   - - 59
     - 239
     - 22
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-15 21:31:32.000000000 Z
   - - 60
     - 240
     - 17
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
-  - - 61
-    - 241
-    - 9
-    - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-15 21:37:48.000000000 Z
   - - 62
     - 242
     - 16
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-15 21:41:17.000000000 Z
   - - 63
     - 243
     - 16
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-15 21:41:47.000000000 Z
   - - 64
     - 244
     - 2
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-15 21:42:14.000000000 Z
   - - 65
     - 245
     - 22
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-15 21:42:37.000000000 Z
   - - 66
     - 246
     - 11
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
-  - - 67
-    - 247
-    - 7
-    - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-15 21:48:28.000000000 Z
   - - 68
     - 248
     - 2
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-15 21:56:42.000000000 Z
   - - 69
     - 249
     - 10
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-15 22:03:14.000000000 Z
   - - 70
     - 250
     - 23
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-15 22:22:22.000000000 Z
   - - 71
     - 251
     - 17
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-15 23:37:56.000000000 Z
   - - 72
     - 252
     - 1
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
-  - - 73
-    - 254
-    - 3
-    - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-15 23:56:27.000000000 Z
   - - 74
     - 255
     - 29
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-16 01:33:26.000000000 Z
   - - 75
     - 258
     - 25
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-20 21:48:03.000000000 Z
   - - 76
     - 258
     - 13
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-20 21:48:03.000000000 Z
   - - 77
     - 259
     - 3
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-22 22:03:26.000000000 Z
   - - 78
     - 260
     - 10
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-01-22 22:04:42.000000000 Z
   - - 79
     - 261
     - 3
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-02-09 19:09:52.000000000 Z
   - - 80
     - 262
     - 7
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-02-12 21:29:19.000000000 Z
   - - 81
     - 263
     - 7
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-02-12 21:29:50.000000000 Z
   - - 82
     - 264
     - 10
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-02-12 21:33:49.000000000 Z
   - - 83
     - 265
     - 12
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-02-12 21:45:16.000000000 Z
   - - 84
     - 266
     - 2
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-02-12 21:52:40.000000000 Z
   - - 85
     - 267
     - 29
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-02-12 21:55:29.000000000 Z
   - - 86
     - 268
     - 30
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-02-12 22:01:41.000000000 Z
   - - 87
     - 269
     - 27
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-02-12 22:02:16.000000000 Z
   - - 88
     - 270
     - 2
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-02-12 22:19:13.000000000 Z
   - - 89
     - 271
     - 29
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-02-12 22:24:15.000000000 Z
   - - 90
     - 272
     - 17
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-02-12 22:28:36.000000000 Z
   - - 91
     - 273
     - 17
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-02-12 22:34:16.000000000 Z
   - - 92
     - 274
     - 17
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-02-12 22:37:46.000000000 Z
   - - 93
     - 275
     - 14
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
-  - - 94
-    - 276
-    - 14
-    - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-02-12 22:55:41.000000000 Z
   - - 95
     - 277
     - 10
     - 2015-03-17 21:45:53.000000000 Z
-    - 2015-03-17 21:45:53.000000000 Z
-  - - 115
-    - 44
-    - 2
-    - 2015-03-22 09:28:38.000000000 Z
-    - 2015-03-22 09:28:38.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
+    - 2015-02-13 01:27:39.000000000 Z
   - - 125
     - 292
     - 16
     - 2015-03-23 11:12:05.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
     - 2015-03-23 11:12:05.000000000 Z
   - - 126
     - 293
     - 7
     - 2015-03-23 11:30:22.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
     - 2015-03-23 11:30:22.000000000 Z
   - - 127
     - 294
     - 11
     - 2015-03-23 11:36:27.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
     - 2015-03-23 11:36:27.000000000 Z
   - - 128
     - 295
     - 25
     - 2015-03-23 11:43:50.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
     - 2015-03-23 11:43:50.000000000 Z
   - - 129
     - 296
     - 24
     - 2015-03-23 11:48:48.000000000 Z
+    - 2015-03-31 00:00:51.000000000 Z
     - 2015-03-23 11:48:48.000000000 Z
   - - 130
     - 297
     - 7
     - 2015-03-23 11:52:49.000000000 Z
+    - 2015-03-31 00:00:52.000000000 Z
     - 2015-03-23 11:52:49.000000000 Z
   - - 131
     - 298
     - 10
     - 2015-03-23 11:56:16.000000000 Z
+    - 2015-03-31 00:00:52.000000000 Z
     - 2015-03-23 11:56:16.000000000 Z
   - - 132
     - 299
     - 10
     - 2015-03-23 12:00:30.000000000 Z
+    - 2015-03-31 00:00:52.000000000 Z
     - 2015-03-23 12:00:30.000000000 Z
   - - 133
     - 300
     - 24
     - 2015-03-23 12:04:29.000000000 Z
+    - 2015-03-31 00:00:52.000000000 Z
     - 2015-03-23 12:04:29.000000000 Z
   - - 134
     - 301
     - 27
     - 2015-03-23 12:09:09.000000000 Z
+    - 2015-03-31 00:00:52.000000000 Z
     - 2015-03-23 12:09:09.000000000 Z
   - - 135
     - 302
     - 5
     - 2015-03-23 12:13:01.000000000 Z
+    - 2015-03-31 00:00:52.000000000 Z
     - 2015-03-23 12:13:01.000000000 Z
 
 ---

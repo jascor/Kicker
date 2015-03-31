@@ -1,7 +1,7 @@
 class Article < ActiveRecord::Base
   include SanitizationHelper
-  include Elasticsearch::Model
-  include Elasticsearch::Model::Callbacks
+  #include Elasticsearch::Model
+  #include Elasticsearch::Model::Callbacks
 
   has_one :featured_media_collection, class_name: 'MediaCollection', primary_key: 'featured_media_id', foreign_key: 'id'
 
@@ -242,7 +242,13 @@ class Article < ActiveRecord::Base
 
   def published_timestamp_if_pubbed
     if published_and_public? && published_at.nil?
-      update_columns(published_at: Time.now)
+      publishing_time = Time.now
+
+      WriterArticle.where(article_id: self.id).each do |writer_article|
+        writer_article.update(published_at: publishing_time)
+      end
+
+      update_columns(published_at: publishing_time)
     end
   end
 end
