@@ -1,6 +1,6 @@
 class Writer < ActiveRecord::Base
-  #include Elasticsearch::Model
-  #include Elasticsearch::Model::Callbacks
+  include Elasticsearch::Model
+  include Elasticsearch::Model::Callbacks
 
   has_many :writer_articles, dependent: :destroy
 

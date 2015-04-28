@@ -1,7 +1,7 @@
 class Article < ActiveRecord::Base
   include SanitizationHelper
-  #include Elasticsearch::Model
-  #include Elasticsearch::Model::Callbacks
+  include Elasticsearch::Model
+  include Elasticsearch::Model::Callbacks
 
   has_one :featured_media_collection, class_name: 'MediaCollection', primary_key: 'featured_media_id', foreign_key: 'id'
 

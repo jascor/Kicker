@@ -6,6 +6,10 @@ module Staff
 
     layout 'staff'
 
+    def index
+
+    end
+
     private
 
     #def use_dummy_session
