@@ -117,7 +117,7 @@
     border-top: 1px solid #E6E6E6;
     border-bottom: 1px solid #E6E6E6;
     margin-bottom: 20px;
-    width: 770px;
+    width: 100%;
 
     > header
     {
@@ -127,7 +127,7 @@
 
     @include breakpoint(810px)
     {
-      width: 100%;
+      width: 770px;
     }
   }
 
