@@ -124,6 +124,11 @@
       padding-top: 5px;
       padding-bottom: 20px;
     }
+
+    @include breakpoint(810px)
+    {
+      width: 100%;
+    }
   }
 
   .visual

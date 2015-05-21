@@ -19,7 +19,7 @@ class Section < ActiveRecord::Base
   end
 
   def latest(limit)
-    Rails.cache.fetch([self.class.name, self.name + '_latest']) { Article.where(section_id: self.id).take(limit) }
+    Rails.cache.fetch([self.class.name, self.name + '_latest']) { Article.order(published_at: :desc).where(section_id: self.id).take(limit) }
   end
 
   def self.find_cached_by_slug(slug)
